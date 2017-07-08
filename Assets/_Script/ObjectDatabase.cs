@@ -2,22 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TabReader : MonoBehaviour {
+public class ObjectDatabase : MonoBehaviour {
 
-	public TextAsset[] rawTab;
-
+	public GameObject[] items;
+	public static ObjectDatabase Instance; 
 	// Use this for initialization
+	
+	void Awake()
+	{
+		Instance = this;		
+	}
+
 	void Start () {
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
-
-	public void LoadTab()
-	{
 		
 	}
 }
