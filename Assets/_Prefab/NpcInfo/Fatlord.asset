@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 58fe0e71c8c35a14884fd6355acf29b1, type: 3}
-  m_Name: Bloblob
+  m_Name: Fatlord
   m_EditorClassIdentifier: 
-  model: {fileID: 0}
-  moveSpeed: 0.8
+  model: {fileID: 100000, guid: 04714446d7959e645b58b47fd9f69467, type: 3}
+  moveSpeed: 2
   favoriteItemSize: 0
   maxQtyInHands: 10

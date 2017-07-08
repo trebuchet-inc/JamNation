@@ -24,15 +24,8 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 	public List<Item> stock = new List<Item>();
 	private Transform spawner;
 
-	
-
-	void Awake()
+	private void Start () 
 	{
-		
-	}
-
-	// Use this for initialization
-	void Start () {
 		GameObject preview = transform.Find("PreviewModel").gameObject;
 		spawnZone = preview.transform.localScale;
 		preview.SetActive(false);
@@ -75,17 +68,12 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
 	private void RollForItem()
 	{
 		float topEggRoll = 0f;
 		int bonjour = 0;
-		for(int i =0; i < ItemDatabase.Instance.items.Length;i++)
+		for(int i = 0; i < ItemDatabase.Instance.items.Length;i++)
 		{
 			ItemSize size = ItemDatabase.Instance.items[i].GetComponent<Item>().item.itemSize;
 			ItemType type = ItemDatabase.Instance.items[i].GetComponent<Item>().item.itemType;
