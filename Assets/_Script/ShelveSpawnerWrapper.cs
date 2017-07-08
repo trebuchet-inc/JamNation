@@ -23,6 +23,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 	[HideInInspector]
 	public List<Item> stock = new List<Item>();
 	private Transform spawner;
+	[HideInInspector] public bool SpawnDone;
 
 	private void Start () 
 	{
@@ -34,34 +35,38 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 		switch ((int)shelveSpawnType)
 		{			
 			case 0: //Top Mess
-			StartCoroutine(TopMessSpawner());
+				StartCoroutine(TopMessSpawner());
 			break;
+
 			case 1: //OrderedArray
 			break;
+
 			case 2: //ForStack
-			float itemXLength = item.transform.localScale.x;
-			float itemYLength = item.transform.localScale.y;
-			float itemZLength = item.transform.localScale.z;
-			int itemsXSpace = (int)(spawnZone.x/itemXLength);
-			int itemsYSpace = (int)(spawnZone.y/itemYLength);
-			int itemsZSpace = (int)(spawnZone.z/itemZLength);
-			int itemAmount = itemsXSpace*itemsYSpace*itemsZSpace;
-			for (int x = 0; x < itemsXSpace; x++)
-			{
-				for (int y = 0; y < itemsYSpace; y++)
+				float itemXLength = item.transform.localScale.x;
+				float itemYLength = item.transform.localScale.y;
+				float itemZLength = item.transform.localScale.z;
+				int itemsXSpace = (int)(spawnZone.x/itemXLength);
+				int itemsYSpace = (int)(spawnZone.y/itemYLength);
+				int itemsZSpace = (int)(spawnZone.z/itemZLength);
+				int itemAmount = itemsXSpace*itemsYSpace*itemsZSpace;
+				for (int x = 0; x < itemsXSpace; x++)
 				{
-					for (int z = 0; z < itemsZSpace; z++)
+					for (int y = 0; y < itemsYSpace; y++)
 					{
-						Vector3 posMultiplier = new Vector3(x*itemXLength,y*itemYLength,z*itemZLength);
-						Vector3 adjustment = new Vector3(-itemXLength/2,itemYLength/2,itemZLength/2);
-						Vector3 randomizer = new Vector3(Random.Range(0.00f,0.02f),Random.Range(0.00f,0.02f),Random.Range(0.00f,0.02f));
-						Vector3 pos = spawner.position + posMultiplier+adjustment+randomizer;
-						GameObject g = (GameObject)Instantiate(item,pos,Quaternion.identity,transform);
-						stock.Add(g.GetComponent<Item>());							
+						for (int z = 0; z < itemsZSpace; z++)
+						{
+							Vector3 posMultiplier = new Vector3(x*itemXLength,y*itemYLength,z*itemZLength);
+							Vector3 adjustment = new Vector3(-itemXLength/2,itemYLength/2,itemZLength/2);
+							Vector3 randomizer = new Vector3(Random.Range(0.00f,0.02f),Random.Range(0.00f,0.02f),Random.Range(0.00f,0.02f));
+							Vector3 pos = spawner.position + posMultiplier+adjustment+randomizer;
+							GameObject g = (GameObject)Instantiate(item,pos,Quaternion.identity,transform);
+							stock.Add(g.GetComponent<Item>());							
+						}
 					}
 				}
-			}
+				SpawnDone = true;
 			break;
+
 			default:
 			break;
 		}
@@ -105,6 +110,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 			stock.Add(g.GetComponent<Item>());
 			yield return new WaitForSeconds (0.1f);			
 		}
+		SpawnDone = true;
 	}
 
 }

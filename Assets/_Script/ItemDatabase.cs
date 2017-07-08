@@ -5,7 +5,10 @@ using UnityEngine;
 public class ItemDatabase : MonoBehaviour {
 
 	public GameObject[] items;
-	public static ItemDatabase Instance; 
+	public static ItemDatabase Instance;
+
+	// List<Item> allStock = new List<Item>();
+	// List<ShelveSpawnerWrapper> 
 	public static int Score;
 	// Use this for initialization
 	
@@ -17,8 +20,7 @@ public class ItemDatabase : MonoBehaviour {
 	void Start () {
 		
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 		
 	}
