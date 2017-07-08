@@ -13,6 +13,8 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 
 	public SpawnType shelveSpawnType;
 	public ItemSize preferedSize;
+	public bool twoSizeWrapper;
+	public ItemSize alternatePreferedSize;
 	public ItemType preferedType;
 	public int itemAmount;
 	private Vector3 spawnZone;
@@ -95,6 +97,14 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 					bonjour = i;
 				}
 			}
+			if (size == alternatePreferedSize && type == preferedType && twoSizeWrapper)
+			{
+				float f = Random.Range(0.1f,100f);
+				if (f>topEggRoll)
+				{
+					bonjour = i;
+				}
+			} 
 		}
 		item = ItemDatabase.Instance.items[bonjour];
 	}
