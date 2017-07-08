@@ -268,7 +268,7 @@ namespace NewtonVR
             }
             else if(CurrentlyInteracting != null)
             {
-                EndInteraction(null);
+                EndInteraction(CurrentlyInteracting);
             }
 
             UpdateHovering();
