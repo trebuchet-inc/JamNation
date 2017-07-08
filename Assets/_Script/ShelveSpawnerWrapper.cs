@@ -19,7 +19,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 	[HideInInspector]
 	public GameObject item;
 	[HideInInspector]
-	public List<GameObject> stock = new List<GameObject>();
+	public List<Item> stock = new List<Item>();
 	private Transform spawner;
 
 	private void Start () 
@@ -28,13 +28,15 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 		spawnZone = preview.transform.localScale;
 		preview.SetActive(false);
 		RollForItem();
+		spawner = transform.GetChild(0);
 		switch ((int)shelveSpawnType)
 		{			
 			case 0: //Top Mess
-			spawner = transform.GetChild(0);
 			StartCoroutine(TopMessSpawner());
 			break;
 			case 1: //OrderedArray
+			break;
+			case 2: //ForStack
 			float itemXLength = item.transform.localScale.x;
 			float itemYLength = item.transform.localScale.y;
 			float itemZLength = item.transform.localScale.z;
@@ -49,15 +51,14 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 					for (int z = 0; z < itemsZSpace; z++)
 					{
 						Vector3 posMultiplier = new Vector3(x*itemXLength,y*itemYLength,z*itemZLength);
-						Vector3 pos = spawner.position + posMultiplier;
+						Vector3 adjustment = new Vector3(-itemXLength/2,itemYLength/2,itemZLength/2);
+						Vector3 randomizer = new Vector3(Random.Range(0.00f,0.02f),Random.Range(0.00f,0.02f),Random.Range(0.00f,0.02f));
+						Vector3 pos = spawner.position + posMultiplier+adjustment+randomizer;
 						GameObject g = (GameObject)Instantiate(item,pos,Quaternion.identity,transform);
-						stock.Add(g);							
+						stock.Add(g.GetComponent<Item>());							
 					}
 				}
 			}
-
-			break;
-			case 2: //ForStack
 			break;
 			default:
 			break;
@@ -91,7 +92,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 		for (int i = 0; i < itemAmount; i++)
 		{
 			GameObject g = (GameObject)Instantiate(item,spawner.position,Quaternion.identity,transform);
-			stock.Add(g);
+			stock.Add(g.GetComponent<Item>());
 			yield return new WaitForSeconds (0.1f);			
 		}
 	}

@@ -1,17 +1,42 @@
 fileFormatVersion: 2
-guid: 00ab5c62e7d0f0546848fa9d8e7eef25
-timeCreated: 1499532682
+guid: 13a63a3ac0241884c827f2c30c879322
+timeCreated: 1499532683
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: geo_rayon_legumes2
-    100002: //RootNode
-    400000: geo_rayon_legumes2
-    400002: //RootNode
-    2300000: geo_rayon_legumes2
-    3300000: geo_rayon_legumes2
-    4300000: geo_rayon_legumes2
+    100000: //RootNode
+    100002: geo_rayon_boucherie1
+    100004: pCube154
+    100006: pCube156
+    100008: polySurface12
+    100010: polySurface8
+    100012: polySurface9
+    100014: transform6
+    100016: transform9
+    100018: vegetables_section
+    400000: //RootNode
+    400002: geo_rayon_boucherie1
+    400004: pCube154
+    400006: pCube156
+    400008: polySurface12
+    400010: polySurface8
+    400012: polySurface9
+    400014: transform6
+    400016: transform9
+    400018: vegetables_section
+    2300000: pCube154
+    2300002: pCube156
+    2300004: polySurface12
+    2300006: polySurface8
+    3300000: pCube154
+    3300002: pCube156
+    3300004: polySurface12
+    3300006: polySurface8
+    4300000: polySurface8
+    4300002: polySurface12
+    4300004: pCube154
+    4300006: pCube156
     9500000: //RootNode
   materials:
     importMaterials: 1

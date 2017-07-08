@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 08a0897af15784c458e96c44c3552707
-timeCreated: 1499524256
+guid: a909685266a4d524a9f0da68dcf3d55b
+timeCreated: 1499532683
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -8,21 +8,9 @@ ModelImporter:
     100000: //RootNode
     100002: geo_bac1
     100004: geo_bac1 1
-    100006: pCube1
-    100008: pCube2
-    100010: transform1
-    100012: transform2
-    100014: transform3
-    100016: vegetables_section
     400000: //RootNode
     400002: geo_bac1
     400004: geo_bac1 1
-    400006: pCube1
-    400008: pCube2
-    400010: transform1
-    400012: transform2
-    400014: transform3
-    400016: vegetables_section
     2300000: geo_bac1 1
     3300000: geo_bac1 1
     4300000: geo_bac1

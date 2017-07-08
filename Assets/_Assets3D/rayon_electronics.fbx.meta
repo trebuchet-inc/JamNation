@@ -1,17 +1,15 @@
 fileFormatVersion: 2
-guid: 00ab5c62e7d0f0546848fa9d8e7eef25
+guid: 0ee94685355f9a54191cde15365d49ce
 timeCreated: 1499532682
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: geo_rayon_legumes2
-    100002: //RootNode
-    400000: geo_rayon_legumes2
-    400002: //RootNode
-    2300000: geo_rayon_legumes2
-    3300000: geo_rayon_legumes2
-    4300000: geo_rayon_legumes2
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pPlane5
     9500000: //RootNode
   materials:
     importMaterials: 1
