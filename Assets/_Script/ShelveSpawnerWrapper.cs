@@ -30,7 +30,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		transform.FindChild("PreviewModel").gameObject.SetActive(false);
+		transform.Find("PreviewModel").gameObject.SetActive(false);
 		RollForItem();
 		switch ((int)shelveSpawnType)
 		{			
