@@ -19,6 +19,7 @@ public class Npc : MonoBehaviour
 	{
 		Wander,
 		Target,
+		Taking,
 		KO
 	}
 	
@@ -56,11 +57,21 @@ public class Npc : MonoBehaviour
 	private void Target_Update()
 	{
 		if(targetShelve == null) stm.ChangeState(States.Wander);
+
+		if(_agent.remainingDistance < 1f)
+		{
+			stm.ChangeState(States.Taking);
+		}
 	}
 
 	private void Target_Exit()
 	{
 		targetShelve = null;
+	}
+
+	private void Taking_Enter()
+	{
+		_agent.isStopped = true;
 	}
 
 	public void GoTo(Vector3 pos)
