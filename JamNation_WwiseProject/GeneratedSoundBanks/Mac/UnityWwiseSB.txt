@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2847098557	Play_SFX_Ball_bounce1			\Default Work Unit\Play_SFX_Ball_bounce1	
+	3996652692	Play_SFX_Ball_inCup1			\Default Work Unit\Play_SFX_Ball_inCup1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	510108242	SFX_Ball_bounce1	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\SFX_Ball_bounce1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ball_bounce1		23832
+	563229901	SFX_Ball_inCup1	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\SFX_Ball_inCup1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ball_inCup1		161876
+
