@@ -35,13 +35,15 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 		spawnZone = preview.transform.localScale;
 		preview.SetActive(false);
 		RollForItem();
+		spawner = transform.GetChild(0);
 		switch ((int)shelveSpawnType)
 		{			
 			case 0: //Top Mess
-			spawner = transform.GetChild(0);
 			StartCoroutine(TopMessSpawner());
 			break;
 			case 1: //OrderedArray
+			break;
+			case 2: //ForStack
 			float itemXLength = item.transform.localScale.x;
 			float itemYLength = item.transform.localScale.y;
 			float itemZLength = item.transform.localScale.z;
@@ -62,9 +64,6 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 					}
 				}
 			}
-
-			break;
-			case 2: //ForStack
 			break;
 			default:
 			break;
