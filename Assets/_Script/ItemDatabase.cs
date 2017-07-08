@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectDatabase : MonoBehaviour {
+public class ItemDatabase : MonoBehaviour {
 
 	public GameObject[] items;
-	public static ObjectDatabase Instance;
+	public static ItemDatabase Instance; 
 	public static int Score;
 	// Use this for initialization
 	
