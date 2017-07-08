@@ -28,6 +28,8 @@ namespace NewtonVR
         public float RunButtonAxis { get { return Inputs[RunButton].SingleAxis; } }
 
         [HideInInspector]
+        public bool Freeze;
+        [HideInInspector]
         public bool IsRight;
         [HideInInspector]
         public bool IsLeft;
@@ -260,7 +262,14 @@ namespace NewtonVR
 
             UpdateButtonStates();
 
-            UpdateInteractions();
+            if(!Freeze)
+            {
+                 UpdateInteractions();
+            }
+            else if(CurrentlyInteracting != null)
+            {
+                EndInteraction(null);
+            }
 
             UpdateHovering();
 
