@@ -9,18 +9,26 @@ namespace NewtonVR
 {
     public class NVRHand : MonoBehaviour
     {
-        public NVRButtons HoldButton = NVRButtons.Grip;
+        public NVRButtons HoldButton = NVRButtons.Trigger;
         public bool HoldButtonDown { get { return Inputs[HoldButton].PressDown; } }
         public bool HoldButtonUp { get { return Inputs[HoldButton].PressUp; } }
         public bool HoldButtonPressed { get { return Inputs[HoldButton].IsPressed; } }
         public float HoldButtonAxis { get { return Inputs[HoldButton].SingleAxis; } }
 
-        public NVRButtons UseButton = NVRButtons.Trigger;
+        public NVRButtons UseButton = NVRButtons.Touchpad;
         public bool UseButtonDown { get { return Inputs[UseButton].PressDown; } }
         public bool UseButtonUp { get { return Inputs[UseButton].PressUp; } }
         public bool UseButtonPressed { get { return Inputs[UseButton].IsPressed; } }
         public float UseButtonAxis { get { return Inputs[UseButton].SingleAxis; } }
 
+        public NVRButtons RunButton = NVRButtons.Grip;
+        public bool RunButtonDown { get { return Inputs[RunButton].PressDown; } }
+        public bool RunButtonUp { get { return Inputs[RunButton].PressUp; } }
+        public bool RunButtonPressed { get { return Inputs[RunButton].IsPressed; } }
+        public float RunButtonAxis { get { return Inputs[RunButton].SingleAxis; } }
+
+        [HideInInspector]
+        public bool Freeze;
         [HideInInspector]
         public bool IsRight;
         [HideInInspector]
@@ -254,7 +262,14 @@ namespace NewtonVR
 
             UpdateButtonStates();
 
-            UpdateInteractions();
+            if(!Freeze)
+            {
+                 UpdateInteractions();
+            }
+            else if(CurrentlyInteracting != null)
+            {
+                EndInteraction(CurrentlyInteracting);
+            }
 
             UpdateHovering();
 

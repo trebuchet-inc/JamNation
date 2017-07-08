@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d65b27e9a1eb4e447a4f445f96694ea0
-timeCreated: 1499476584
+timeCreated: 1499478421
 licenseType: Free
 PluginImporter:
   serializedVersion: 2
@@ -19,27 +19,79 @@ PluginImporter:
       first:
         Editor: Editor
       second:
-        enabled: 1
+        enabled: 0
         settings:
           DefaultValueInitialized: true
     data:
       first:
+        Facebook: Win
+      second:
+        enabled: 0
+        settings:
+          CPU: None
+    data:
+      first:
+        Facebook: Win64
+      second:
+        enabled: 0
+        settings:
+          CPU: None
+    data:
+      first:
+        Standalone: Linux
+      second:
+        enabled: 0
+        settings:
+          CPU: None
+    data:
+      first:
+        Standalone: Linux64
+      second:
+        enabled: 0
+        settings:
+          CPU: None
+    data:
+      first:
+        Standalone: LinuxUniversal
+      second:
+        enabled: 0
+        settings:
+          CPU: None
+    data:
+      first:
         Standalone: OSXIntel
       second:
-        enabled: 1
-        settings: {}
+        enabled: 0
+        settings:
+          CPU: AnyCPU
     data:
       first:
         Standalone: OSXIntel64
       second:
-        enabled: 1
-        settings: {}
+        enabled: 0
+        settings:
+          CPU: AnyCPU
     data:
       first:
         Standalone: OSXUniversal
       second:
-        enabled: 1
-        settings: {}
+        enabled: 0
+        settings:
+          CPU: AnyCPU
+    data:
+      first:
+        Standalone: Win
+      second:
+        enabled: 0
+        settings:
+          CPU: None
+    data:
+      first:
+        Standalone: Win64
+      second:
+        enabled: 0
+        settings:
+          CPU: None
   userData: 
   assetBundleName: 
   assetBundleVariant: 

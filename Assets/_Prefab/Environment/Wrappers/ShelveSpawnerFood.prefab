@@ -152,8 +152,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shelveSpawnType: 0
   preferedSize: 0
-  twoSizeWrapper: 0
-  alternatePreferedSize: 0
   preferedType: 1
   itemAmount: 20
   item: {fileID: 0}

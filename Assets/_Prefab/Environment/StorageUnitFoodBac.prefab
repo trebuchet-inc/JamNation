@@ -444,7 +444,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 0b39b45669d95d44898615815b5e3593, type: 2}
+  - {fileID: 2100000, guid: beb20a4c499db4049a85f4f9c17c85b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -646,8 +646,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shelveSpawnType: 0
   preferedSize: 0
-  twoSizeWrapper: 0
-  alternatePreferedSize: 0
   preferedType: 1
   itemAmount: 20
   item: {fileID: 0}
@@ -665,8 +663,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shelveSpawnType: 0
   preferedSize: 0
-  twoSizeWrapper: 0
-  alternatePreferedSize: 0
   preferedType: 1
   itemAmount: 20
   item: {fileID: 0}
@@ -684,8 +680,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shelveSpawnType: 0
   preferedSize: 0
-  twoSizeWrapper: 0
-  alternatePreferedSize: 0
   preferedType: 1
   itemAmount: 30
   item: {fileID: 0}

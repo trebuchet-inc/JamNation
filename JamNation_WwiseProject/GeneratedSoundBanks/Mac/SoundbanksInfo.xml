@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>/Users/Marc-Antoine_Giguere/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Desktop/JamNation - ComicCon/JamNation_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/Marc-Antoine_Giguere/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Desktop/JamNation - ComicCon/JamNation_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/Marc-Antoine_Giguere/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Desktop/JamNation - ComicCon/JamNation_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/Marc-Antoine_Giguere/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Desktop/JamNation - ComicCon/JamNation_WwiseProject/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="532813340" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\UnityWwiseSB</ObjectPath>
+			<ShortName>UnityWwiseSB</ShortName>
+			<Path>UnityWwiseSB.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2847098557" Name="Play_SFX_Ball_bounce1" ObjectPath="\Events\Default Work Unit\Play_SFX_Ball_bounce1"/>
+				<Event Id="3996652692" Name="Play_SFX_Ball_inCup1" ObjectPath="\Events\Default Work Unit\Play_SFX_Ball_inCup1"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="510108242" Language="SFX">
+					<ShortName>SFX_Ball_bounce1.wav</ShortName>
+					<Path>SFX/SFX_Ball_bounce1_9E69E797.wem</Path>
+				</File>
+				<File Id="563229901" Language="SFX">
+					<ShortName>SFX_Ball_inCup1.wav</ShortName>
+					<Path>SFX/SFX_Ball_inCup1_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
