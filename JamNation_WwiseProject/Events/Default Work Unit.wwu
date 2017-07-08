@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_SFX_Ball_bounce1" ID="{EF482240-B9E0-46BD-950A-F810A31231DE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D875B0BC-172A-4D4B-9EB9-F62051059942}" ShortID="1001865708" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7C04E5BA-CCB3-4A07-8798-2DD65068A4C2}" Global="false">
+									<ObjectRef Name="SFX_Ball_bounce1" ID="{A8C1B530-136F-41DF-A4D9-9C2E6A7C207D}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Ball_inCup1" ID="{EC871E55-49AD-4C27-810D-43BBF9D1E126}">
+					<ChildrenList>
+						<Action Name="Play" ID="{087BE922-23E2-4F0B-9EF6-7D9893835884}" ShortID="614504939" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2FE4765D-4513-4089-AD67-B9811D3BE176}" Global="false">
+									<ObjectRef Name="SFX_Ball_inCup1" ID="{6CC92665-6359-41F3-A1C2-E81BB654CD1E}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

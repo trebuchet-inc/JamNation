@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F48304DD-445A-47A1-B6A0-8782A396B55E}" SchemaVersion="75">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{F48304DD-445A-47A1-B6A0-8782A396B55E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F48304DD-445A-47A1-B6A0-8782A396B55E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="UnityWwiseSB" ID="{D3DA51A7-E3F6-4A4E-8A57-6B6D99567FD2}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_SFX_Ball_bounce1" ID="{EF482240-B9E0-46BD-950A-F810A31231DE}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Ball_inCup1" ID="{EC871E55-49AD-4C27-810D-43BBF9D1E126}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>
