@@ -22,7 +22,7 @@ public class BagBehavior : MonoBehaviour {
 			foreach(Collider c in col){
 				Item item = c.attachedRigidbody.GetComponent<Item>();
 				if(item != null){
-					ObjectDatabase.Score += item.item.scoreValue;
+					ItemDatabase.Score += item.item.scoreValue;
 					ScoreFeedback sf = Instantiate(particule, transform.position, transform.rotation).GetComponent<ScoreFeedback>();
 					sf.Init();
 					sf.txt.text = item.item.scoreValue.ToString();
