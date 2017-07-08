@@ -4,6 +4,10 @@
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
+/Assets/Wwise/Editor/ProjectData.meta
+/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
+/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset.meta
+
 
 # Visual Studio 2015 cache directory
 /.vs/
@@ -32,3 +36,11 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Wwise
+*.akd
+WwiseUnityIntegration_Mac_Src\.zip
+WwiseUnityIntegration_Windows_Src\.zip
+*.validationcache
+*.wsettings
+WWise/\.cache/
