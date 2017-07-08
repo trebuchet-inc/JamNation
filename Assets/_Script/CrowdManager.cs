@@ -11,11 +11,13 @@ public class CrowdManager : MonoBehaviour
 	public GameObject NPCprefab;
 	public NpcInfo[] infos;
 
+	public int initialSpawnAmount;
 	private List<ShelveSpawnerWrapper> _shelves = new List<ShelveSpawnerWrapper>();
 	private List<Npc> _pooledNPCs;
 
 	//DEBUG
 	public Transform spawn;
+	public Transform[] exits;
 
 	private void Awake()
 	{
@@ -25,7 +27,7 @@ public class CrowdManager : MonoBehaviour
 	private void Start()
 	{
 		_pooledNPCs = new List<Npc>();
-		StartCoroutine(SpawnNPCs(spawn.position, 12));
+		StartCoroutine(SpawnNPCs(spawn.position, initialSpawnAmount));
 	}
 	
 	private IEnumerator SpawnNPCs(Vector3 basePos, int number = 6) // WOLOLO
@@ -43,9 +45,7 @@ public class CrowdManager : MonoBehaviour
 			npcToSpawn.gameObject.SetActive(true);
 			npcToSpawn.transform.SetPositionAndRotation(pos, Quaternion.identity);
 			
-			// npcToSpawn.stm.ChangeState(Npc.States.Wander);
-
-			if(Random.value > 0.5f)
+			if(Random.value > 0.8f)
 			{
 				npcToSpawn.stm.ChangeState(Npc.States.Wander);
 			}
@@ -69,8 +69,9 @@ public class CrowdManager : MonoBehaviour
 		return npcToPull;
 	}
 
-	private void PushToPool(Npc npcToPush)
+	public void PushToPool(Npc npcToPush)
 	{
+		npcToPush.Reset();
 		npcToPush.gameObject.SetActive(false);
 		_pooledNPCs.Add(npcToPush);
 	}
@@ -98,5 +99,10 @@ public class CrowdManager : MonoBehaviour
 		if(_shelves.Count == 0) _shelves = FindObjectsOfType<ShelveSpawnerWrapper>().ToList();
 
 		return  _shelves.OrderBy(s => Random.value).FirstOrDefault();
+	}
+
+	public Transform FindExit()
+	{
+		return exits[Random.Range(0,exits.Length)];
 	}
 }
