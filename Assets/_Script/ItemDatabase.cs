@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectDatabase : MonoBehaviour {
+public class ItemDatabase : MonoBehaviour {
 
 	public GameObject[] items;
-	public static ObjectDatabase Instance; 
+	public static ItemDatabase Instance;
+
+	// List<Item> allStock = new List<Item>();
+	// List<ShelveSpawnerWrapper> 
+	public static int Score;
 	// Use this for initialization
 	
 	void Awake()
@@ -16,8 +20,7 @@ public class ObjectDatabase : MonoBehaviour {
 	void Start () {
 		
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 		
 	}

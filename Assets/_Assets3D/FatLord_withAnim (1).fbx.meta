@@ -1,0 +1,478 @@
+fileFormatVersion: 2
+guid: e7970f47204395c469867698170d984d
+timeCreated: 1499537166
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm01_lf
+    100002: arm01_rt
+    100004: arm02_lf
+    100006: arm02_rt
+    100008: arm03_lf
+    100010: arm03_rt
+    100012: //RootNode
+    100014: GEO
+    100016: hover
+    100018: neck
+    100020: pelvis
+    100022: root
+    100024: shoulder_lf
+    100026: shoulder_rt
+    100028: spine01
+    100030: spine02
+    100032: spine03
+    100034: X__FatlLord_Body__Msh__
+    100036: X__FatLord__Grp__
+    100038: X__FatLord_Body__Grp__
+    100040: X__FatLord_Octopus__Msh__
+    100042: X__FatLord_Rings__Msh__
+    100044: X__FatLord_Teeth__Msh__
+    100046: X__Hover__Grp__
+    100048: X__Hover_Base__Msh__
+    100050: X__Hover_Lights__Msh__
+    100052: X__Hover_Reactors__Msh__
+    400000: arm01_lf
+    400002: arm01_rt
+    400004: arm02_lf
+    400006: arm02_rt
+    400008: arm03_lf
+    400010: arm03_rt
+    400012: //RootNode
+    400014: GEO
+    400016: hover
+    400018: neck
+    400020: pelvis
+    400022: root
+    400024: shoulder_lf
+    400026: shoulder_rt
+    400028: spine01
+    400030: spine02
+    400032: spine03
+    400034: X__FatlLord_Body__Msh__
+    400036: X__FatLord__Grp__
+    400038: X__FatLord_Body__Grp__
+    400040: X__FatLord_Octopus__Msh__
+    400042: X__FatLord_Rings__Msh__
+    400044: X__FatLord_Teeth__Msh__
+    400046: X__Hover__Grp__
+    400048: X__Hover_Base__Msh__
+    400050: X__Hover_Lights__Msh__
+    400052: X__Hover_Reactors__Msh__
+    4300000: X__Hover_Base__Msh__
+    4300002: X__Hover_Reactors__Msh__
+    4300004: X__Hover_Lights__Msh__
+    4300006: X__FatLord_Teeth__Msh__
+    4300008: X__FatLord_Rings__Msh__
+    4300010: X__FatlLord_Body__Msh__
+    4300012: X__FatLord_Octopus__Msh__
+    7400000: Idle
+    7400002: Walk
+    7400004: Taking
+    7400006: Holding
+    9500000: //RootNode
+    13700000: X__FatlLord_Body__Msh__
+    13700002: X__FatLord_Octopus__Msh__
+    13700004: X__FatLord_Rings__Msh__
+    13700006: X__FatLord_Teeth__Msh__
+    13700008: X__Hover_Base__Msh__
+    13700010: X__Hover_Lights__Msh__
+    13700012: X__Hover_Reactors__Msh__
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GEO
+        weight: 1
+      - path: GEO/X__FatLord__Grp__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatlLord_Body__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatLord_Octopus__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatLord_Rings__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatLord_Teeth__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__/X__Hover_Base__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__/X__Hover_Lights__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__/X__Hover_Reactors__Msh__
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hover
+        weight: 1
+      - path: root/hover/pelvis
+        weight: 1
+      - path: root/hover/pelvis/spine01
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/neck
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf/arm01_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf/arm01_lf/arm02_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf/arm01_lf/arm02_lf/arm03_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt/arm01_rt
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt/arm01_rt/arm02_rt
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt/arm01_rt/arm02_rt/arm03_rt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GEO
+        weight: 1
+      - path: GEO/X__FatLord__Grp__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatlLord_Body__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatLord_Octopus__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatLord_Rings__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatLord_Teeth__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__/X__Hover_Base__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__/X__Hover_Lights__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__/X__Hover_Reactors__Msh__
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hover
+        weight: 1
+      - path: root/hover/pelvis
+        weight: 1
+      - path: root/hover/pelvis/spine01
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/neck
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf/arm01_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf/arm01_lf/arm02_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf/arm01_lf/arm02_lf/arm03_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt/arm01_rt
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt/arm01_rt/arm02_rt
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt/arm01_rt/arm02_rt/arm03_rt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Taking
+      takeName: Take 001
+      firstFrame: 201
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GEO
+        weight: 1
+      - path: GEO/X__FatLord__Grp__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatlLord_Body__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatLord_Octopus__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatLord_Rings__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatLord_Teeth__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__/X__Hover_Base__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__/X__Hover_Lights__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__/X__Hover_Reactors__Msh__
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hover
+        weight: 1
+      - path: root/hover/pelvis
+        weight: 1
+      - path: root/hover/pelvis/spine01
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/neck
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf/arm01_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf/arm01_lf/arm02_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf/arm01_lf/arm02_lf/arm03_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt/arm01_rt
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt/arm01_rt/arm02_rt
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt/arm01_rt/arm02_rt/arm03_rt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Holding
+      takeName: Take 001
+      firstFrame: 301
+      lastFrame: 360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GEO
+        weight: 1
+      - path: GEO/X__FatLord__Grp__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatlLord_Body__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatLord_Octopus__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatLord_Rings__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__FatLord_Body__Grp__/X__FatLord_Teeth__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__/X__Hover_Base__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__/X__Hover_Lights__Msh__
+        weight: 1
+      - path: GEO/X__FatLord__Grp__/X__Hover__Grp__/X__Hover_Reactors__Msh__
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hover
+        weight: 1
+      - path: root/hover/pelvis
+        weight: 1
+      - path: root/hover/pelvis/spine01
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/neck
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf/arm01_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf/arm01_lf/arm02_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_lf/arm01_lf/arm02_lf/arm03_lf
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt/arm01_rt
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt/arm01_rt/arm02_rt
+        weight: 1
+      - path: root/hover/pelvis/spine01/spine02/spine03/shoulder_rt/arm01_rt/arm02_rt/arm03_rt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
