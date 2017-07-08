@@ -6,14 +6,21 @@ using System.Linq;
 
 public class CrowdManager : MonoBehaviour 
 {
+	public static CrowdManager Instance;
+	
 	public GameObject NPCprefab;
 	public NpcInfo[] infos;
-	public Item[] items;
 
+	private List<ShelveSpawnerWrapper> _shelves = new List<ShelveSpawnerWrapper>();
 	private List<Npc> _pooledNPCs;
 
 	//DEBUG
 	public Transform spawn;
+
+	private void Awake()
+	{
+		Instance = this;
+	}
 
 	private void Start()
 	{
@@ -35,7 +42,15 @@ public class CrowdManager : MonoBehaviour
 			Vector3 pos = new Vector3(basePos.x, basePos.y, basePos.z + i*1.5f);
 			npcToSpawn.gameObject.SetActive(true);
 			npcToSpawn.transform.SetPositionAndRotation(pos, Quaternion.identity);
-			npcToSpawn.stm.ChangeState(Npc.States.Wander);
+			
+			if(Random.value > 0.5f)
+			{
+				npcToSpawn.stm.ChangeState(Npc.States.Wander);
+			}
+			else
+			{
+				npcToSpawn.stm.ChangeState(Npc.States.Target);
+			}
 
 			yield return new WaitForSeconds(0.1f);
 		}
@@ -43,9 +58,9 @@ public class CrowdManager : MonoBehaviour
 
 	private Npc PullFromPool()
 	{
-		Npc npcToPull = _pooledNPCs.OrderBy(n => UnityEngine.Random.value).FirstOrDefault();
+		Npc npcToPull = _pooledNPCs.OrderBy(n => Random.value).FirstOrDefault();
 		
-		// npcToPull.targetItem = RollTarget();
+		npcToPull.targetShelve = RollTarget(npcToPull.info.favoriteItemSize);
 
 		_pooledNPCs.Remove(npcToPull);
 
@@ -76,8 +91,10 @@ public class CrowdManager : MonoBehaviour
 		return infos[Random.Range(0, infos.Length)];
 	}
 
-	// private Item RollTarget()
-	// {
-	// 	return items[Random.Range(0, items.Length)];
-	// }
+	public ShelveSpawnerWrapper RollTarget(ItemSize favoriteSize)
+	{
+		if(_shelves.Count == 0) _shelves = FindObjectsOfType<ShelveSpawnerWrapper>().ToList();
+
+		return  _shelves.OrderBy(s => Random.value).FirstOrDefault();
+	}
 }

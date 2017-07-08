@@ -9,7 +9,7 @@ public class Npc : MonoBehaviour
 {
 	public NpcInfo info;
 
-	public Item targetItem;
+	public ShelveSpawnerWrapper targetShelve;
 
 	private NavMeshAgent _agent;
 	private Rigidbody _rb;
@@ -44,6 +44,23 @@ public class Npc : MonoBehaviour
 	private void Wander_Exit()
 	{
 		StopCoroutine(Wander());
+	}
+	
+	private void Target_Enter()
+	{
+		if(targetShelve == null) CrowdManager.Instance.RollTarget(info.favoriteItemSize);
+		
+		GoTo(targetShelve.transform.position);
+	}
+
+	private void Target_Update()
+	{
+		if(targetShelve == null) stm.ChangeState(States.Wander);
+	}
+
+	private void Target_Exit()
+	{
+		targetShelve = null;
 	}
 
 	public void GoTo(Vector3 pos)
