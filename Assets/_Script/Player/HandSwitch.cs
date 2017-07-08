@@ -4,9 +4,10 @@ using UnityEngine;
 using NewtonVR;
 
 public class HandSwitch : MonoBehaviour {
+	[HideInInspector] public bool active;
+
 	Animator _anim;
 	NVRHand _hand;
-	bool _active;
 
 	void Start () {
 		_anim = GetComponent<Animator>();
@@ -15,15 +16,15 @@ public class HandSwitch : MonoBehaviour {
 	
 	void Update () {
 		if(_hand.UseButtonDown){
-			if(_active){
+			if(active){
 				_anim.SetTrigger("Close");
 				_hand.Freeze = false;
-				_active = false;
+				active = false;
 			}
 			else{
 				_anim.SetTrigger("Open");
 				_hand.Freeze = true;
-				_active = true;
+				active = true;
 			}	
 		}
 	}

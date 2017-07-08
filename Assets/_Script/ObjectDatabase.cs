@@ -5,7 +5,8 @@ using UnityEngine;
 public class ObjectDatabase : MonoBehaviour {
 
 	public GameObject[] items;
-	public static ObjectDatabase Instance; 
+	public static ObjectDatabase Instance;
+	public static int Score;
 	// Use this for initialization
 	
 	void Awake()
