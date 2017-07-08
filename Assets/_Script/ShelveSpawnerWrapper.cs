@@ -44,11 +44,24 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 			StartCoroutine(TopMessSpawner());
 			break;
 			case 1: //OrderedArray
+			Transform t =  transform.Find("OrderArray");
+			int count = t.childCount;
+			for (int i = 0; i < count; i++)
+			{
+				Vector3 p = t.GetChild(i).position;
+				GameObject g = (GameObject)Instantiate(item,p,Quaternion.identity,transform);
+				stock.Add(g.GetComponent<Item>());
+
+			}
 			break;
 			case 2: //ForStack
 			float itemXLength = item.transform.localScale.x;
 			float itemYLength = item.transform.localScale.y;
 			float itemZLength = item.transform.localScale.z;
+			// while(itemXLength > spawnZone.x||itemYLength>spawnZone.y||itemZLength>spawnZone.z)
+			// {
+			// 	RollForItem(){}
+			// }
 			int itemsXSpace = (int)(spawnZone.x/itemXLength);
 			int itemsYSpace = (int)(spawnZone.y/itemYLength);
 			int itemsZSpace = (int)(spawnZone.z/itemZLength);
