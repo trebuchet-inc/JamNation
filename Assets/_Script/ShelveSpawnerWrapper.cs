@@ -31,6 +31,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 		spawnZone = preview.transform.localScale;
 		preview.SetActive(false);
 		RollForItem();
+		ObjectivesManager.Instance.itemsInStore.Add(item.GetComponent<Item>());
 		spawner = transform.GetChild(0);
 		switch ((int)shelveSpawnType)
 		{			
