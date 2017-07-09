@@ -146,6 +146,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_ComicconTheme___Blackhole_Friday" ID="{4DA9207F-8C1F-4C70-B5FE-4121BD69BE3A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{5EDBDCEA-BB4F-4CFF-B57D-CDCCEFA8F2CF}" ShortID="967118728" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DA721247-1095-4C1C-96D5-138D867189D2}" Global="false">
+									<ObjectRef Name="ComicconTheme - Blackhole Friday" ID="{491329F2-BCC8-4DBD-A8E6-BB6A994ACDFC}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DrumRoll" ID="{245BF443-3C40-4F2F-B73E-619B50D0041A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F17161B6-DE00-408E-9365-98B2848509CA}" ShortID="261736261" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D8483FF6-066A-4582-853E-86AF80E72CE2}" Global="false">
+									<ObjectRef Name="DrumRoll" ID="{218FAAF8-85C4-4D96-BAC4-CC9C1ADA38CE}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

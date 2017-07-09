@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A48044FE-D41F-43F9-A597-22A1AAAED763}" SchemaVersion="75">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{A48044FE-D41F-43F9-A597-22A1AAAED763}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A48044FE-D41F-43F9-A597-22A1AAAED763}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="BigScore" ID="{EB43E67F-124E-496A-9740-AFAAE2CA0E8F}">
+					<PropertyList>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
