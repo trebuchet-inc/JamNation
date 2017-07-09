@@ -16,6 +16,7 @@
 						<ObjectRef Name="Play_Box_pickup" ID="{B3D3BB46-AE41-4A59-A14C-9563513E5BC9}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_JudgementSad" ID="{7799B01D-3CBB-4B35-BF9B-97D7E9D4153F}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Ball_inCup1" ID="{EC871E55-49AD-4C27-810D-43BBF9D1E126}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_ComicconTheme___Blackhole_Friday" ID="{4DA9207F-8C1F-4C70-B5FE-4121BD69BE3A}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_JudgementNormal" ID="{F728F45D-16C8-4DB9-BAAE-9BFA59903AE1}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_SlidingDoor" ID="{DD519EED-7C43-4F4B-9D9F-F1346F1F24F4}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

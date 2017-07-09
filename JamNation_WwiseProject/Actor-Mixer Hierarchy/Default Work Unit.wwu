@@ -574,6 +574,25 @@
 						<ActiveSource Name="SFX_SlidingDoor" ID="{42516083-C2E8-479E-8674-4E41A11389FC}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="ComicconTheme - Blackhole Friday" ID="{491329F2-BCC8-4DBD-A8E6-BB6A994ACDFC}" ShortID="1003830934" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{84393066-D94B-4F21-B088-D71A994281FF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ComicconTheme - Blackhole Friday" ID="{EA15EAA9-7CBB-4C2C-93E8-56E941941750}" ShortID="513951107">
+							<Language>SFX</Language>
+							<AudioFile>ComicconTheme - Blackhole Friday.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ComicconTheme - Blackhole Friday" ID="{EA15EAA9-7CBB-4C2C-93E8-56E941941750}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

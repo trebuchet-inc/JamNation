@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAY_BOX_PICKUP = 297512792U;
         static const AkUniqueID PLAY_BOXTUMBLE = 2874278012U;
+        static const AkUniqueID PLAY_COMICCONTHEME___BLACKHOLE_FRIDAY = 3897521140U;
         static const AkUniqueID PLAY_FATLORD = 2547602862U;
         static const AkUniqueID PLAY_FISHBOB = 2198549209U;
         static const AkUniqueID PLAY_HITALIEN = 3996494794U;

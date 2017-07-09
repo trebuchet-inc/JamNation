@@ -4,12 +4,12 @@
 		<Banks>
 			<Language ID="0">
 				<File Name="Init" Hash="500606810" Timestamp="131440810800000000"/>
-				<File Name="UnityWwiseSB" Hash="1940914177" Timestamp="131440810800000000"/>
+				<File Name="UnityWwiseSB" Hash="3431217026" Timestamp="131440911570000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="743552676" Timestamp="131440810800000000"/>
+				<File Name="" Hash="3936320617" Timestamp="131440911570000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -17,12 +17,12 @@
 		<Banks>
 			<Language ID="0">
 				<File Name="Init" Hash="1460966516" Timestamp="131440810780000000"/>
-				<File Name="UnityWwiseSB" Hash="1940914177" Timestamp="131440810780000000"/>
+				<File Name="UnityWwiseSB" Hash="3431217026" Timestamp="131440911550000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="4168299610" Timestamp="131440810780000000"/>
+				<File Name="" Hash="1513145779" Timestamp="131440911550000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

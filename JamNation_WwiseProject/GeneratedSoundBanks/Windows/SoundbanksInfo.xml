@@ -18,6 +18,7 @@
 			<IncludedEvents>
 				<Event Id="297512792" Name="Play_Box_pickup" ObjectPath="\Events\Default Work Unit\Play_Box_pickup"/>
 				<Event Id="2874278012" Name="Play_BoxTumble" ObjectPath="\Events\Default Work Unit\Play_BoxTumble"/>
+				<Event Id="3897521140" Name="Play_ComicconTheme___Blackhole_Friday" ObjectPath="\Events\Default Work Unit\Play_ComicconTheme___Blackhole_Friday"/>
 				<Event Id="2547602862" Name="Play_Fatlord" ObjectPath="\Events\Default Work Unit\Play_Fatlord"/>
 				<Event Id="2198549209" Name="Play_FishBob" ObjectPath="\Events\Default Work Unit\Play_FishBob"/>
 				<Event Id="3996494794" Name="Play_HitAlien" ObjectPath="\Events\Default Work Unit\Play_HitAlien"/>
@@ -130,6 +131,10 @@
 				<File Id="510114414" Language="SFX">
 					<ShortName>Alah_08.wav</ShortName>
 					<Path>SFX/Alah_08_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="513951107" Language="SFX">
+					<ShortName>ComicconTheme - Blackhole Friday.wav</ShortName>
+					<Path>SFX/ComicconTheme - Blackhole Friday_9E69E797.wem</Path>
 				</File>
 				<File Id="529152918" Language="SFX">
 					<ShortName>Hala_12.wav</ShortName>

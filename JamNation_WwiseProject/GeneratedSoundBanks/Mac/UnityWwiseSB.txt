@@ -9,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2874278012	Play_BoxTumble			\Default Work Unit\Play_BoxTumble	
 	3559183329	Play_JudgementSad			\Default Work Unit\Play_JudgementSad	
 	3600446858	Play_JudgementNormal			\Default Work Unit\Play_JudgementNormal	
+	3897521140	Play_ComicconTheme___Blackhole_Friday			\Default Work Unit\Play_ComicconTheme___Blackhole_Friday	
 	3996494794	Play_HitAlien			\Default Work Unit\Play_HitAlien	
 	3996652692	Play_SFX_Ball_inCup1			\Default Work Unit\Play_SFX_Ball_inCup1	
 	4007426814	Play_Zorg			\Default Work Unit\Play_Zorg	
@@ -45,6 +46,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	506277285	Alah_03	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Alah_03_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_03\Alah_03		215732
 	510108242	SFX_Ball_bounce1	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\SFX_Ball_bounce1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ball_bounce1		23832
 	510114414	Alah_08	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Alah_08_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_08\Alah_08		154540
+	513951107	ComicconTheme - Blackhole Friday	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\ComicconTheme - Blackhole Friday_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ComicconTheme - Blackhole Friday		11430912
 	529152918	Hala_12	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Hala_12_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fatlord\Hala_12\Hala_12		104236
 	536201666	Leen_07	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Leen_07_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_07\Leen_07		220644
 	538077373	Hala_07	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Hala_07_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fatlord\Hala_07\Hala_07		261072

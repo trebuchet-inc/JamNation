@@ -146,6 +146,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_ComicconTheme___Blackhole_Friday" ID="{4DA9207F-8C1F-4C70-B5FE-4121BD69BE3A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{5EDBDCEA-BB4F-4CFF-B57D-CDCCEFA8F2CF}" ShortID="967118728" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DA721247-1095-4C1C-96D5-138D867189D2}" Global="false">
+									<ObjectRef Name="ComicconTheme - Blackhole Friday" ID="{491329F2-BCC8-4DBD-A8E6-BB6A994ACDFC}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
