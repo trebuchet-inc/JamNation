@@ -71,6 +71,7 @@ GameObject:
   - component: {fileID: 54816372307023514}
   - component: {fileID: 114381044084766950}
   - component: {fileID: 114452832613027438}
+  - component: {fileID: 114847389752724180}
   m_Layer: 9
   m_Name: Barbecue
   m_TagString: Untagged
@@ -142,7 +143,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1687227264095478}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.23, y: 0.293, z: 0}
+  m_LocalPosition: {x: 1.0927012, y: 0.471, z: 3.8351364}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4891649143617000}
@@ -351,5 +352,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ed393f60eb67f347a8921b264f9b3bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114847389752724180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1687227264095478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5110438b4e1df468360cb155d39ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

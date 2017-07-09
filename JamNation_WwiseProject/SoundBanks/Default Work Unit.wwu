@@ -9,12 +9,15 @@
 						<ObjectRef Name="Play_Fatlord" ID="{D09DB54D-0B3C-412B-BF27-E83FE58709EF}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Zorg" ID="{F98D0E33-1246-42A5-8AD6-8533F4700131}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_FishBob" ID="{C095D6DB-B4CD-438C-9CDC-E54A083293A7}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_BoxTumble" ID="{53C7069D-872F-4528-82F1-DC7454480637}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_JudgementGood" ID="{21E1A476-B35B-463E-A790-6D180185F39E}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Ball_bounce1" ID="{EF482240-B9E0-46BD-950A-F810A31231DE}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Portail" ID="{122A27D3-5A59-4963-A454-5AF8BD80C184}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Box_pickup" ID="{B3D3BB46-AE41-4A59-A14C-9563513E5BC9}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_JudgementSad" ID="{7799B01D-3CBB-4B35-BF9B-97D7E9D4153F}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Ball_inCup1" ID="{EC871E55-49AD-4C27-810D-43BBF9D1E126}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_JudgementNormal" ID="{F728F45D-16C8-4DB9-BAAE-9BFA59903AE1}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_SlidingDoor" ID="{DD519EED-7C43-4F4B-9D9F-F1346F1F24F4}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

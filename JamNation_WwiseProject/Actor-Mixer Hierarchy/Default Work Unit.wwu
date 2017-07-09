@@ -345,6 +345,235 @@
 						<ActiveSource Name="FatlordSad" ID="{9D5C1CC6-5DE4-4D15-9D9B-B164994AB4A4}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<BlendContainer Name="BoxTumble" ID="{9173BCD3-814E-4178-8CB4-4FB6CC0BFDBF}" ShortID="26023206">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{BCA8A624-9DED-4DC0-BA46-84C1C46E5710}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="2097"/>
+											<Property Name="Min" Type="Real64" Value="-202"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{A2D0FD03-5780-41CE-B7E3-C130639048E1}" ShortID="670004060">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{B6C84B83-DD96-4C06-84C6-5E797F3C15BB}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{84393066-D94B-4F21-B088-D71A994281FF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_BoxesTumble2" ID="{C1BD80E7-31E9-4357-B9FA-E7D2758FF5B4}" ShortID="92974210" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{84393066-D94B-4F21-B088-D71A994281FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_BoxesTumble2" ID="{0749C8B3-9948-4575-82BA-5161988B7D66}" ShortID="701549987">
+									<Language>SFX</Language>
+									<AudioFile>SFX_BoxesTumble2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_BoxesTumble2" ID="{0749C8B3-9948-4575-82BA-5161988B7D66}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+				<BlendContainer Name="Portail" ID="{327E19FA-0563-45C3-9387-884BCCFA4EFB}" ShortID="469212143">
+					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{BD6DB302-12F5-47B0-9509-7D2C9B9E17C8}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="429"/>
+											<Property Name="Min" Type="Real64" Value="-404"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{69483879-BD78-4B8C-B09D-8CEAD59643D6}" ShortID="313617445">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{50EFFCB1-4FEF-4A02-ADA6-244FED7624EC}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{84393066-D94B-4F21-B088-D71A994281FF}"/>
+						</Reference>
+						<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Noise_Gate_Fast_Attack" ID="{747A6B61-E953-474C-8227-672C884DA616}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Portal" ID="{B5457188-2715-45DB-A7F4-813FA83549F3}" ShortID="629406570" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{84393066-D94B-4F21-B088-D71A994281FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Portal" ID="{CED0FF32-F14D-4C80-A484-30CB3F5DCB25}" ShortID="317484023">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Portal.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Portal" ID="{CED0FF32-F14D-4C80-A484-30CB3F5DCB25}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{5E864E38-C2CD-4DB1-B6C2-535BE1504F9A}"/>
+					</PositioningInfo>
+				</BlendContainer>
+				<Sound Name="SFX_SlidingDoor" ID="{8BC23DFB-D163-4877-8BB2-5EA424F942AB}" ShortID="1054349068" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{84393066-D94B-4F21-B088-D71A994281FF}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom CreatedFrom="{F9627628-0B10-4272-BC30-D4C20423CB38}">
+								<Effect Name="High_Pass_60Hz (Custom)" ID="{3E45C9D7-C3C3-4726-9301-A8F8B49DCC5A}" ShortID="88164003" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<PropertyList>
+										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+										<Property Name="FrequencyBand1" Type="Real32" Value="60"/>
+										<Property Name="OnOffBand2" Type="bool" Value="False"/>
+										<Property Name="OnOffBand3" Type="bool" Value="False"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Standard" ID="{1A2EAB31-6283-4C0D-89B2-F050DF89D421}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_SlidingDoor" ID="{42516083-C2E8-479E-8674-4E41A11389FC}" ShortID="653559908">
+							<Language>SFX</Language>
+							<AudioFile>SFX_SlidingDoor.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_SlidingDoor" ID="{42516083-C2E8-479E-8674-4E41A11389FC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
