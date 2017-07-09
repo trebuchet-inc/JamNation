@@ -1,0 +1,746 @@
+fileFormatVersion: 2
+guid: c90fbcf0dc1842d479a939b916b565f2
+timeCreated: 1499562055
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_lf
+    100002: arm_rt
+    100004: bigFinger01_lf
+    100006: bigFinger01_rt
+    100008: bigFinger02_lf
+    100010: bigFinger02_rt
+    100012: finger01_lf
+    100014: finger01_rt
+    100016: finger02_lf
+    100018: finger02_rt
+    100020: foot
+    100022: GEO
+    100024: hand_lf
+    100026: hand_rt
+    100028: head
+    100030: knees
+    100032: L__Arm__Msh
+    100034: L__Hand__Msh__
+    100036: L__Shoulder__Msh__
+    100038: neck
+    100040: pelvis
+    100042: pinky01_lf
+    100044: pinky01_rt
+    100046: pinky02_lf
+    100048: pinky02_rt
+    100050: R__Arm__Msh
+    100052: R__Hand__Msh__
+    100054: R__Shoulder__Msh__
+    100056: root
+    100058: shoulder_lf
+    100060: shoulder_rt
+    100062: spine01
+    100064: spine02
+    100066: thumb01_lf
+    100068: thumb01_rt
+    100070: thumb02_lf
+    100072: thumb02_rt
+    100074: trump01
+    100076: trump02
+    100078: trump03
+    100080: trump04
+    100082: wrist_lf
+    100084: wrist_rt
+    100086: X__Collar__Msh__
+    100088: X__Dress__Grp__
+    100090: X__Dress__Msh__
+    100092: X__DressOver__Msh__
+    100094: X__Emblem__Msh
+    100096: X__Eye__Msh__
+    100098: X__Head__Msh__
+    100100: X__Zorg__Grp__
+    100102: X__Zorg_Body__Grp__
+    100104: //RootNode
+    400000: arm_lf
+    400002: arm_rt
+    400004: bigFinger01_lf
+    400006: bigFinger01_rt
+    400008: bigFinger02_lf
+    400010: bigFinger02_rt
+    400012: finger01_lf
+    400014: finger01_rt
+    400016: finger02_lf
+    400018: finger02_rt
+    400020: foot
+    400022: GEO
+    400024: hand_lf
+    400026: hand_rt
+    400028: head
+    400030: knees
+    400032: L__Arm__Msh
+    400034: L__Hand__Msh__
+    400036: L__Shoulder__Msh__
+    400038: neck
+    400040: pelvis
+    400042: pinky01_lf
+    400044: pinky01_rt
+    400046: pinky02_lf
+    400048: pinky02_rt
+    400050: R__Arm__Msh
+    400052: R__Hand__Msh__
+    400054: R__Shoulder__Msh__
+    400056: root
+    400058: shoulder_lf
+    400060: shoulder_rt
+    400062: spine01
+    400064: spine02
+    400066: thumb01_lf
+    400068: thumb01_rt
+    400070: thumb02_lf
+    400072: thumb02_rt
+    400074: trump01
+    400076: trump02
+    400078: trump03
+    400080: trump04
+    400082: wrist_lf
+    400084: wrist_rt
+    400086: X__Collar__Msh__
+    400088: X__Dress__Grp__
+    400090: X__Dress__Msh__
+    400092: X__DressOver__Msh__
+    400094: X__Emblem__Msh
+    400096: X__Eye__Msh__
+    400098: X__Head__Msh__
+    400100: X__Zorg__Grp__
+    400102: X__Zorg_Body__Grp__
+    400104: //RootNode
+    4300000: L__Arm__Msh
+    4300002: L__Shoulder__Msh__
+    4300004: X__Emblem__Msh
+    4300006: X__DressOver__Msh__
+    4300008: X__Dress__Msh__
+    4300010: R__Shoulder__Msh__
+    4300012: R__Arm__Msh
+    4300014: X__Head__Msh__
+    4300016: R__Hand__Msh__
+    4300018: L__Hand__Msh__
+    4300020: X__Eye__Msh__
+    7400000: Idle
+    7400002: Walking
+    7400004: Taking
+    7400006: Holding
+    9500000: //RootNode
+    13700000: L__Arm__Msh
+    13700002: L__Hand__Msh__
+    13700004: L__Shoulder__Msh__
+    13700006: R__Arm__Msh
+    13700008: R__Hand__Msh__
+    13700010: R__Shoulder__Msh__
+    13700012: X__Dress__Msh__
+    13700014: X__DressOver__Msh__
+    13700016: X__Emblem__Msh
+    13700018: X__Eye__Msh__
+    13700020: X__Head__Msh__
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GEO
+        weight: 1
+      - path: GEO/X__Zorg__Grp__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/L__Arm__Msh
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/L__Shoulder__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/R__Arm__Msh
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/R__Shoulder__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__Collar__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__Dress__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__DressOver__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__Emblem__Msh
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/L__Hand__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/R__Hand__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/X__Eye__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/X__Head__Msh__
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/foot
+        weight: 1
+      - path: root/foot/knees
+        weight: 1
+      - path: root/foot/knees/pelvis
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01/trump02
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01/trump02/trump03
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01/trump02/trump03/trump04
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf/bigFinger02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/bigFinger01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/bigFinger01_rt/bigFinger02_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/finger01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/finger01_rt/finger02_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/pinky01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/pinky01_rt/pinky02_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/thumb01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/thumb01_rt/thumb02_rt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GEO
+        weight: 1
+      - path: GEO/X__Zorg__Grp__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/L__Arm__Msh
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/L__Shoulder__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/R__Arm__Msh
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/R__Shoulder__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__Collar__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__Dress__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__DressOver__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__Emblem__Msh
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/L__Hand__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/R__Hand__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/X__Eye__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/X__Head__Msh__
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/foot
+        weight: 1
+      - path: root/foot/knees
+        weight: 1
+      - path: root/foot/knees/pelvis
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01/trump02
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01/trump02/trump03
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01/trump02/trump03/trump04
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf/bigFinger02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/bigFinger01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/bigFinger01_rt/bigFinger02_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/finger01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/finger01_rt/finger02_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/pinky01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/pinky01_rt/pinky02_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/thumb01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/thumb01_rt/thumb02_rt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Taking
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GEO
+        weight: 1
+      - path: GEO/X__Zorg__Grp__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/L__Arm__Msh
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/L__Shoulder__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/R__Arm__Msh
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/R__Shoulder__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__Collar__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__Dress__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__DressOver__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__Emblem__Msh
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/L__Hand__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/R__Hand__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/X__Eye__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/X__Head__Msh__
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/foot
+        weight: 1
+      - path: root/foot/knees
+        weight: 1
+      - path: root/foot/knees/pelvis
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01/trump02
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01/trump02/trump03
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01/trump02/trump03/trump04
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf/bigFinger02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/bigFinger01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/bigFinger01_rt/bigFinger02_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/finger01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/finger01_rt/finger02_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/pinky01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/pinky01_rt/pinky02_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/thumb01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/thumb01_rt/thumb02_rt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Holding
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GEO
+        weight: 1
+      - path: GEO/X__Zorg__Grp__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/L__Arm__Msh
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/L__Shoulder__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/R__Arm__Msh
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/R__Shoulder__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__Collar__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__Dress__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__DressOver__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Dress__Grp__/X__Emblem__Msh
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/L__Hand__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/R__Hand__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/X__Eye__Msh__
+        weight: 1
+      - path: GEO/X__Zorg__Grp__/X__Zorg_Body__Grp__/X__Head__Msh__
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/foot
+        weight: 1
+      - path: root/foot/knees
+        weight: 1
+      - path: root/foot/knees/pelvis
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01/trump02
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01/trump02/trump03
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/neck/head/trump01/trump02/trump03/trump04
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf/bigFinger02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/bigFinger01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/bigFinger01_rt/bigFinger02_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/finger01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/finger01_rt/finger02_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/pinky01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/pinky01_rt/pinky02_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/thumb01_rt
+        weight: 1
+      - path: root/foot/knees/pelvis/spine01/spine02/shoulder_rt/arm_rt/wrist_rt/hand_rt/thumb01_rt/thumb02_rt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
