@@ -12,12 +12,12 @@ public class ObjectiveDisplay : MonoBehaviour {
 		_text = GetComponentInChildren<Text>();
 
 		ObjectivesManager.Instance.CreateObjectives();
-
-		string objectiveText = "";
+		
+		string objectiveText = "<b>COMPLETE AT LEAST 3</b>\n";
 
 		foreach (Objective obj in ObjectivesManager.Instance.objectivesToComplete)
 		{
-			objectiveText += obj.qtyToGet + "X" + obj.itemToGet.name + "s\n";
+			objectiveText += obj.qtyToGet + "  X  " + obj.itemToGet.name + "s\n";
 		}
 
 		_text.text = objectiveText;

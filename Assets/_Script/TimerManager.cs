@@ -49,7 +49,7 @@ public class TimerManager : MonoBehaviour {
 		int OkNb= 0;
 		for(int i = 0; i < boards.Length; i++)
 		{
-			if(Score > paliers[i]){
+			if(ObjectivesManager.Instance.CheckObjectives() >= paliers[i]){
 				boards[i].Ok();
 				OkNb++;
 			}

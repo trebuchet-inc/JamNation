@@ -9768,6 +9768,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114424618866978628, guid: 7cd6d83cc7ce07041ac3832160382e5e,
+        type: 2}
+      propertyPath: paliers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4902752775893134, guid: 7cd6d83cc7ce07041ac3832160382e5e, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9849,6 +9854,31 @@ Prefab:
       propertyPath: Spawn
       value: 
       objectReference: {fileID: 432029029}
+    - target: {fileID: 114424618866978628, guid: 7cd6d83cc7ce07041ac3832160382e5e,
+        type: 2}
+      propertyPath: paliers.Array.data[3]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114424618866978628, guid: 7cd6d83cc7ce07041ac3832160382e5e,
+        type: 2}
+      propertyPath: paliers.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114424618866978628, guid: 7cd6d83cc7ce07041ac3832160382e5e,
+        type: 2}
+      propertyPath: paliers.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114424618866978628, guid: 7cd6d83cc7ce07041ac3832160382e5e,
+        type: 2}
+      propertyPath: paliers.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114863248319582464, guid: 7cd6d83cc7ce07041ac3832160382e5e,
+        type: 2}
+      propertyPath: numberOfObjectives
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7cd6d83cc7ce07041ac3832160382e5e, type: 2}
   m_IsPrefabParent: 0
