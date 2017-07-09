@@ -27,6 +27,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_BALL_BOUNCE1 = 2847098557U;
         static const AkUniqueID PLAY_SFX_BALL_INCUP1 = 3996652692U;
         static const AkUniqueID PLAY_SFX_SLIDINGDOOR = 179701504U;
+        static const AkUniqueID PLAY_THEME = 2479442773U;
         static const AkUniqueID PLAY_ZORG = 4007426814U;
     } // namespace EVENTS
 

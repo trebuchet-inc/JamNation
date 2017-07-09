@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_HitAlien" ID="{4E47B5DC-A91F-40E5-BE64-1D83753F3813}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Fatlord" ID="{D09DB54D-0B3C-412B-BF27-E83FE58709EF}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Theme" ID="{FB347DA7-3483-4157-A73B-6C55DF2519BD}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Zorg" ID="{F98D0E33-1246-42A5-8AD6-8533F4700131}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_FishBob" ID="{C095D6DB-B4CD-438C-9CDC-E54A083293A7}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_BoxTumble" ID="{53C7069D-872F-4528-82F1-DC7454480637}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" Filter="7" Origin="Manual"/>

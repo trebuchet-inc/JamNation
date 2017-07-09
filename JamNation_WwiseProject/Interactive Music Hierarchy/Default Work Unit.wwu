@@ -2629,6 +2629,37 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="ComicconTheme - Blackhole Friday electro final" ID="{9D2ABA33-FBA9-4CEC-A187-AA4C2E891902}" ShortID="985635299">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{FE38C5C8-40F2-4243-AEB9-DCEB5C89585D}" ShortID="355936587">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="BigScore" ID="{EB43E67F-124E-496A-9740-AFAAE2CA0E8F}" WorkUnitID="{A48044FE-D41F-43F9-A597-22A1AAAED763}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{D36454BD-2823-4C1A-B545-B9E68A2EB80E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
@@ -2723,6 +2754,37 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="ComicconTheme - Blackhole Friday" ID="{72D693B2-EF76-42D3-80CC-B471DF8A3564}" ShortID="639222579">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{13ABB3D9-8377-4681-96CE-A31F213331A2}" ShortID="1054012466">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="BigScore" ID="{EB43E67F-124E-496A-9740-AFAAE2CA0E8F}" WorkUnitID="{A48044FE-D41F-43F9-A597-22A1AAAED763}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{DC21645D-9A27-41C9-90F8-234AA3FAE2E5}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
@@ -2845,7 +2907,16 @@
 								</MusicTransition>
 							</TransitionList>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{35E91B4F-2792-435E-BEC3-1BE540A06DAD}" ShortID="151166313"/>
+								<MusicPlaylistItem Name="" ID="{35E91B4F-2792-435E-BEC3-1BE540A06DAD}" ShortID="151166313">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{99E01566-84FA-46ED-9D20-506744FA3CFB}" ShortID="112761791">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="New Music Segment" ID="{BB37D97A-36CE-4C7F-98C3-1F1ACF9E4B5C}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>

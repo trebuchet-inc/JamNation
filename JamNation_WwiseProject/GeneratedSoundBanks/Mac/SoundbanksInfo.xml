@@ -30,6 +30,7 @@
 				<Event Id="2847098557" Name="Play_SFX_Ball_bounce1" ObjectPath="\Events\Default Work Unit\Play_SFX_Ball_bounce1"/>
 				<Event Id="3996652692" Name="Play_SFX_Ball_inCup1" ObjectPath="\Events\Default Work Unit\Play_SFX_Ball_inCup1"/>
 				<Event Id="179701504" Name="Play_SFX_SlidingDoor" ObjectPath="\Events\Default Work Unit\Play_SFX_SlidingDoor"/>
+				<Event Id="2479442773" Name="Play_Theme" ObjectPath="\Events\Default Work Unit\Play_Theme"/>
 				<Event Id="4007426814" Name="Play_Zorg" ObjectPath="\Events\Default Work Unit\Play_Zorg"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -189,6 +190,10 @@
 					<ShortName>Hala_03.wav</ShortName>
 					<Path>SFX/Hala_03_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="682107354" Language="SFX">
+					<ShortName>ComicconTheme - Blackhole Friday.wav</ShortName>
+					<Path>SFX/ComicconTheme - Blackhole Friday_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="701549987" Language="SFX">
 					<ShortName>SFX_BoxesTumble2.wav</ShortName>
 					<Path>SFX/SFX_BoxesTumble2_9E69E797.wem</Path>
@@ -220,6 +225,10 @@
 				<File Id="871651833" Language="SFX">
 					<ShortName>SFX_Pickup2.wav</ShortName>
 					<Path>SFX/SFX_Pickup2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="930852892" Language="SFX">
+					<ShortName>ComicconTheme - Blackhole Friday electro final.wav</ShortName>
+					<Path>SFX/ComicconTheme - Blackhole Friday electro final_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="992843993" Language="SFX">
 					<ShortName>Leen_09.wav</ShortName>

@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1884364967	Play_Portail			\Default Work Unit\Play_Portail	
 	2182557356	Play_JudgementGood			\Default Work Unit\Play_JudgementGood	
 	2198549209	Play_FishBob			\Default Work Unit\Play_FishBob	
+	2479442773	Play_Theme			\Default Work Unit\Play_Theme	
 	2547602862	Play_Fatlord			\Default Work Unit\Play_Fatlord	
 	2847098557	Play_SFX_Ball_bounce1			\Default Work Unit\Play_SFX_Ball_bounce1	
 	2874278012	Play_BoxTumble			\Default Work Unit\Play_BoxTumble	
@@ -14,6 +15,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	3996494794	Play_HitAlien			\Default Work Unit\Play_HitAlien	
 	3996652692	Play_SFX_Ball_inCup1			\Default Work Unit\Play_SFX_Ball_inCup1	
 	4007426814	Play_Zorg			\Default Work Unit\Play_Zorg	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1258500041	BigScore			\Default Work Unit\BigScore	
 
 Effect plug-ins	ID	Name	Type				Notes
 	88164003	High_Pass_60Hz (Custom)	Wwise Parametric EQ			
@@ -61,6 +65,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	665993553	Leen_02	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Windows\SFX\Leen_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_02\Leen_02		419092
 	672860876	SFX_Pickup1	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Windows\SFX\SFX_Pickup1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Box_pickup\SFX_Pickup1\SFX_Pickup1		352992
 	676477376	Hala_03	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Windows\SFX\Hala_03_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fatlord\Hala_03\Hala_03		250044
+	682107354	ComicconTheme - Blackhole Friday	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Windows\SFX\ComicconTheme - Blackhole Friday_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Theme\Theme\New Music Segment\ComicconTheme - Blackhole Friday		11430912
 	701549987	SFX_BoxesTumble2	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Windows\SFX\SFX_BoxesTumble2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoxTumble\SFX_BoxesTumble2		521948
 	715627970	Alah_11	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Windows\SFX\Alah_11_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_11\Alah_11		120180
 	739698897	Leen_05	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Windows\SFX\Leen_05_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_05\Leen_05		264744
@@ -69,5 +74,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	804995531	Leen_03	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Windows\SFX\Leen_03_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_03\Leen_03		551396
 	821671818	Alah_05	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Windows\SFX\Alah_05_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_05\Alah_05		194968
 	871651833	SFX_Pickup2	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Windows\SFX\SFX_Pickup2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Box_pickup\SFX_Pickup2\SFX_Pickup2		352992
+	930852892	ComicconTheme - Blackhole Friday electro final	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Windows\SFX\ComicconTheme - Blackhole Friday electro final_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Theme\Theme\New Music Segment\ComicconTheme - Blackhole Friday electro final		11537040
 	992843993	Leen_09	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Windows\SFX\Leen_09_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_09\Leen_09		529344
 
