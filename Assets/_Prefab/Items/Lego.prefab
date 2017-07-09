@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 54581253698197380}
   - component: {fileID: 114351302530262772}
   - component: {fileID: 114369621838635106}
+  - component: {fileID: 114858387670480658}
   m_Layer: 9
   m_Name: Lego
   m_TagString: Untagged
@@ -129,7 +130,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1514325012368906}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.31, y: 0.33810043, z: -0.41}
+  m_LocalPosition: {x: -0.12869883, y: 0.44, z: 1.7537785}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4364638737123512}
@@ -268,7 +269,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.03, z: 0.48}
+  m_Size: {x: 0.58, y: 0.46, z: 1.26}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114351302530262772
 MonoBehaviour:
@@ -348,5 +349,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a841146f64299754986f248def891557, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 69128fe500c6dc141add4f5dcc5e6f48, type: 2}
+  item: {fileID: 11400000, guid: ad3cdaca4c0109a4292d41bb1a6e7c57, type: 2}
   rb: {fileID: 0}
+--- !u!114 &114858387670480658
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1514325012368906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5110438b4e1df468360cb155d39ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
