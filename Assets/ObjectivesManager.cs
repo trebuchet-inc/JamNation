@@ -43,7 +43,7 @@ public class ObjectivesManager : MonoBehaviour
 		newObjective.itemToGet = itemsInStore.OrderBy(i => Random.value).FirstOrDefault();
 		itemsInStore.Remove(newObjective.itemToGet);
 
-		newObjective.qtyToGet = Random.Range(5,15);
+		newObjective.qtyToGet = Random.Range(5,10);
 
 		return newObjective;
 	}

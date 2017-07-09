@@ -16,7 +16,7 @@ public class FinalScore : MonoBehaviour {
 
 	public void Comment (int ok = 0) {
 		// switch(ok){
-		switch(ObjectivesManager.Instance.CheckObjectives() - 1){
+		switch(ok){
 			case 0 :
 				_text.text = "So bad";
 				_text.color = Color.red;
