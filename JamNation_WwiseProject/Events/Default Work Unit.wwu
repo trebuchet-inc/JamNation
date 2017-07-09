@@ -69,6 +69,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_HitAlien" ID="{4E47B5DC-A91F-40E5-BE64-1D83753F3813}">
+					<ChildrenList>
+						<Action Name="Play" ID="{541502DB-D0B4-4055-B528-49EB3E412824}" ShortID="599824041" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{715ECC75-C225-43D6-9FE3-78303CD76D4C}" Global="false">
+									<ObjectRef Name="HitAlien" ID="{14D062DA-E21A-4FE6-9986-8E067A33B8E5}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_JudgementGood" ID="{21E1A476-B35B-463E-A790-6D180185F39E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{636C5939-DA35-4331-8FE9-D18E185B5D7D}" ShortID="629808976" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{66C8156F-15C9-41E7-9812-6E603FCD94ED}" Global="false">
+									<ObjectRef Name="JudgementGood" ID="{2FE5FDF9-3369-4085-B141-B6A96905FA34}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_JudgementNormal" ID="{F728F45D-16C8-4DB9-BAAE-9BFA59903AE1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1A0BF071-0CA1-4815-AFDB-9A8FF07438C3}" ShortID="255055672" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CC468CB5-8140-4F65-8441-80BBB336E245}" Global="false">
+									<ObjectRef Name="JudgementNormal" ID="{D016260D-C159-454C-BA08-CB594F90C0B0}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_JudgementSad" ID="{7799B01D-3CBB-4B35-BF9B-97D7E9D4153F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7E7F5548-5F69-487F-86EA-00674DF5E5DE}" ShortID="266210558" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CECCF52B-E37D-40A7-9550-E1FA70BBF0F2}" Global="false">
+									<ObjectRef Name="JudgementSad" ID="{18F43886-25FA-4366-8182-4122353DC401}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

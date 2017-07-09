@@ -3,26 +3,26 @@
 	<Platform GUID="{B5C4CCDE-A731-4196-B6F0-58A2F9EE8C4D}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Init" Hash="127443713" Timestamp="131440395380000000"/>
-				<File Name="UnityWwiseSB" Hash="563019796" Timestamp="131440395380000000"/>
+				<File Name="Init" Hash="127443713" Timestamp="131440400160000000"/>
+				<File Name="UnityWwiseSB" Hash="2382640722" Timestamp="131440400160000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3359097508" Timestamp="131440395380000000"/>
+				<File Name="" Hash="3359097508" Timestamp="131440400160000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{048B911D-F623-4B03-9AE6-F8077C2819AD}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Init" Hash="3379903367" Timestamp="131440395370000000"/>
-				<File Name="UnityWwiseSB" Hash="563019796" Timestamp="131440395370000000"/>
+				<File Name="Init" Hash="3379903367" Timestamp="131440400150000000"/>
+				<File Name="UnityWwiseSB" Hash="2382640722" Timestamp="131440400150000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="537271762" Timestamp="131440395370000000"/>
+				<File Name="" Hash="537271762" Timestamp="131440400150000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
