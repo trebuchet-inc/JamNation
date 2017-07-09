@@ -26,7 +26,9 @@ public class BagBehavior : MonoBehaviour {
 					ScoreFeedback sf = Instantiate(particule, transform.position, transform.rotation).GetComponent<ScoreFeedback>();
 					sf.Init();
 					sf.txt.text = item.item.scoreValue.ToString();
-					Destroy(item.gameObject);
+					// Destroy(item.gameObject);
+					item.gameObject.SetActive(false);
+					ObjectivesManager.Instance.itemsTaken.Add(item);
 				}
 			}
 		}

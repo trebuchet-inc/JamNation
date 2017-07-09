@@ -4,7 +4,8 @@ using UnityEngine;
 using NewtonVR;
 
 public class HandSwitch : MonoBehaviour {
-	[HideInInspector] public bool active;
+	[HideInInspector] 
+	public bool active;
 
 	Animator _anim;
 	NVRHand _hand;

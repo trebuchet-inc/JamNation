@@ -11,11 +11,12 @@ public class CrowdManager : MonoBehaviour
 	public GameObject NPCprefab;
 	public NpcInfo[] infos;
 
-	public int initialSpawnAmount;
+	public int startingAmount;
+	public int maxPooledAmount;
 	private List<ShelveSpawnerWrapper> _shelves = new List<ShelveSpawnerWrapper>();
 	private List<Npc> _pooledNPCs;
 
-	//DEBUG
+	//DEBUG.LOL
 	public Transform spawn;
 	public Transform[] exits;
 
@@ -27,38 +28,54 @@ public class CrowdManager : MonoBehaviour
 	private void Start()
 	{
 		_pooledNPCs = new List<Npc>();
-		StartCoroutine(SpawnNPCs(spawn.position, initialSpawnAmount));
+		StartCoroutine(SpawnInLine(spawn.position, startingAmount));
+	}
+
+	private GameObject Spawn()
+	{
+		Npc npcToSpawn = new Npc();
+
+		if(_pooledNPCs.Count < maxPooledAmount)
+		{
+			NewNPC();
+		}
+		
+		npcToSpawn = PullFromPool();
+		
+		npcToSpawn.gameObject.SetActive(true);		
+
+		return npcToSpawn.gameObject;
 	}
 	
-	private IEnumerator SpawnNPCs(Vector3 basePos, int number = 6) // WOLOLO
+	private IEnumerator SpawnInLine(Vector3 basePos, int number = 6, float initialDelay = 3) // WOLOLO
 	{
+		yield return new WaitForSeconds(initialDelay);
+		
 		for (int i = 0; i < number; i++)
 		{
-			if(_pooledNPCs.Count == 0)
-			{
-				NewNPC();
-			}
-			
-			Npc npcToSpawn = PullFromPool();
+			Vector3 pos = new Vector3(basePos.x, basePos.y, basePos.z + i * 1.5f);		
+			GameObject newNPC = Spawn();
+			newNPC.transform.SetPositionAndRotation(pos, Quaternion.identity);
+			newNPC.GetComponent<Npc>().stm.ChangeState(Npc.States.Target);	
 
-			Vector3 pos = new Vector3(basePos.x, basePos.y, basePos.z + i*1.5f);
-			npcToSpawn.gameObject.SetActive(true);
-			npcToSpawn.transform.SetPositionAndRotation(pos, Quaternion.identity);
-			
-			
-			npcToSpawn.stm.ChangeState(Npc.States.Target);
-			
-
-			yield return new WaitForSeconds(0.1f);
+			yield return new WaitForSeconds(0.15f);	
 		}
+	}
+
+	private void SpawnAtRandomPosition()
+	{
+		GameObject newNPC = Spawn();
+		Transform e = FindExit();
+		Vector3 pos = new Vector3(e.position.x + Random.value, e.position.y, e.position.z + Random.value);
+		newNPC.transform.SetPositionAndRotation(pos, Quaternion.identity);
+		newNPC.GetComponent<Npc>().stm.ChangeState(Npc.States.Target);	
 	}
 
 	private Npc PullFromPool()
 	{
-		Npc npcToPull = _pooledNPCs.OrderBy(n => Random.value).FirstOrDefault();
-		
-		npcToPull.targetShelve = RollTarget(npcToPull.info.favoriteItemSize);
+		Npc npcToPull = _pooledNPCs.OrderBy(n => Random.value).FirstOrDefault();		
 
+		npcToPull.Reset();
 		_pooledNPCs.Remove(npcToPull);
 
 		return npcToPull;
@@ -66,9 +83,10 @@ public class CrowdManager : MonoBehaviour
 
 	public void PushToPool(Npc npcToPush)
 	{
-		npcToPush.Reset();
 		npcToPush.gameObject.SetActive(false);
 		_pooledNPCs.Add(npcToPush);
+
+		SpawnAtRandomPosition();
 	}
 
 	private void NewNPC()
@@ -93,7 +111,21 @@ public class CrowdManager : MonoBehaviour
 	{
 		if(_shelves.Count == 0) _shelves = FindObjectsOfType<ShelveSpawnerWrapper>().ToList();
 
-		return  _shelves.OrderBy(s => Random.value).FirstOrDefault();
+		ShelveSpawnerWrapper shelve = _shelves.Where(s => s.preferedSize == favoriteSize).OrderBy(s => Random.value).FirstOrDefault();
+
+		if(shelve != null)
+		{
+			return shelve;
+		}		
+	
+		shelve = _shelves.Where(s => s.alternatePreferedSize == favoriteSize).OrderBy(s => Random.value).FirstOrDefault();
+
+		if(shelve != null)
+		{
+			return shelve;
+		}
+
+		return _shelves.OrderBy(s => Random.value).FirstOrDefault();		
 	}
 
 	public Transform FindExit()

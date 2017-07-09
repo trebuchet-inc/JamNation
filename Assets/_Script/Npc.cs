@@ -11,6 +11,8 @@ public class Npc : MonoBehaviour
 
 	public ShelveSpawnerWrapper targetShelve;
 
+	public bool canExit = false;
+
 	private NavMeshAgent _agent;
 	private Rigidbody _rb;
 	private Transform _modelAnchor;
@@ -56,7 +58,8 @@ public class Npc : MonoBehaviour
 		_rb.useGravity = false; 
 		itemsInHands.Clear();
 		_lastItem = null;
-		targetShelve = null;
+		targetShelve = CrowdManager.Instance.RollTarget(info.favoriteItemSize);
+		canExit = false;
 	}
 
 	private void Wander_Enter()
@@ -98,7 +101,7 @@ public class Npc : MonoBehaviour
 	{
 		if(targetShelve == null) stm.ChangeState(States.Wander);
 
-		if(_agent.remainingDistance < 1.2f)
+		if(_agent.isOnNavMesh && _agent.remainingDistance < 1.2f)
 		{
 			stm.ChangeState(States.Taking);
 		}
@@ -134,17 +137,24 @@ public class Npc : MonoBehaviour
 
 	private void Exiting_Enter()
 	{
-		_agent.ResetPath();
-		_agent.isStopped = false;
+		if(_agent.isOnNavMesh)
+		{
+			_agent.isStopped = false;
+			_agent.ResetPath();
+		}
 		GoTo(CrowdManager.Instance.FindExit().position);
 		_chanim.SetBool("isWalking", true);
+		canExit = true;
 	}	
 
 	private IEnumerator TakingSequence()
 	{
-		for (int i = 0; i < targetShelve.stock.Count; i++)
+		for (int i = 0; i < info.maxQtyInHands; i++)
 		{
-			TakeItem(targetShelve.stock[i]);
+			if(targetShelve.stock.Count > info.maxQtyInHands)
+			{
+				TakeItem(targetShelve.stock[i]);
+			}
 
 			yield return new WaitForSeconds(0.4f);
 		}
@@ -194,11 +204,14 @@ public class Npc : MonoBehaviour
 	{
 		yield return 0;
 		
-		foreach (Item item in itemsInHands)
+		if(itemsInHands.Count > 0)
 		{
-			item.transform.parent = null;
-			item.rb.isKinematic = false;
-			item.rb.AddExplosionForce(5, epicentre, 3, Random.Range(1.0f,3.0f), ForceMode.Impulse);
+			foreach (Item item in itemsInHands)
+			{
+				item.transform.parent = null;
+				item.rb.isKinematic = false;
+				item.rb.AddExplosionForce(5, epicentre, 3, Random.Range(1.0f,3.0f), ForceMode.Impulse);
+			}
 		}
 		
 		itemsInHands.Clear();
@@ -213,7 +226,7 @@ public class Npc : MonoBehaviour
 
 	public void GoTo(Vector3 pos)
 	{		
-		_agent.SetDestination(pos);
+		if(_agent.isOnNavMesh) _agent.SetDestination(pos);
 	}
 	
 	private IEnumerator Wander()

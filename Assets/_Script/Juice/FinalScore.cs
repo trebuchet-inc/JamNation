@@ -14,8 +14,9 @@ public class FinalScore : MonoBehaviour {
 		_text.text = "Your Score :\n" + TimerManager.Score;
 	}
 
-	public void Comment (int ok) {
-		switch(ok){
+	public void Comment (int ok = 0) {
+		// switch(ok){
+		switch(ObjectivesManager.Instance.CheckObjectives() - 1){
 			case 0 :
 				_text.text = "So bad";
 				_text.color = Color.red;
@@ -39,6 +40,12 @@ public class FinalScore : MonoBehaviour {
 				_text.color = Color.green;
 				AkSoundEngine.PostEvent("Play_JudgementGood", gameObject);
 			break; 
+
+			default:
+				_text.text = "So bad";
+				_text.color = Color.red;
+				AkSoundEngine.PostEvent("Play_JudgementSad", gameObject);
+			break;
 		}
 	}
 }

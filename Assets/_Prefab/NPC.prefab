@@ -80,7 +80,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1115202739531768}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.9094286, y: 0, z: 5.537397}
+  m_LocalPosition: {x: -2.15517, y: 0, z: -10.119216}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4444240554509434}
@@ -141,6 +141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   info: {fileID: 0}
   targetShelve: {fileID: 0}
+  canExit: 0
   itemsInHands: []
 --- !u!195 &195551788473134896
 NavMeshAgent:
@@ -150,7 +151,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1115202739531768}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 1
+  m_Radius: 0.35
   m_Speed: 8
   m_Acceleration: 12
   avoidancePriority: 50
