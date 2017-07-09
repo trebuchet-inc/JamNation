@@ -66,7 +66,7 @@ public class CrowdManager : MonoBehaviour
 	{
 		GameObject newNPC = Spawn();
 		Transform e = FindExit();
-		Vector3 pos = new Vector3(e.position.x + Random.value, e.position.y, e.position.z + Random.value);
+		Vector3 pos = new Vector3(e.position.x + Random.value, e.position.y, e.position.z);
 		newNPC.transform.SetPositionAndRotation(pos, Quaternion.identity);
 		newNPC.GetComponent<Npc>().stm.ChangeState(Npc.States.Target);	
 	}
