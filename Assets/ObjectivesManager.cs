@@ -32,7 +32,9 @@ public class ObjectivesManager : MonoBehaviour
 	{
 		for (int i = 0; i < numberOfObjectives; i++)
 		{
-			objectivesToComplete.Add(RollObjective());
+			Objective o = RollObjective();			
+			
+			objectivesToComplete.Add(o);
 		}
 	}
 
@@ -41,6 +43,11 @@ public class ObjectivesManager : MonoBehaviour
 		Objective newObjective = new Objective();	
 
 		newObjective.itemToGet = itemsInStore.OrderBy(i => Random.value).FirstOrDefault().item;
+
+		if(objectivesToComplete.Any(ob => ob.itemToGet == newObjective.itemToGet))
+		{
+			RollObjective();
+		}
 
 		newObjective.qtyToGet = Random.Range(5,10);
 
