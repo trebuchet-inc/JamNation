@@ -116,13 +116,6 @@ public class CrowdManager : MonoBehaviour
 		if(shelve != null)
 		{
 			return shelve;
-		}		
-	
-		shelve = _shelves.Where(s => s.alternatePreferedSize == favoriteSize).OrderBy(s => Random.value).FirstOrDefault();
-
-		if(shelve != null)
-		{
-			return shelve;
 		}
 
 		return _shelves.OrderBy(s => Random.value).FirstOrDefault();		

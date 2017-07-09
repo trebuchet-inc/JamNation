@@ -19,6 +19,7 @@ public class ObjectivesManager : MonoBehaviour
 	
 	public int numberOfObjectives;
 	public List<Objective> objectivesToComplete = new List<Objective>();
+	public List<ItemInfo> itemsInStore = new List<ItemInfo>();
 
 	public List<Item> itemsTaken = new List<Item>();
 	
@@ -37,17 +38,10 @@ public class ObjectivesManager : MonoBehaviour
 
 	public Objective RollObjective()
 	{
-		Objective newObjective = new Objective();
-		GameObject[] itemsInStore = ItemDatabase.Instance.items;
-		List<ItemInfo> availableItems = new List<ItemInfo>();
+		Objective newObjective = new Objective();	
 
-		foreach (var item in itemsInStore)
-		{
-			availableItems.Add(item.GetComponent<Item>().item);
-		}
-
-		newObjective.itemToGet = availableItems.OrderBy(i => Random.value).FirstOrDefault();
-		availableItems.Remove(newObjective.itemToGet);
+		newObjective.itemToGet = itemsInStore.OrderBy(i => Random.value).FirstOrDefault();
+		itemsInStore.Remove(newObjective.itemToGet);
 
 		newObjective.qtyToGet = Random.Range(5,15);
 
