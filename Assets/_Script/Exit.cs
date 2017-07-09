@@ -5,11 +5,11 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider))]
 public class Exit : MonoBehaviour {
 
-	private void OnTriggerEnter(Collider col)
+	private void OnTriggerEnter(Collider other)
 	{
-		Npc n = col.gameObject.GetComponent<Npc>();
+		Npc n = other.GetComponentInParent<Npc>();
 
-		if(n != null)
+		if(n != null && n.canExit)
 		{
 			CrowdManager.Instance.PushToPool(n);
 		}

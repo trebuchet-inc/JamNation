@@ -7,9 +7,6 @@ public class ZoneSpawnerWrapper : MonoBehaviour {
 	public ItemType preferedZoneType;
 	public GameObject myZone;
 
-
-	// Use this for initialization
-
 	void Awake()
 	{
 		preferedZoneType = (ItemType)Random.Range(0,3);

@@ -16,7 +16,7 @@ public class CrowdManager : MonoBehaviour
 	private List<ShelveSpawnerWrapper> _shelves = new List<ShelveSpawnerWrapper>();
 	private List<Npc> _pooledNPCs;
 
-	//DEBUG
+	//DEBUG.LOL
 	public Transform spawn;
 	public Transform[] exits;
 
@@ -47,8 +47,10 @@ public class CrowdManager : MonoBehaviour
 		return npcToSpawn.gameObject;
 	}
 	
-	private IEnumerator SpawnInLine(Vector3 basePos, int number = 6) // WOLOLO
+	private IEnumerator SpawnInLine(Vector3 basePos, int number = 6, float initialDelay = 3) // WOLOLO
 	{
+		yield return new WaitForSeconds(initialDelay);
+		
 		for (int i = 0; i < number; i++)
 		{
 			Vector3 pos = new Vector3(basePos.x, basePos.y, basePos.z + i * 1.5f);		
@@ -56,14 +58,15 @@ public class CrowdManager : MonoBehaviour
 			newNPC.transform.SetPositionAndRotation(pos, Quaternion.identity);
 			newNPC.GetComponent<Npc>().stm.ChangeState(Npc.States.Target);	
 
-			yield return new WaitForSeconds(0.4f);	
+			yield return new WaitForSeconds(0.15f);	
 		}
 	}
 
 	private void SpawnAtRandomPosition()
 	{
 		GameObject newNPC = Spawn();
-		Vector3 pos = FindExit().position;
+		Transform e = FindExit();
+		Vector3 pos = new Vector3(e.position.x + Random.value, e.position.y, e.position.z + Random.value);
 		newNPC.transform.SetPositionAndRotation(pos, Quaternion.identity);
 		newNPC.GetComponent<Npc>().stm.ChangeState(Npc.States.Target);	
 	}
@@ -108,7 +111,21 @@ public class CrowdManager : MonoBehaviour
 	{
 		if(_shelves.Count == 0) _shelves = FindObjectsOfType<ShelveSpawnerWrapper>().ToList();
 
-		return  _shelves.OrderBy(s => Random.value).FirstOrDefault();
+		ShelveSpawnerWrapper shelve = _shelves.Where(s => s.preferedSize == favoriteSize).OrderBy(s => Random.value).FirstOrDefault();
+
+		if(shelve != null)
+		{
+			return shelve;
+		}		
+	
+		shelve = _shelves.Where(s => s.alternatePreferedSize == favoriteSize).OrderBy(s => Random.value).FirstOrDefault();
+
+		if(shelve != null)
+		{
+			return shelve;
+		}
+
+		return _shelves.OrderBy(s => Random.value).FirstOrDefault();		
 	}
 
 	public Transform FindExit()
