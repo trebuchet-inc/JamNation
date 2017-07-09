@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Project="JamNation_WwiseProject" Platform="Windows" BasePlatform="Windows">
-	<Plugins/>
+	<Plugins>
+		<Plugin Name="Wwise Pitch Shifter" ID="8912899" DLL="AkPitchShifter"/>
+	</Plugins>
 </PluginInfo>

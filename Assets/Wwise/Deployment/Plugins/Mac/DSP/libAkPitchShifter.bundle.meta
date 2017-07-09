@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3650951d674ed824eaad70fc86d92b7a
-timeCreated: 1499478421
+timeCreated: 1499566524
 licenseType: Free
 PluginImporter:
   serializedVersion: 2
@@ -19,9 +19,11 @@ PluginImporter:
       first:
         Editor: Editor
       second:
-        enabled: 0
+        enabled: 1
         settings:
+          CPU: AnyCPU
           DefaultValueInitialized: true
+          OS: OSX
     data:
       first:
         Facebook: Win
@@ -61,21 +63,21 @@ PluginImporter:
       first:
         Standalone: OSXIntel
       second:
-        enabled: 0
+        enabled: 1
         settings:
           CPU: AnyCPU
     data:
       first:
         Standalone: OSXIntel64
       second:
-        enabled: 0
+        enabled: 1
         settings:
           CPU: AnyCPU
     data:
       first:
         Standalone: OSXUniversal
       second:
-        enabled: 0
+        enabled: 1
         settings:
           CPU: AnyCPU
     data:

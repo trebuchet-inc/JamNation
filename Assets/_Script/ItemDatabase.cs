@@ -12,7 +12,7 @@ public class ItemDatabase : MonoBehaviour {
 
 	// List<Item> allStock = new List<Item>();
 	// List<ShelveSpawnerWrapper> 
-	public static int Score;
+
 	// Use this for initialization
 	
 	void Awake()

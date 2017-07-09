@@ -45,7 +45,9 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 			{
 				Vector3 p = t.GetChild(i).position;
 				GameObject g = (GameObject)Instantiate(item,p,Quaternion.identity,transform);
-				stock.Add(g.GetComponent<Item>());
+				Item newItem = g.GetComponent<Item>();
+				newItem.Init();
+				stock.Add(newItem);
 
 			}
 			break;
@@ -79,6 +81,9 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 							g.transform.localPosition = pos;
 							g.transform.localRotation = spawner.localRotation;
 							stock.Add(g.GetComponent<Item>());							
+							Item newItem = g.GetComponent<Item>();
+							newItem.Init();
+							stock.Add(newItem);							
 						}
 					}
 				}
@@ -127,8 +132,10 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 		for (int i = 0; i < itemAmount; i++)
 		{
 			GameObject g = (GameObject)Instantiate(item,spawner.position,Quaternion.identity,transform);
-			stock.Add(g.GetComponent<Item>());
-			yield return new WaitForSeconds (0.2f);			
+			Item newItem = g.GetComponent<Item>();
+			newItem.Init();
+			stock.Add(newItem);
+			yield return new WaitForSeconds(0.2f);
 		}
 		SpawnDone = true;
 	}

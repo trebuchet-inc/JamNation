@@ -171,18 +171,42 @@ public class Npc : MonoBehaviour
 			pos = _itemHolder.transform.position;
 		}
 
-		item.GetComponent<Rigidbody>().isKinematic = true;		
+		item.rb.isKinematic = true;		
 		item.transform.SetPositionAndRotation(pos, Quaternion.identity);
 		_lastItem = item;
 		
 		targetShelve.stock.Remove(item);	
 	}
 
+	private IEnumerator GetHit(Vector3 epicentre)
+	{
+		_agent.isStopped = true;
+		_agent.enabled = false;
+
+		_chanim.SetBool("isHolding", false);
+		_chanim.SetBool("isWalking", false);
+
+		foreach (Item item in itemsInHands)
+		{
+			item.transform.parent = null;
+			item.rb.isKinematic = false;
+			item.rb.AddExplosionForce(5, epicentre, 3, Random.Range(1.0f,3.0f), ForceMode.Impulse);
+		}
+		
+		itemsInHands.Clear();
+
+		_rb.AddExplosionForce(info.forceOnPunch, epicentre, 0, Random.Range(2.5f, 5.0f), ForceMode.Impulse);
+
+		yield return new WaitForSeconds(3.0f);
+
+		CrowdManager.Instance.PushToPool(this);
+	}
+
 	public void GoTo(Vector3 pos)
 	{		
 		_agent.SetDestination(pos);
 	}
-
+	
 	private IEnumerator Wander()
 	{
 		yield return new WaitForSeconds(Random.Range(1f,4f));
@@ -213,5 +237,14 @@ public class Npc : MonoBehaviour
 		}
 		
 		return null;
+	}
+
+	private void OnCollisionEnter(Collision col)
+	{
+		if(col.gameObject.CompareTag("Hand"))
+		{
+			AkSoundEngine.PostEvent("Play_Fatlord", gameObject);
+			StartCoroutine(GetHit(col.contacts[Random.Range(0, col.contacts.Length)].point));
+		}
 	}
 }
