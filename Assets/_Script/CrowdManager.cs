@@ -45,14 +45,9 @@ public class CrowdManager : MonoBehaviour
 			npcToSpawn.gameObject.SetActive(true);
 			npcToSpawn.transform.SetPositionAndRotation(pos, Quaternion.identity);
 			
-			if(Random.value > 0.8f)
-			{
-				npcToSpawn.stm.ChangeState(Npc.States.Wander);
-			}
-			else
-			{
-				npcToSpawn.stm.ChangeState(Npc.States.Target);
-			}
+			
+			npcToSpawn.stm.ChangeState(Npc.States.Target);
+			
 
 			yield return new WaitForSeconds(0.1f);
 		}
