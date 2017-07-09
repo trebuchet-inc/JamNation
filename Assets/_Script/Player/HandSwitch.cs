@@ -13,6 +13,9 @@ public class HandSwitch : MonoBehaviour {
 	void Start () {
 		_anim = GetComponent<Animator>();
 		_hand = transform.parent.GetComponent<NVRHand>();
+		if(_hand == null){
+			_hand = transform.parent.parent.GetComponent<NVRHand>();
+		}
 	}
 	
 	void Update () {

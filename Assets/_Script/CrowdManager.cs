@@ -53,12 +53,12 @@ public class CrowdManager : MonoBehaviour
 		
 		for (int i = 0; i < number; i++)
 		{
-			Vector3 pos = new Vector3(basePos.x, basePos.y, basePos.z + i * 1.5f);		
+			Vector3 pos = new Vector3(basePos.x, basePos.y, basePos.z);		
 			GameObject newNPC = Spawn();
 			newNPC.transform.SetPositionAndRotation(pos, Quaternion.identity);
 			newNPC.GetComponent<Npc>().stm.ChangeState(Npc.States.Target);	
 
-			yield return new WaitForSeconds(0.15f);	
+			yield return new WaitForSeconds(0.2f);	
 		}
 	}
 
