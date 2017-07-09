@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3559183329	Play_JudgementSad			\Default Work Unit\Play_JudgementSad	
 	3600446858	Play_JudgementNormal			\Default Work Unit\Play_JudgementNormal	
 	3897521140	Play_ComicconTheme___Blackhole_Friday			\Default Work Unit\Play_ComicconTheme___Blackhole_Friday	
+	3963583487	Play_DrumRoll			\Default Work Unit\Play_DrumRoll	
 	3996494794	Play_HitAlien			\Default Work Unit\Play_HitAlien	
 	3996652692	Play_SFX_Ball_inCup1			\Default Work Unit\Play_SFX_Ball_inCup1	
 	4007426814	Play_Zorg			\Default Work Unit\Play_Zorg	
@@ -32,6 +33,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	317484023	SFX_Portal	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\SFX_Portal_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Portail\SFX_Portal		262748
 	323054876	Leen_01	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Leen_01_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_01\Leen_01		352992
 	327164095	Alah_09	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Alah_09_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_09\Alah_09		183944
+	336319467	SFX_DrumRoll	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\SFX_DrumRoll_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\DrumRoll\SFX_DrumRoll		1048720
 	344592711	Leen_08	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Leen_08_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_08\Leen_08		352944
 	365093469	SFX_Pickup4	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\SFX_Pickup4_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Box_pickup\SFX_Pickup4\SFX_Pickup4		352992
 	370330302	Leen_10	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Leen_10_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_10\Leen_10		485244
