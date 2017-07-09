@@ -143,6 +143,8 @@ MonoBehaviour:
   targetShelve: {fileID: 0}
   canExit: 0
   itemsInHands: []
+  particleHit: {fileID: 1943203672138792, guid: 74d296b5bb2237b41bbe44a54ccfd2d5,
+    type: 2}
 --- !u!195 &195551788473134896
 NavMeshAgent:
   m_ObjectHideFlags: 1

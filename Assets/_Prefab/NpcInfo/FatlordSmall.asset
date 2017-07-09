@@ -14,6 +14,6 @@ MonoBehaviour:
   Name: Farlord
   model: {fileID: 1947606822882072, guid: db874f5d97cdf4d4f8218e2fb098d7fe, type: 2}
   moveSpeed: 2
-  forceOnPunch: 12.5
+  forceOnPunch: 4
   favoriteItemSize: 1
   maxQtyInHands: 8

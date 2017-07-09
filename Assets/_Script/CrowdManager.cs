@@ -42,7 +42,7 @@ public class CrowdManager : MonoBehaviour
 		
 		npcToSpawn = PullFromPool();
 		
-		npcToSpawn.gameObject.SetActive(true);		
+		npcToSpawn.gameObject.SetActive(true);	
 
 		return npcToSpawn.gameObject;
 	}

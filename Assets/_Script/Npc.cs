@@ -23,6 +23,8 @@ public class Npc : MonoBehaviour
 	private Item _lastItem;
 	string eventSound;
 
+	public GameObject particleHit;
+
 	public enum States
 	{
 		Wander,
@@ -53,13 +55,6 @@ public class Npc : MonoBehaviour
 		else{
 			eventSound = "Play_Fatlord";
 		}
-		StartCoroutine(soundPlay());
-	}
-
-	IEnumerator soundPlay(){
-		yield return new WaitForSeconds(Random.Range(5.0f,20.0f));
-		AkSoundEngine.PostEvent(eventSound, gameObject);
-		StartCoroutine(soundPlay());
 	}
 
 	public void Reset()
@@ -218,6 +213,8 @@ public class Npc : MonoBehaviour
 	{
 		yield return 0;
 		
+		AkSoundEngine.PostEvent("Play_BoxTumble", gameObject);
+		
 		if(itemsInHands.Count > 0)
 		{
 			foreach (Item item in itemsInHands)
@@ -227,6 +224,8 @@ public class Npc : MonoBehaviour
 				item.rb.AddExplosionForce(5, epicentre, 3, Random.Range(1.0f,3.0f), ForceMode.Impulse);
 			}
 		}
+
+		Instantiate(particleHit, epicentre, Quaternion.identity); 
 		
 		itemsInHands.Clear();
 		_rb.constraints = RigidbodyConstraints.None;
