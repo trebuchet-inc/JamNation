@@ -27,7 +27,7 @@ public class TimesUpBehavior : MonoBehaviour {
 			}
 
 			transform.position = _head.position;
-			transform.rotation = Quaternion.Lerp(transform.rotation, _head.rotation, Time.deltaTime * 10);
+			transform.rotation = Quaternion.Lerp(transform.rotation, _head.rotation, Time.deltaTime * 5);
 			_timer += Time.deltaTime;
 			if(_timer >= 4){
 				_canvas.gameObject.SetActive(false);

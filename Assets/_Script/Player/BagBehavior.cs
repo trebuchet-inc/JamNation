@@ -27,6 +27,7 @@ public class BagBehavior : MonoBehaviour {
 					sf.Init();
 					sf.txt.text = item.item.scoreValue.ToString();
 					// Destroy(item.gameObject);
+					AkSoundEngine.PostEvent("Play_Box_pickup", gameObject);
 					item.gameObject.SetActive(false);
 					ObjectivesManager.Instance.itemsTaken.Add(item);
 				}
