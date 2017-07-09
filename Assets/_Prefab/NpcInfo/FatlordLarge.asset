@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58fe0e71c8c35a14884fd6355acf29b1, type: 3}
   m_Name: FatlordLarge
   m_EditorClassIdentifier: 
+  Name: Farlord
   model: {fileID: 1947606822882072, guid: db874f5d97cdf4d4f8218e2fb098d7fe, type: 2}
   moveSpeed: 2
   forceOnPunch: 12.5

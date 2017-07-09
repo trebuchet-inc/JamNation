@@ -231,7 +231,9 @@ public class Npc : MonoBehaviour
 		itemsInHands.Clear();
 		_rb.constraints = RigidbodyConstraints.None;
 		_rb.useGravity = true; 
-		_rb.AddExplosionForce(info.forceOnPunch, epicentre, 1, 1f, ForceMode.Impulse);
+		Vector3 dir = (epicentre - transform.position).normalized;
+		_rb.AddForce(dir * info.forceOnPunch, ForceMode.Impulse);
+		_rb.AddTorque(new Vector3(Random.Range(-2f,2f),Random.Range(-2f,2f),Random.Range(-2f,2f)), ForceMode.Impulse);
 
 		yield return new WaitForSeconds(3.0f);
 
