@@ -25,7 +25,7 @@ public class CrowdManager : MonoBehaviour
 		Instance = this;
 	}
 
-	private void Start()
+	public void Go()
 	{
 		_pooledNPCs = new List<Npc>();
 		StartCoroutine(SpawnInLine(spawn.position, startingAmount));
@@ -47,7 +47,7 @@ public class CrowdManager : MonoBehaviour
 		return npcToSpawn.gameObject;
 	}
 	
-	private IEnumerator SpawnInLine(Vector3 basePos, int number = 6, float initialDelay = 3) // WOLOLO
+	private IEnumerator SpawnInLine(Vector3 basePos, int number = 6, float initialDelay = 0) // WOLOLO
 	{
 		yield return new WaitForSeconds(initialDelay);
 		

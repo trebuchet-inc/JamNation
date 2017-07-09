@@ -17,14 +17,17 @@
 			<Path>UnityWwiseSB.bnk</Path>
 			<IncludedEvents>
 				<Event Id="297512792" Name="Play_Box_pickup" ObjectPath="\Events\Default Work Unit\Play_Box_pickup"/>
+				<Event Id="2874278012" Name="Play_BoxTumble" ObjectPath="\Events\Default Work Unit\Play_BoxTumble"/>
 				<Event Id="2547602862" Name="Play_Fatlord" ObjectPath="\Events\Default Work Unit\Play_Fatlord"/>
 				<Event Id="2198549209" Name="Play_FishBob" ObjectPath="\Events\Default Work Unit\Play_FishBob"/>
 				<Event Id="3996494794" Name="Play_HitAlien" ObjectPath="\Events\Default Work Unit\Play_HitAlien"/>
 				<Event Id="2182557356" Name="Play_JudgementGood" ObjectPath="\Events\Default Work Unit\Play_JudgementGood"/>
 				<Event Id="3600446858" Name="Play_JudgementNormal" ObjectPath="\Events\Default Work Unit\Play_JudgementNormal"/>
 				<Event Id="3559183329" Name="Play_JudgementSad" ObjectPath="\Events\Default Work Unit\Play_JudgementSad"/>
+				<Event Id="1884364967" Name="Play_Portail" ObjectPath="\Events\Default Work Unit\Play_Portail"/>
 				<Event Id="2847098557" Name="Play_SFX_Ball_bounce1" ObjectPath="\Events\Default Work Unit\Play_SFX_Ball_bounce1"/>
 				<Event Id="3996652692" Name="Play_SFX_Ball_inCup1" ObjectPath="\Events\Default Work Unit\Play_SFX_Ball_inCup1"/>
+				<Event Id="179701504" Name="Play_SFX_SlidingDoor" ObjectPath="\Events\Default Work Unit\Play_SFX_SlidingDoor"/>
 				<Event Id="4007426814" Name="Play_Zorg" ObjectPath="\Events\Default Work Unit\Play_Zorg"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -59,6 +62,10 @@
 				<File Id="306863027" Language="SFX">
 					<ShortName>Leen_06.wav</ShortName>
 					<Path>SFX/Leen_06_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="317484023" Language="SFX">
+					<ShortName>SFX_Portal.wav</ShortName>
+					<Path>SFX/SFX_Portal_9E69E797.wem</Path>
 				</File>
 				<File Id="323054876" Language="SFX">
 					<ShortName>Leen_01.wav</ShortName>
@@ -152,6 +159,10 @@
 					<ShortName>Alah_02.wav</ShortName>
 					<Path>SFX/Alah_02_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="653559908" Language="SFX">
+					<ShortName>SFX_SlidingDoor.wav</ShortName>
+					<Path>SFX/SFX_SlidingDoor_9E69E797.wem</Path>
+				</File>
 				<File Id="660888847" Language="SFX">
 					<ShortName>SFX_PunchingAliens.wav</ShortName>
 					<Path>SFX/SFX_PunchingAliens_9E69E797.wem</Path>
@@ -167,6 +178,10 @@
 				<File Id="676477376" Language="SFX">
 					<ShortName>Hala_03.wav</ShortName>
 					<Path>SFX/Hala_03_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="701549987" Language="SFX">
+					<ShortName>SFX_BoxesTumble2.wav</ShortName>
+					<Path>SFX/SFX_BoxesTumble2_9E69E797.wem</Path>
 				</File>
 				<File Id="715627970" Language="SFX">
 					<ShortName>Alah_11.wav</ShortName>

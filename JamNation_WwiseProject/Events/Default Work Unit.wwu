@@ -113,6 +113,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_BoxTumble" ID="{53C7069D-872F-4528-82F1-DC7454480637}">
+					<ChildrenList>
+						<Action Name="Play" ID="{944E2455-B580-457A-A2B8-8C09BC6F3DF1}" ShortID="584791573" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{5104D2A9-E091-4D2D-AFAB-5F849936E0C2}" Global="false">
+									<ObjectRef Name="BoxTumble" ID="{9173BCD3-814E-4178-8CB4-4FB6CC0BFDBF}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Portail" ID="{122A27D3-5A59-4963-A454-5AF8BD80C184}">
+					<ChildrenList>
+						<Action Name="Play" ID="{62115147-BBCF-4333-B109-198FD238D5B5}" ShortID="988047089" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{09A557B6-63BD-490E-8EEE-455D82890893}" Global="false">
+									<ObjectRef Name="Portail" ID="{327E19FA-0563-45C3-9387-884BCCFA4EFB}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_SlidingDoor" ID="{DD519EED-7C43-4F4B-9D9F-F1346F1F24F4}">
+					<ChildrenList>
+						<Action Name="Play" ID="{84ADE8E6-78FF-4F6E-B112-1455D0B5843C}" ShortID="982067643" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{79328562-7EEC-4839-A3E8-7C6F0F9FAE21}" Global="false">
+									<ObjectRef Name="SFX_SlidingDoor" ID="{8BC23DFB-D163-4877-8BB2-5EA424F942AB}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

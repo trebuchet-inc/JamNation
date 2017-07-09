@@ -10,16 +10,17 @@ public class Door : MonoBehaviour {
 		_anim = GetComponent<Animator>();
 	}
 
-	private void OnTriggerStay(Collider other)
+	private void OnTriggerEnter(Collider other)
 	{
-		if(other.attachedRigidbody.tag == "Player"){
+		if(other.attachedRigidbody != null && other.attachedRigidbody.tag == "Player"){
 			_anim.SetBool("Open", true);
+			TimerManager.started = true;
 		}
 	}
 
 	private void OnTriggerExit(Collider other)
 	{
-		if(other.attachedRigidbody.tag == "Player"){
+		if(other.attachedRigidbody != null && other.attachedRigidbody.tag == "Player"){
 			_anim.SetBool("Open", false);
 		}
 	}
