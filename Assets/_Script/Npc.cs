@@ -113,9 +113,9 @@ public class Npc : MonoBehaviour
 
 	private void Target_Update()
 	{
-		if(targetShelve == null) stm.ChangeState(States.Wander);
+		if(targetShelve == null || targetShelve.stock.Count <= 0) targetShelve = CrowdManager.Instance.RollTarget(info.favoriteItemSize);
 
-		if(_agent.isOnNavMesh && _agent.remainingDistance < 5f)
+		if(_agent.isOnNavMesh && _agent.remainingDistance < 2f)
 		{
 			stm.ChangeState(States.Taking);
 		}
@@ -163,13 +163,11 @@ public class Npc : MonoBehaviour
 
 	private IEnumerator TakingSequence()
 	{
-		for (int i = 0; i < info.maxQtyInHands; i++)
-		{
-			if(targetShelve.stock.Count > info.maxQtyInHands)
-			{
-				TakeItem(targetShelve.stock[i]);
-			}
 
+		Item[] fuckalex = targetShelve.stock.ToArray();
+		for (int i = 0; (i < info.maxQtyInHands && i < fuckalex.Length); i++)
+		{
+			TakeItem(fuckalex[i]);
 			yield return new WaitForSeconds(0.4f);
 		}
 
