@@ -66,7 +66,7 @@ public class CrowdManager : MonoBehaviour
 	{
 		GameObject newNPC = Spawn();
 		Transform e = FindExit();
-		Vector3 pos = new Vector3(e.position.x + Random.value, e.position.y, e.position.z + Random.value);
+		Vector3 pos = new Vector3(e.position.x + Random.value, e.position.y, e.position.z);
 		newNPC.transform.SetPositionAndRotation(pos, Quaternion.identity);
 		newNPC.GetComponent<Npc>().stm.ChangeState(Npc.States.Target);	
 	}
@@ -112,13 +112,6 @@ public class CrowdManager : MonoBehaviour
 		if(_shelves.Count == 0) _shelves = FindObjectsOfType<ShelveSpawnerWrapper>().ToList();
 
 		ShelveSpawnerWrapper shelve = _shelves.Where(s => s.preferedSize == favoriteSize).OrderBy(s => Random.value).FirstOrDefault();
-
-		if(shelve != null)
-		{
-			return shelve;
-		}		
-	
-		shelve = _shelves.Where(s => s.alternatePreferedSize == favoriteSize).OrderBy(s => Random.value).FirstOrDefault();
 
 		if(shelve != null)
 		{

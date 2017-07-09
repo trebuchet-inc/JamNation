@@ -18,8 +18,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 	public ItemType preferedType;
 	public int itemAmount;
 	private Vector3 spawnZone;
-	[HideInInspector]
-	public GameObject item;
+
 	[HideInInspector]
 	public List<Item> stock = new List<Item>();
 	private Transform spawner;
@@ -30,32 +29,37 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 		GameObject preview = transform.Find("PreviewModel").gameObject;
 		spawnZone = preview.transform.localScale;
 		preview.SetActive(false);
-		RollForItem();
+		GameObject item = RollForItem();
+		
+		ObjectivesManager.Instance.itemsInStore.Add(item.GetComponent<ItemInfo>());
+
 		spawner = transform.GetChild(0);
 		switch ((int)shelveSpawnType)
 		{			
 			case 0: 
-				StartCoroutine(TopMessSpawner());
+				StartCoroutine(TopMessSpawner(item));
 			break;
 
 			case 1: 
-				StartCoroutine(OrderedArray());
+				StartCoroutine(OrderedArray(item));
 			break;
 
 			case 2: 
-				StartCoroutine(ForStack());
+				StartCoroutine(ForStack(item));
 			break;
 
 			default:
-				StartCoroutine(TopMessSpawner());
+				StartCoroutine(TopMessSpawner(item));
 			break;
 		}		
 	}
 
-	private void RollForItem()
+	private GameObject RollForItem()
 	{
+		GameObject itemRolled = new GameObject();
+
 		float topEggRoll = 0f;
-		int bonjour = 0;
+
 		for(int i = 0; i < ItemDatabase.Instance.items.Length;i++)
 		{
 			Item itemScript = ItemDatabase.Instance.items[i].GetComponent<Item>();
@@ -67,27 +71,19 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 				if (f>topEggRoll)
 				{
 					topEggRoll = f;
-					bonjour = i;
+					itemRolled = ItemDatabase.Instance.items[i];
 				}
-			}
-			if (size == alternatePreferedSize && type == preferedType && twoSizeWrapper)
-			{
-				float f = Random.Range(0.1f,100f);
-				if (f>topEggRoll)
-				{
-					topEggRoll = f;
-					bonjour = i;
-				}
-			} 
+			}		
 		}
-		item = ItemDatabase.Instance.items[bonjour];
+		
+		return itemRolled;
 	}
 
-	private IEnumerator TopMessSpawner() 
+	private IEnumerator TopMessSpawner(GameObject it) 
 	{
 		for (int i = 0; i < itemAmount; i++)
 		{
-			GameObject g = (GameObject)Instantiate(item,spawner.position,Quaternion.identity,transform);
+			GameObject g = (GameObject)Instantiate(it,spawner.position,Quaternion.identity,transform);
 			Item newItem = g.GetComponent<Item>();
 			newItem.Init();
 			stock.Add(newItem);
@@ -96,7 +92,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 		SpawnDone = true;
 	}
 
-	private IEnumerator OrderedArray()
+	private IEnumerator OrderedArray(GameObject it)
 	{
 		yield return 0;
 
@@ -106,7 +102,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 		for (int i = 0; i < count; i++)
 		{
 			Vector3 p = t.GetChild(i).position;
-			GameObject g = (GameObject)Instantiate(item,p,Quaternion.identity,transform);
+			GameObject g = (GameObject)Instantiate(it,p,Quaternion.identity,transform);
 			Item newItem = g.GetComponent<Item>();
 			newItem.Init();
 			stock.Add(newItem);
@@ -115,11 +111,11 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 		}
 	}
 
-	private IEnumerator ForStack()
+	private IEnumerator ForStack(GameObject it)
 	{
 		yield return 0;
 
-		BoxCollider col = item.GetComponentInChildren<BoxCollider>();
+		BoxCollider col = it.GetComponentInChildren<BoxCollider>();
 				
 		float itemXLength = col.size.x;
 		float itemYLength = col.size.y;
@@ -141,7 +137,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 					Vector3 posMultiplier = new Vector3(-x*itemXLength,y*itemYLength,-z*itemZLength);
 					Vector3 randomizer = new Vector3(Random.Range(-0.01f,0.01f),Random.Range(-0.01f,0.01f),Random.Range(-0.01f,0.01f));
 					Vector3 pos = spawner.localPosition + spaceAjust + posMultiplier +adjustment+ randomizer;
-					GameObject g = (GameObject)Instantiate(item,pos,Quaternion.identity,transform);
+					GameObject g = (GameObject)Instantiate(it,pos,Quaternion.identity,transform);
 					g.transform.localPosition = pos;
 					g.transform.localRotation = spawner.localRotation;						
 					Item newItem = g.GetComponent<Item>();
@@ -153,5 +149,4 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 		}
 		SpawnDone = true;
 	}
-
 }

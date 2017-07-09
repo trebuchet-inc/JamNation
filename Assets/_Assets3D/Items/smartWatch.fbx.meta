@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 503de0f8a2ccd764b87f83875c57157f
-timeCreated: 1499572483
+guid: d2f30000fec1c234b893c2fa95fa3e8d
+timeCreated: 1499606392
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: pCylinder1
+    4300000: smartWatch
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -37,7 +37,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 2.2
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
