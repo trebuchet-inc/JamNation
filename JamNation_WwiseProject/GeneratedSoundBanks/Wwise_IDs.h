@@ -14,14 +14,17 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_BOX_PICKUP = 297512792U;
+        static const AkUniqueID PLAY_BOXTUMBLE = 2874278012U;
         static const AkUniqueID PLAY_FATLORD = 2547602862U;
         static const AkUniqueID PLAY_FISHBOB = 2198549209U;
         static const AkUniqueID PLAY_HITALIEN = 3996494794U;
         static const AkUniqueID PLAY_JUDGEMENTGOOD = 2182557356U;
         static const AkUniqueID PLAY_JUDGEMENTNORMAL = 3600446858U;
         static const AkUniqueID PLAY_JUDGEMENTSAD = 3559183329U;
+        static const AkUniqueID PLAY_PORTAIL = 1884364967U;
         static const AkUniqueID PLAY_SFX_BALL_BOUNCE1 = 2847098557U;
         static const AkUniqueID PLAY_SFX_BALL_INCUP1 = 3996652692U;
+        static const AkUniqueID PLAY_SFX_SLIDINGDOOR = 179701504U;
         static const AkUniqueID PLAY_ZORG = 4007426814U;
     } // namespace EVENTS
 
