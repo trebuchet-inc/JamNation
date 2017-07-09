@@ -178,6 +178,18 @@ public class Npc : MonoBehaviour
 		targetShelve.stock.Remove(item);	
 	}
 
+	private IEnumerator GetHit(Vector3 epicentre)
+	{
+		_agent.isStopped = true;
+		_agent.enabled = false;
+
+		_rb.AddExplosionForce(info.forceOnPunch, epicentre, 0, 4.0f, ForceMode.Impulse);
+
+		yield return new WaitForSeconds(3.0f);
+
+		CrowdManager.Instance.PushToPool(this);
+	}
+
 	public void GoTo(Vector3 pos)
 	{		
 		_agent.SetDestination(pos);
@@ -213,5 +225,13 @@ public class Npc : MonoBehaviour
 		}
 		
 		return null;
+	}
+
+	private void OnCollisionEnter(Collision col)
+	{
+		if(col.gameObject.CompareTag("Hand"))
+		{
+			StartCoroutine(GetHit(col.contacts[Random.Range(0, col.contacts.Length)].point));
+		}
 	}
 }
