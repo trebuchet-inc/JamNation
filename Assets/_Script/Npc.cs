@@ -21,6 +21,7 @@ public class Npc : MonoBehaviour
 
 	public List<Item> itemsInHands = new List<Item>();
 	private Item _lastItem;
+	string eventSound;
 
 	public enum States
 	{
@@ -45,7 +46,20 @@ public class Npc : MonoBehaviour
 		_modelAnchor = transform.Find("model");
 		Instantiate(info.model, _modelAnchor.position, Quaternion.identity, _modelAnchor);
 		_itemHolder = FindGrandchild(transform, "holder");
-		_chanim = GetComponentInChildren<Animator>();	
+		_chanim = GetComponentInChildren<Animator>();
+		if(info.Name == "Zorg"){
+			eventSound = "Play_Zorg";
+		}
+		else{
+			eventSound = "Play_Fatlord";
+		}
+		StartCoroutine(soundPlay());
+	}
+
+	IEnumerator soundPlay(){
+		yield return new WaitForSeconds(Random.Range(5.0f,20.0f));
+		AkSoundEngine.PostEvent(eventSound, gameObject);
+		StartCoroutine(soundPlay());
 	}
 
 	public void Reset()
@@ -217,7 +231,7 @@ public class Npc : MonoBehaviour
 		itemsInHands.Clear();
 		_rb.constraints = RigidbodyConstraints.None;
 		_rb.useGravity = true; 
-		_rb.AddExplosionForce(info.forceOnPunch, epicentre, 0, Random.Range(2.5f, 5.0f), ForceMode.Impulse);
+		_rb.AddExplosionForce(info.forceOnPunch, epicentre, 1, 1f, ForceMode.Impulse);
 
 		yield return new WaitForSeconds(3.0f);
 
@@ -265,7 +279,7 @@ public class Npc : MonoBehaviour
 	{
 		if(col.gameObject.CompareTag("Hand"))
 		{
-			AkSoundEngine.PostEvent("Play_Fatlord", gameObject);
+			AkSoundEngine.PostEvent(eventSound, gameObject);
 
 			StartCoroutine(GetHit(col.contacts[Random.Range(0, col.contacts.Length)].point));
 			stm.ChangeState(States.KO);
