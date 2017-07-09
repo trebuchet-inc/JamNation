@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shelveSpawnType: 0
-  preferedSize: 3
+  preferedSize: 2
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
