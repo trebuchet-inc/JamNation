@@ -647,7 +647,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7f08f06256ab27b4cb9eb0b41831a69f, type: 2}
+  - {fileID: 2100000, guid: 3928d347772c54a46a8052a9d334f6cc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -672,7 +672,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1587424834164964}
-  m_Mesh: {fileID: 4300000, guid: 9f35093ddaa762f45addbcf0ab106fdf, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 01bb29b946af4fe4db19e3df289c559f, type: 3}
 --- !u!54 &54090407823995128
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -829,14 +829,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Color: {r: 0.29476643, g: 0.52714473, b: 0.6911765, a: 1}
-  Offset: 0.0005
-  Silhouette: 0.05
+  Offset: 0.001
+  Silhouette: 0.1
   lignSensitivity: 0.089
   Palier1: 1.49
   Palier2: 1.11
   Palier3: 0.75
   Palier4: 0.36
-  Mix: 0.7
+  Mix: 0.5
   Saturation: 1.5
   Threshold: 0.5
 --- !u!114 &114200821133045336

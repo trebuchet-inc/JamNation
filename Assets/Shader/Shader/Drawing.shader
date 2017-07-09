@@ -81,7 +81,7 @@
 			      	c = 0.1 * c1;  
 			  	}
 
-				c = c * _Mix + _Color * (1 - _Mix);
+				c = c * _Mix + c1 * (1 - _Mix);
 						    
 			    if(abs(fc1 - fc2) > _LignSensitivity){
 			     	c -= half4(_Silhouette,_Silhouette,_Silhouette,1);   
