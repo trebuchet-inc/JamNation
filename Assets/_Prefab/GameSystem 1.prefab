@@ -152,7 +152,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  paliers: d00700008813000010270000
+  paliers: 010000000200000003000000
   Spawn: {fileID: 0}
   started: 0
 --- !u!114 &114610137976174560
@@ -197,5 +197,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 462e972d240acf9459b07ece475389ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberOfObjectives: 4
+  numberOfObjectives: 5
+  itemsInStore: []
   itemsTaken: []

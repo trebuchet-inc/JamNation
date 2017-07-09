@@ -2629,7 +2629,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0
@@ -2649,7 +2649,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0
@@ -2669,7 +2669,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0
@@ -2689,7 +2689,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0
@@ -2709,7 +2709,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0
@@ -2729,7 +2729,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0
@@ -2749,7 +2749,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0
@@ -2769,7 +2769,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0
@@ -2789,7 +2789,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0
@@ -2809,7 +2809,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0
@@ -2829,7 +2829,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0
@@ -2849,7 +2849,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0
@@ -2869,7 +2869,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0
@@ -2889,7 +2889,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0
@@ -2909,7 +2909,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0
@@ -2929,7 +2929,7 @@ MonoBehaviour:
   twoSizeWrapper: 0
   alternatePreferedSize: 0
   preferedType: 2
-  itemAmount: 20
+  itemAmount: 10
   item: {fileID: 0}
   stock: []
   SpawnDone: 0

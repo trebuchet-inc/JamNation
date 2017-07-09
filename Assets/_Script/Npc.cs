@@ -115,7 +115,7 @@ public class Npc : MonoBehaviour
 	{
 		if(targetShelve == null) stm.ChangeState(States.Wander);
 
-		if(_agent.isOnNavMesh && _agent.remainingDistance < 1.2f)
+		if(_agent.isOnNavMesh && _agent.remainingDistance < 5f)
 		{
 			stm.ChangeState(States.Taking);
 		}
@@ -137,11 +137,11 @@ public class Npc : MonoBehaviour
 
 	private void Taking_Update()
 	{
-		if(Vector3.Distance(transform.position, targetShelve.transform.position) > 1.5f)
-		{
-			StopCoroutine(TakingSequence());
-			stm.ChangeState(States.Target);
-		}
+		// if(Vector3.Distance(transform.position, targetShelve.transform.position) > 1.5f)
+		// {
+		// 	StopCoroutine(TakingSequence());
+		// 	stm.ChangeState(States.Target);
+		// }
 	}
 
 	private void Taking_Exit()
