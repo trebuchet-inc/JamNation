@@ -42,9 +42,7 @@ public class CrowdManager : MonoBehaviour
 		
 		npcToSpawn = PullFromPool();
 		
-		npcToSpawn.gameObject.SetActive(true);
-		
-		npcToSpawn.stm.ChangeState(Npc.States.Target);	
+		npcToSpawn.gameObject.SetActive(true);		
 
 		return npcToSpawn.gameObject;
 	}
@@ -56,6 +54,7 @@ public class CrowdManager : MonoBehaviour
 			Vector3 pos = new Vector3(basePos.x, basePos.y, basePos.z + i * 1.5f);		
 			GameObject newNPC = Spawn();
 			newNPC.transform.SetPositionAndRotation(pos, Quaternion.identity);
+			newNPC.GetComponent<Npc>().stm.ChangeState(Npc.States.Target);	
 
 			yield return new WaitForSeconds(0.4f);	
 		}
@@ -66,12 +65,14 @@ public class CrowdManager : MonoBehaviour
 		GameObject newNPC = Spawn();
 		Vector3 pos = FindExit().position;
 		newNPC.transform.SetPositionAndRotation(pos, Quaternion.identity);
+		newNPC.GetComponent<Npc>().stm.ChangeState(Npc.States.Target);	
 	}
 
 	private Npc PullFromPool()
 	{
 		Npc npcToPull = _pooledNPCs.OrderBy(n => Random.value).FirstOrDefault();		
 
+		npcToPull.Reset();
 		_pooledNPCs.Remove(npcToPull);
 
 		return npcToPull;
@@ -79,7 +80,6 @@ public class CrowdManager : MonoBehaviour
 
 	public void PushToPool(Npc npcToPush)
 	{
-		npcToPush.Reset();
 		npcToPush.gameObject.SetActive(false);
 		_pooledNPCs.Add(npcToPush);
 
@@ -108,7 +108,7 @@ public class CrowdManager : MonoBehaviour
 	{
 		if(_shelves.Count == 0) _shelves = FindObjectsOfType<ShelveSpawnerWrapper>().ToList();
 
-		return  _shelves.Where(s => s.stock.Count > 0).OrderBy(s => Random.value).FirstOrDefault();
+		return  _shelves.OrderBy(s => Random.value).FirstOrDefault();
 	}
 
 	public Transform FindExit()
