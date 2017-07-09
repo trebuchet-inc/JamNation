@@ -4662,7 +4662,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1315318829646136}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -45.41629, y: -18.923485, z: -1.5516877}
+  m_LocalPosition: {x: -62.321224, y: 61.060085, z: 90.739456}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4386589163163228}
@@ -10805,7 +10805,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.4330001, y: 1.0109997, z: 0.5509988}
+  m_ConnectedAnchor: {x: 0.4330002, y: 1.0109997, z: 0.5509987}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -10837,7 +10837,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.4330001, y: 1.0109997, z: 0.5509988}
+  m_ConnectedAnchor: {x: 0.433, y: 1.0109997, z: 0.5509987}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -10869,7 +10869,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.4330001, y: 1.011, z: 0.5510001}
+  m_ConnectedAnchor: {x: 0.433, y: 1.0109997, z: 0.5509987}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -10901,7 +10901,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.43300012, y: 1.0109997, z: 0.5509988}
+  m_ConnectedAnchor: {x: 0.4329996, y: 1.0109997, z: 0.5509987}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -10933,7 +10933,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.43300012, y: 1.0109997, z: 0.5509988}
+  m_ConnectedAnchor: {x: 0.4329996, y: 1.0109997, z: 0.5509987}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -10965,7 +10965,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.4330001, y: 1.0109997, z: 0.5509988}
+  m_ConnectedAnchor: {x: 0.43300104, y: 1.0109997, z: 0.55099964}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -13077,7 +13077,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.5, y: 1.06, z: 0.5}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.74, z: 0}
   m_TimeToStationary: 0.5
@@ -13107,7 +13107,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.5, y: 1.06, z: 0.5}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.74, z: 0}
   m_TimeToStationary: 0.5
@@ -13137,7 +13137,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.5, y: 1.06, z: 0.5}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.74, z: 0}
   m_TimeToStationary: 0.5
@@ -13152,7 +13152,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.5, y: 1.06, z: 0.5}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.74, z: 0}
   m_TimeToStationary: 0.5
@@ -13167,7 +13167,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.5, y: 1.06, z: 0.5}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.74, z: 0}
   m_TimeToStationary: 0.5
@@ -13197,7 +13197,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.5, y: 1.06, z: 0.5}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.74, z: 0}
   m_TimeToStationary: 0.5

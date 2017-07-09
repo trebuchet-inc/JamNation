@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   model: {fileID: 1205167208761034, guid: 4375f63566eea8b4b8842aed48fc92df, type: 2}
   moveSpeed: 5
-  forceOnPunch: 30
+  forceOnPunch: 20
   favoriteItemSize: 0
   maxQtyInHands: 5

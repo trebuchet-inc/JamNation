@@ -30,25 +30,20 @@ public class ZoneSpawnerWrapper : MonoBehaviour {
 
 	void Start () {
 		transform.GetChild(0).gameObject.SetActive(false);
-		
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 	private GameObject[] GetZoneArray(ItemType type)
 	{
+		ItemDatabase itemdata = FindObjectOfType<ItemDatabase>();
 		if (type == ItemType.Electronic)
 		{
-			return ItemDatabase.Instance.electroZones;
+			return itemdata.electroZones;
 		} else if (type == ItemType.Food)
 		{
-			return ItemDatabase.Instance.foodZones;
+			return itemdata.foodZones;
 		} else if (type == ItemType.Misc)
 		{
-			return ItemDatabase.Instance.miscZones;
+			return itemdata.miscZones;
 		}
 		return null;
 	} 

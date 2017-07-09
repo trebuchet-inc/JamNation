@@ -56,7 +56,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 				float itemXLength = item.GetComponentInChildren<BoxCollider>().size.x;
 				float itemYLength = item.GetComponentInChildren<BoxCollider>().size.y;
 				float itemZLength = item.GetComponentInChildren<BoxCollider>().size.z;
-				print (itemXLength.ToString());
+			//print (itemXLength.ToString());
 			// while(itemXLength > spawnZone.x||itemYLength>spawnZone.y||itemZLength>spawnZone.z)
 			// {
 			// 	RollForItem(){}
@@ -67,7 +67,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 				int itemAmount = itemsXSpace*itemsYSpace*itemsZSpace;
 				Vector3 spaceAjust = new Vector3(spawnZone.x/2,-spawnZone.y/2,spawnZone.z/2);
 				Vector3 adjustment = new Vector3(-itemXLength/2,itemYLength/2,-itemZLength/2);
-				print(itemsXSpace.ToString() + " " + itemsYSpace.ToString()+ " "+itemsZSpace.ToString());
+				//print(itemsXSpace.ToString() + " " + itemsYSpace.ToString()+ " "+itemsZSpace.ToString());
 				for (int x = 0; x < itemsXSpace; x++)
 				{
 					for (int y = 0; y < itemsYSpace; y++)
