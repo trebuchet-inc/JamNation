@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 114995809431516098}
   - component: {fileID: 114018490046360412}
   m_Layer: 9
-  m_Name: GolfKart
+  m_Name: golfkart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

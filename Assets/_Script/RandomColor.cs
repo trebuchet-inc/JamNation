@@ -11,7 +11,7 @@ public class RandomColor : MonoBehaviour {
 		rend = transform.Find("model").GetComponentInChildren<MeshRenderer>();
 		foreach(Material m in rend.materials)
 		{
-			m.color = Random.ColorHSV(0f,1f,0f,1f,0f,1f,1f,1f);
+			m.color = Random.ColorHSV(0.5f,1f,0.5f,1f,0.5f,1f,1f,1f);
 		}
 		// rend.materials.color = Random.ColorHSV(0f,1f,0f,1f,0f,1f,1f,1f);
 	}

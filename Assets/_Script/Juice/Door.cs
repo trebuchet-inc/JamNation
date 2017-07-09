@@ -15,6 +15,7 @@ public class Door : MonoBehaviour {
 		if(other.attachedRigidbody != null && other.attachedRigidbody.tag == "Player"){
 			_anim.SetBool("Open", true);
 			TimerManager.started = true;
+			AkSoundEngine.PostEvent("Play_SFX_SlidingDoor", gameObject);
 		}
 	}
 
@@ -22,6 +23,7 @@ public class Door : MonoBehaviour {
 	{
 		if(other.attachedRigidbody != null && other.attachedRigidbody.tag == "Player"){
 			_anim.SetBool("Open", false);
+			AkSoundEngine.PostEvent("Play_SFX_SlidingDoor", gameObject);
 		}
 	}
 }

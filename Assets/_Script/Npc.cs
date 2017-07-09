@@ -66,7 +66,9 @@ public class Npc : MonoBehaviour
 	{
 		foreach (Item item in itemsInHands)
 		{
-			Destroy(item.gameObject);
+			if(item != null){
+				Destroy(item.gameObject);
+			}			GUITargetAttribute 
 		}
 		_rb.constraints = RigidbodyConstraints.FreezeAll;
 		_rb.useGravity = false; 
@@ -280,6 +282,7 @@ public class Npc : MonoBehaviour
 		if(col.gameObject.CompareTag("Hand"))
 		{
 			AkSoundEngine.PostEvent(eventSound, gameObject);
+			AkSoundEngine.PostEvent("Play_HitAlien", gameObject);
 
 			StartCoroutine(GetHit(col.contacts[Random.Range(0, col.contacts.Length)].point));
 			stm.ChangeState(States.KO);
