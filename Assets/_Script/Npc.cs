@@ -52,6 +52,8 @@ public class Npc : MonoBehaviour
 		{
 			Destroy(item.gameObject);
 		}
+		_rb.constraints = RigidbodyConstraints.FreezeAll;
+		_rb.useGravity = false; 
 		itemsInHands.Clear();
 		_lastItem = null;
 		targetShelve = null;
@@ -133,6 +135,7 @@ public class Npc : MonoBehaviour
 	private void Exiting_Enter()
 	{
 		_agent.ResetPath();
+		_agent.isStopped = false;
 		GoTo(CrowdManager.Instance.FindExit().position);
 		_chanim.SetBool("isWalking", true);
 	}	
@@ -178,14 +181,19 @@ public class Npc : MonoBehaviour
 		targetShelve.stock.Remove(item);	
 	}
 
-	private IEnumerator GetHit(Vector3 epicentre)
+	private void KO_Enter()
 	{
 		_agent.isStopped = true;
 		_agent.enabled = false;
 
 		_chanim.SetBool("isHolding", false);
-		_chanim.SetBool("isWalking", false);
+		_chanim.SetBool("isWalking", false);		
+	}
 
+	private IEnumerator GetHit(Vector3 epicentre)
+	{
+		yield return 0;
+		
 		foreach (Item item in itemsInHands)
 		{
 			item.transform.parent = null;
@@ -194,7 +202,8 @@ public class Npc : MonoBehaviour
 		}
 		
 		itemsInHands.Clear();
-
+		_rb.constraints = RigidbodyConstraints.None;
+		_rb.useGravity = true; 
 		_rb.AddExplosionForce(info.forceOnPunch, epicentre, 0, Random.Range(2.5f, 5.0f), ForceMode.Impulse);
 
 		yield return new WaitForSeconds(3.0f);
@@ -244,7 +253,9 @@ public class Npc : MonoBehaviour
 		if(col.gameObject.CompareTag("Hand"))
 		{
 			AkSoundEngine.PostEvent("Play_Fatlord", gameObject);
+
 			StartCoroutine(GetHit(col.contacts[Random.Range(0, col.contacts.Length)].point));
+			stm.ChangeState(States.KO);
 		}
 	}
 }
