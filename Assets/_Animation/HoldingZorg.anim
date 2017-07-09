@@ -1,0 +1,4301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: HoldingZorg
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.20323172, y: -0.6415824, z: 0.70599556, w: 0.22241563}
+        inSlope: {x: -0.0070116045, y: -0.055061053, z: -0.05271616, w: 0.007424259}
+        outSlope: {x: -0.0070116045, y: -0.055061053, z: -0.05271616, w: 0.007424259}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: {x: -0.20010853, y: -0.64337665, z: 0.7035415, w: 0.22594786}
+        inSlope: {x: 0.005352754, y: -0.0016465061, z: -0.0017673834, w: 0.005551594}
+        outSlope: {x: 0.005352754, y: -0.0016465061, z: -0.0017673834, w: 0.005551594}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: -0.20314717, y: -0.6424271, z: 0.70454484, w: 0.22278994}
+        inSlope: {x: -0.000354057, y: 0.000110151064, z: 0.0001158732, w: -0.00036728944}
+        outSlope: {x: -0.000354057, y: 0.000110151064, z: 0.0001158732, w: -0.00036728944}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.54497355, y: 0.32515463, z: -0.50263363, w: -0.58741856}
+        inSlope: {x: 0.14300165, y: 0.112587005, z: 0.1615017, w: 0.07127965}
+        outSlope: {x: 0.14300165, y: 0.112587005, z: 0.1615017, w: 0.07127965}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666985
+        value: {x: 0.548327, y: 0.32851064, z: -0.49807206, w: -0.5859543}
+        inSlope: {x: 0.017553672, y: 0.050022814, z: 0.05582636, w: -0.0032107588}
+        outSlope: {x: 0.017553672, y: 0.050022814, z: 0.05582636, w: -0.0032107588}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: {x: 0.5419534, y: 0.3389169, z: -0.48886454, w: -0.59366095}
+        inSlope: {x: -0.0058493796, y: 0.009426743, z: 0.008453634, w: -0.0069201207}
+        outSlope: {x: -0.0058493796, y: 0.009426743, z: 0.008453634, w: -0.0069201207}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.333334
+        value: {x: 0.54795796, y: 0.32912064, z: -0.4975392, w: -0.5864098}
+        inSlope: {x: 0.0042014234, y: -0.006939071, z: -0.0060660997, w: 0.00517775}
+        outSlope: {x: 0.0042014234, y: -0.006939071, z: -0.0060660997, w: 0.00517775}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: 0.548327, y: 0.32851064, z: -0.49807206, w: -0.5859543}
+        inSlope: {x: 0.00059367134, y: -0.0009842069, z: -0.00085832, w: 0.00073243305}
+        outSlope: {x: 0.00059367134, y: -0.0009842069, z: -0.00085832, w: 0.00073243305}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.2630686, y: -0.006484066, z: 0.029660076, w: 0.96476674}
+        inSlope: {x: -0.075774334, y: -0.009673348, z: 0.00062339305, w: -0.019174004}
+        outSlope: {x: -0.075774334, y: -0.009673348, z: 0.00062339305, w: -0.019174004}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: {x: -0.26898968, y: 0.017485552, z: 0.02262309, w: 0.96271855}
+        inSlope: {x: -0.0068563893, y: 0.11926226, z: -0.033068635, w: -0.0033251985}
+        outSlope: {x: -0.0068563893, y: 0.11926226, z: -0.033068635, w: -0.0033251985}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.458334
+        value: {x: -0.2667397, y: 0.095753714, z: 0.0010499143, w: 0.9589995}
+        inSlope: {x: -0.0032068626, y: -0.07441628, z: 0.020076435, w: 0.006495267}
+        outSlope: {x: -0.0032068626, y: -0.07441628, z: 0.020076435, w: 0.006495267}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: -0.26466537, y: -0.008189751, z: 0.029824998, w: 0.96384424}
+        inSlope: {x: 0.0007274262, y: -0.008778825, z: 0.0024846129, w: 0.000050068666}
+        outSlope: {x: 0.0007274262, y: -0.008778825, z: 0.0024846129, w: 0.000050068666}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.09655647, y: 0.19669308, z: 0.42874387, w: 0.8766061}
+        inSlope: {x: -0.048921283, y: 0.035216216, z: 0.0015382192, w: -0.012560721}
+        outSlope: {x: -0.048921283, y: 0.035216216, z: 0.0015382192, w: -0.012560721}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: {x: -0.077833414, y: 0.15914126, z: 0.4324022, w: 0.8841065}
+        inSlope: {x: 0.054253522, y: -0.11092891, z: 0.009763635, w: 0.019963577}
+        outSlope: {x: 0.054253522, y: -0.11092891, z: 0.009763635, w: 0.019963577}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: {x: -0.056807455, y: 0.11615077, z: 0.4356634, w: 0.89077455}
+        inSlope: {x: -0.034158394, y: 0.06984163, z: -0.0044614207, w: -0.009121683}
+        outSlope: {x: -0.034158394, y: 0.06984163, z: -0.0044614207, w: -0.009121683}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: -0.09645795, y: 0.19722174, z: 0.42863217, w: 0.87639827}
+        inSlope: {x: -0.0034311342, y: 0.007015693, z: -0.0007717727, w: -0.0015778783}
+        outSlope: {x: -0.0034311342, y: 0.007015693, z: -0.0007717727, w: -0.0015778783}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.47657418, y: 0.7695132, z: -0.36078793, w: -0.2249327}
+        inSlope: {x: -0.03862257, y: -0.041853525, z: -0.111978866, w: -0.04411869}
+        outSlope: {x: -0.03862257, y: -0.041853525, z: -0.111978866, w: -0.04411869}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: {x: 0.4734688, y: 0.76690376, z: -0.36896423, w: -0.22704951}
+        inSlope: {x: -0.035893187, y: -0.020124443, z: -0.08418959, w: -0.005882261}
+        outSlope: {x: -0.035893187, y: -0.020124443, z: -0.08418959, w: -0.005882261}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: {x: 0.39671203, y: 0.78975296, z: -0.4587868, w: -0.09178529}
+        inSlope: {x: -0.12662004, y: 0.041960873, z: -0.09096982, w: 0.26770353}
+        outSlope: {x: -0.12662004, y: 0.041960873, z: -0.09096982, w: 0.26770353}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: {x: 0.36693752, y: 0.79970944, z: -0.47444475, w: -0.026904464}
+        inSlope: {x: 0.061201822, y: -0.008577282, z: 0.040188126, w: -0.12546247}
+        outSlope: {x: 0.061201822, y: -0.008577282, z: 0.040188126, w: -0.12546247}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: {x: 0.4451325, y: 0.7801232, z: -0.40293178, w: -0.17581502}
+        inSlope: {x: 0.12147303, y: -0.04427736, z: 0.14148597, w: -0.21365246}
+        outSlope: {x: 0.12147303, y: -0.04427736, z: 0.14148597, w: -0.21365246}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: 0.47464624, y: 0.76799375, z: -0.36577645, w: -0.2260623}
+        inSlope: {x: 0.008872167, y: -0.004061284, z: 0.011991445, w: -0.014612182}
+        outSlope: {x: 0.008872167, y: -0.004061284, z: 0.011991445, w: -0.014612182}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.23591164, y: 0.89112395, z: -0.09955703, w: 0.3770595}
+        inSlope: {x: 0.015683413, y: -0.028467974, z: -0.043587107, w: 0.05179767}
+        outSlope: {x: 0.015683413, y: -0.028467974, z: -0.043587107, w: 0.05179767}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: {x: 0.23864584, y: 0.8986361, z: -0.0944808, w: 0.35577345}
+        inSlope: {x: 0.008900675, y: 0.03351629, z: 0.02248656, w: -0.08467478}
+        outSlope: {x: 0.008900675, y: 0.03351629, z: 0.02248656, w: -0.08467478}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: {x: 0.24253406, y: 0.9132774, z: -0.08399817, w: 0.31630045}
+        inSlope: {x: -0.0058133756, y: -0.021890234, z: -0.016777359, w: 0.06317591}
+        outSlope: {x: -0.0058133756, y: -0.021890234, z: -0.016777359, w: 0.06317591}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: 0.2361054, y: 0.88906986, z: -0.10066133, w: 0.37904662}
+        inSlope: {x: -0.00063551444, y: -0.0023947128, z: -0.0014918675, w: 0.0056177042}
+        outSlope: {x: -0.00063551444, y: -0.0023947128, z: -0.0014918675, w: 0.0056177042}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.05950121, y: -0.36666298, z: -0.14886844, w: 0.91736865}
+        inSlope: {x: -0.0028598018, y: -0.01762305, z: 0.0015498475, w: -0.009550705}
+        outSlope: {x: -0.0028598018, y: -0.01762305, z: 0.0015498475, w: -0.009550705}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: {x: -0.055893015, y: -0.3444283, z: -0.15011436, w: 0.9250464}
+        inSlope: {x: 0.033433117, y: 0.20602429, z: -0.012420274, w: 0.0765376}
+        outSlope: {x: 0.033433117, y: 0.20602429, z: -0.012420274, w: 0.0765376}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: {x: -0.024371564, y: -0.15018435, z: -0.15831733, w: 0.97559536}
+        inSlope: {x: 0.055866122, y: 0.34426257, z: -0.008619931, w: 0.053118624}
+        outSlope: {x: 0.055866122, y: 0.34426257, z: -0.008619931, w: 0.053118624}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: {x: -0.013037732, y: -0.08034213, z: -0.15965076, w: 0.9838124}
+        inSlope: {x: -0.027814887, y: -0.17140311, z: 0.0022930924, w: -0.014129769}
+        outSlope: {x: -0.027814887, y: -0.17140311, z: 0.0022930924, w: -0.014129769}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: {x: -0.045078207, y: -0.27778444, z: -0.1537085, w: 0.9471945}
+        inSlope: {x: -0.05390989, y: -0.332208, z: 0.0157938, w: -0.09732553}
+        outSlope: {x: -0.05390989, y: -0.332208, z: 0.0157938, w: -0.09732553}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: -0.059609205, y: -0.3673285, z: -0.14867781, w: 0.916194}
+        inSlope: {x: -0.003665831, y: -0.022590267, z: 0.0014673695, w: -0.009042401}
+        outSlope: {x: -0.003665831, y: -0.022590267, z: 0.0014673695, w: -0.009042401}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.5972797, y: 0.702144, z: -0.25251234, w: 0.29699516}
+        inSlope: {x: -0.015543778, y: -0.020050526, z: -0.037887096, w: 0.05334437}
+        outSlope: {x: -0.015543778, y: -0.020050526, z: -0.037887096, w: 0.05334437}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: {x: 0.6023267, y: 0.7083087, z: -0.23846342, w: 0.2804221}
+        inSlope: {x: 0.022464834, y: 0.026417352, z: 0.056754675, w: -0.06674111}
+        outSlope: {x: 0.022464834, y: 0.026417352, z: 0.056754675, w: -0.06674111}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: {x: 0.61214024, y: 0.71984905, z: -0.21200596, w: 0.24930935}
+        inSlope: {x: -0.014672644, y: -0.017253984, z: -0.042344965, w: 0.049796082}
+        outSlope: {x: -0.014672644, y: -0.017253984, z: -0.042344965, w: 0.049796082}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: 0.5959148, y: 0.7007686, z: -0.2540627, w: 0.29876617}
+        inSlope: {x: -0.0016050583, y: -0.001888304, z: -0.0037651637, w: 0.004428216}
+        outSlope: {x: -0.0016050583, y: -0.001888304, z: -0.0037651637, w: 0.004428216}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.2115814, y: -0.3053121, z: -0.529364, w: 0.7638724}
+        inSlope: {x: -0.0101692695, y: -0.014674236, z: 0.005511163, w: -0.007952521}
+        outSlope: {x: -0.0101692695, y: -0.014674236, z: 0.005511163, w: -0.007952521}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: {x: -0.19875096, y: -0.28679773, z: -0.5337943, w: 0.7702654}
+        inSlope: {x: 0.1188855, y: 0.17155208, z: -0.04416503, w: 0.06373091}
+        outSlope: {x: 0.1188855, y: 0.17155208, z: -0.04416503, w: 0.06373091}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: {x: -0.086663276, y: -0.12505515, z: -0.56296337, w: 0.8123564}
+        inSlope: {x: 0.19865522, y: 0.2866595, z: -0.030652378, w: 0.04423155}
+        outSlope: {x: 0.19865522, y: 0.2866595, z: -0.030652378, w: 0.04423155}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: {x: -0.0463611, y: -0.06689909, z: -0.567705, w: 0.81919855}
+        inSlope: {x: -0.09890744, y: -0.1427235, z: 0.008153853, w: -0.0117658675}
+        outSlope: {x: -0.09890744, y: -0.1427235, z: 0.008153853, w: -0.0117658675}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: {x: -0.1602944, y: -0.23130488, z: -0.5465748, w: 0.7887077}
+        inSlope: {x: -0.19169906, y: -0.276622, z: 0.056161452, w: -0.08104143}
+        outSlope: {x: -0.19169906, y: -0.276622, z: 0.056161452, w: -0.08104143}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: -0.21196543, y: -0.3058662, z: -0.52868605, w: 0.7628942}
+        inSlope: {x: -0.0130353775, y: -0.018810082, z: 0.0052185855, w: -0.0075303274}
+        outSlope: {x: -0.0130353775, y: -0.018810082, z: 0.0052185855, w: -0.0075303274}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf/bigFinger02_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.11395373, y: 0.1859626, z: 0.507966, w: 0.83398306}
+        inSlope: {x: -0.049108073, y: 0.038341325, z: -0.019308886, w: -0.00063876074}
+        outSlope: {x: -0.049108073, y: 0.038341325, z: -0.019308886, w: -0.00063876074}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: {x: -0.092226565, y: 0.15125555, z: 0.51236314, w: 0.8402976}
+        inSlope: {x: 0.06428628, y: -0.10543215, z: 0.011569304, w: 0.01897366}
+        outSlope: {x: 0.06428628, y: -0.10543215, z: 0.011569304, w: 0.01897366}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: {x: -0.067312434, y: 0.1103953, z: 0.5162274, w: 0.8466352}
+        inSlope: {x: -0.04047502, y: 0.06638086, z: -0.0052857557, w: -0.008669641}
+        outSlope: {x: -0.04047502, y: 0.06638086, z: -0.0052857557, w: -0.008669641}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: -0.11429521, y: 0.18744907, z: 0.50789595, w: 0.8329713}
+        inSlope: {x: -0.0040657544, y: 0.006668073, z: -0.0009141108, w: -0.001499199}
+        outSlope: {x: -0.0040657544, y: 0.006668073, z: -0.0009141108, w: -0.001499199}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.5457409, y: 0.7221081, z: -0.33842412, w: -0.25735527}
+        inSlope: {x: -0.042329837, y: -0.038099192, z: -0.10741558, w: -0.05429218}
+        outSlope: {x: -0.042329837, y: -0.038099192, z: -0.10741558, w: -0.05429218}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: {x: 0.5424074, y: 0.7197973, z: -0.34636942, w: -0.26021966}
+        inSlope: {x: -0.037601218, y: -0.016715514, z: -0.08328409, w: -0.013648367}
+        outSlope: {x: -0.037601218, y: -0.016715514, z: -0.08328409, w: -0.013648367}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: {x: 0.46809453, y: 0.74965173, z: -0.4483241, w: -0.1338482}
+        inSlope: {x: -0.12219479, y: 0.05349786, z: -0.11535342, w: 0.25813642}
+        outSlope: {x: -0.12219479, y: 0.05349786, z: -0.11535342, w: 0.25813642}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: {x: 0.4393692, y: 0.7623209, z: -0.4699191, w: -0.07069481}
+        inSlope: {x: 0.060144324, y: -0.01420344, z: 0.05162605, w: -0.12120426}
+        outSlope: {x: 0.060144324, y: -0.01420344, z: 0.05162605, w: -0.12120426}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: {x: 0.5154161, y: 0.7355823, z: -0.38493255, w: -0.21234846}
+        inSlope: {x: 0.116855316, y: -0.05532953, z: 0.16065168, w: -0.19964269}
+        outSlope: {x: 0.116855316, y: -0.05532953, z: 0.16065168, w: -0.19964269}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: 0.54368067, y: 0.72077376, z: -0.34328675, w: -0.25894168}
+        inSlope: {x: 0.008458744, y: -0.004863813, z: 0.0132918, w: -0.013439145}
+        outSlope: {x: 0.008458744, y: -0.004863813, z: 0.0132918, w: -0.013439145}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.050990194, y: -1.3322676e-17, z: -6.2444973e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: -0.050990194, y: -1.3322676e-17, z: -6.2444977e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.03908427, y: 0.0043731416, z: -3.3613334e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: -0.03908427, y: 0.0043731416, z: -3.3613334e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.04958983, y: -0.0028358444, z: 6.0730033e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: 0.04958983, y: -0.0028358444, z: 6.0730033e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.039669048, y: 0.0015875539, z: 5.2976993e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: -0.039669048, y: 0.0015875539, z: 5.2976993e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 3964618570
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2470084149
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1393812116
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1689814893
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3840529479
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1362680139
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3018138712
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2105706456
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 333819094
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1591072760
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3275716583
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1689814893
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3840529479
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1362680139
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3018138712
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1689814893
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3840529479
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1362680139
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3018138712
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3275716583
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 2.5
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.20323172
+        inSlope: -0.0070116045
+        outSlope: -0.0070116045
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: -0.20010853
+        inSlope: 0.005352754
+        outSlope: 0.005352754
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.20314717
+        inSlope: -0.000354057
+        outSlope: -0.000354057
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.6415824
+        inSlope: -0.055061053
+        outSlope: -0.055061053
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: -0.64337665
+        inSlope: -0.0016465061
+        outSlope: -0.0016465061
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.6424271
+        inSlope: 0.000110151064
+        outSlope: 0.000110151064
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.70599556
+        inSlope: -0.05271616
+        outSlope: -0.05271616
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: 0.7035415
+        inSlope: -0.0017673834
+        outSlope: -0.0017673834
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.70454484
+        inSlope: 0.0001158732
+        outSlope: 0.0001158732
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.22241563
+        inSlope: 0.007424259
+        outSlope: 0.007424259
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: 0.22594786
+        inSlope: 0.005551594
+        outSlope: 0.005551594
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.22278994
+        inSlope: -0.00036728944
+        outSlope: -0.00036728944
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.54497355
+        inSlope: 0.14300165
+        outSlope: 0.14300165
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666985
+        value: 0.548327
+        inSlope: 0.017553672
+        outSlope: 0.017553672
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: 0.5419534
+        inSlope: -0.0058493796
+        outSlope: -0.0058493796
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.333334
+        value: 0.54795796
+        inSlope: 0.0042014234
+        outSlope: 0.0042014234
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.548327
+        inSlope: 0.00059367134
+        outSlope: 0.00059367134
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.32515463
+        inSlope: 0.112587005
+        outSlope: 0.112587005
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666985
+        value: 0.32851064
+        inSlope: 0.050022814
+        outSlope: 0.050022814
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: 0.3389169
+        inSlope: 0.009426743
+        outSlope: 0.009426743
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.333334
+        value: 0.32912064
+        inSlope: -0.006939071
+        outSlope: -0.006939071
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.32851064
+        inSlope: -0.0009842069
+        outSlope: -0.0009842069
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.50263363
+        inSlope: 0.1615017
+        outSlope: 0.1615017
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666985
+        value: -0.49807206
+        inSlope: 0.05582636
+        outSlope: 0.05582636
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: -0.48886454
+        inSlope: 0.008453634
+        outSlope: 0.008453634
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.333334
+        value: -0.4975392
+        inSlope: -0.0060660997
+        outSlope: -0.0060660997
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.49807206
+        inSlope: -0.00085832
+        outSlope: -0.00085832
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.58741856
+        inSlope: 0.07127965
+        outSlope: 0.07127965
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666985
+        value: -0.5859543
+        inSlope: -0.0032107588
+        outSlope: -0.0032107588
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: -0.59366095
+        inSlope: -0.0069201207
+        outSlope: -0.0069201207
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.333334
+        value: -0.5864098
+        inSlope: 0.00517775
+        outSlope: 0.00517775
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.5859543
+        inSlope: 0.00073243305
+        outSlope: 0.00073243305
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.2630686
+        inSlope: -0.075774334
+        outSlope: -0.075774334
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: -0.26898968
+        inSlope: -0.0068563893
+        outSlope: -0.0068563893
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.458334
+        value: -0.2667397
+        inSlope: -0.0032068626
+        outSlope: -0.0032068626
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.26466537
+        inSlope: 0.0007274262
+        outSlope: 0.0007274262
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.006484066
+        inSlope: -0.009673348
+        outSlope: -0.009673348
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: 0.017485552
+        inSlope: 0.11926226
+        outSlope: 0.11926226
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.458334
+        value: 0.095753714
+        inSlope: -0.07441628
+        outSlope: -0.07441628
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.008189751
+        inSlope: -0.008778825
+        outSlope: -0.008778825
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.029660076
+        inSlope: 0.00062339305
+        outSlope: 0.00062339305
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: 0.02262309
+        inSlope: -0.033068635
+        outSlope: -0.033068635
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.458334
+        value: 0.0010499143
+        inSlope: 0.020076435
+        outSlope: 0.020076435
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.029824998
+        inSlope: 0.0024846129
+        outSlope: 0.0024846129
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.96476674
+        inSlope: -0.019174004
+        outSlope: -0.019174004
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: 0.96271855
+        inSlope: -0.0033251985
+        outSlope: -0.0033251985
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.458334
+        value: 0.9589995
+        inSlope: 0.006495267
+        outSlope: 0.006495267
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.96384424
+        inSlope: 0.000050068666
+        outSlope: 0.000050068666
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.09655647
+        inSlope: -0.048921283
+        outSlope: -0.048921283
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: -0.077833414
+        inSlope: 0.054253522
+        outSlope: 0.054253522
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: -0.056807455
+        inSlope: -0.034158394
+        outSlope: -0.034158394
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.09645795
+        inSlope: -0.0034311342
+        outSlope: -0.0034311342
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.19669308
+        inSlope: 0.035216216
+        outSlope: 0.035216216
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: 0.15914126
+        inSlope: -0.11092891
+        outSlope: -0.11092891
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: 0.11615077
+        inSlope: 0.06984163
+        outSlope: 0.06984163
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.19722174
+        inSlope: 0.007015693
+        outSlope: 0.007015693
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.42874387
+        inSlope: 0.0015382192
+        outSlope: 0.0015382192
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: 0.4324022
+        inSlope: 0.009763635
+        outSlope: 0.009763635
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: 0.4356634
+        inSlope: -0.0044614207
+        outSlope: -0.0044614207
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.42863217
+        inSlope: -0.0007717727
+        outSlope: -0.0007717727
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.8766061
+        inSlope: -0.012560721
+        outSlope: -0.012560721
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: 0.8841065
+        inSlope: 0.019963577
+        outSlope: 0.019963577
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: 0.89077455
+        inSlope: -0.009121683
+        outSlope: -0.009121683
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.87639827
+        inSlope: -0.0015778783
+        outSlope: -0.0015778783
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.47657418
+        inSlope: -0.03862257
+        outSlope: -0.03862257
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: 0.4734688
+        inSlope: -0.035893187
+        outSlope: -0.035893187
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: 0.39671203
+        inSlope: -0.12662004
+        outSlope: -0.12662004
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: 0.36693752
+        inSlope: 0.061201822
+        outSlope: 0.061201822
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: 0.4451325
+        inSlope: 0.12147303
+        outSlope: 0.12147303
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.47464624
+        inSlope: 0.008872167
+        outSlope: 0.008872167
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.7695132
+        inSlope: -0.041853525
+        outSlope: -0.041853525
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: 0.76690376
+        inSlope: -0.020124443
+        outSlope: -0.020124443
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: 0.78975296
+        inSlope: 0.041960873
+        outSlope: 0.041960873
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: 0.79970944
+        inSlope: -0.008577282
+        outSlope: -0.008577282
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: 0.7801232
+        inSlope: -0.04427736
+        outSlope: -0.04427736
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.76799375
+        inSlope: -0.004061284
+        outSlope: -0.004061284
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.36078793
+        inSlope: -0.111978866
+        outSlope: -0.111978866
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: -0.36896423
+        inSlope: -0.08418959
+        outSlope: -0.08418959
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: -0.4587868
+        inSlope: -0.09096982
+        outSlope: -0.09096982
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -0.47444475
+        inSlope: 0.040188126
+        outSlope: 0.040188126
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: -0.40293178
+        inSlope: 0.14148597
+        outSlope: 0.14148597
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.36577645
+        inSlope: 0.011991445
+        outSlope: 0.011991445
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.2249327
+        inSlope: -0.04411869
+        outSlope: -0.04411869
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: -0.22704951
+        inSlope: -0.005882261
+        outSlope: -0.005882261
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: -0.09178529
+        inSlope: 0.26770353
+        outSlope: 0.26770353
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -0.026904464
+        inSlope: -0.12546247
+        outSlope: -0.12546247
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: -0.17581502
+        inSlope: -0.21365246
+        outSlope: -0.21365246
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.2260623
+        inSlope: -0.014612182
+        outSlope: -0.014612182
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.23591164
+        inSlope: 0.015683413
+        outSlope: 0.015683413
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.23864584
+        inSlope: 0.008900675
+        outSlope: 0.008900675
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: 0.24253406
+        inSlope: -0.0058133756
+        outSlope: -0.0058133756
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.2361054
+        inSlope: -0.00063551444
+        outSlope: -0.00063551444
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.89112395
+        inSlope: -0.028467974
+        outSlope: -0.028467974
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.8986361
+        inSlope: 0.03351629
+        outSlope: 0.03351629
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: 0.9132774
+        inSlope: -0.021890234
+        outSlope: -0.021890234
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.88906986
+        inSlope: -0.0023947128
+        outSlope: -0.0023947128
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.09955703
+        inSlope: -0.043587107
+        outSlope: -0.043587107
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: -0.0944808
+        inSlope: 0.02248656
+        outSlope: 0.02248656
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: -0.08399817
+        inSlope: -0.016777359
+        outSlope: -0.016777359
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.10066133
+        inSlope: -0.0014918675
+        outSlope: -0.0014918675
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.3770595
+        inSlope: 0.05179767
+        outSlope: 0.05179767
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.35577345
+        inSlope: -0.08467478
+        outSlope: -0.08467478
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: 0.31630045
+        inSlope: 0.06317591
+        outSlope: 0.06317591
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.37904662
+        inSlope: 0.0056177042
+        outSlope: 0.0056177042
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.05950121
+        inSlope: -0.0028598018
+        outSlope: -0.0028598018
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: -0.055893015
+        inSlope: 0.033433117
+        outSlope: 0.033433117
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: -0.024371564
+        inSlope: 0.055866122
+        outSlope: 0.055866122
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -0.013037732
+        inSlope: -0.027814887
+        outSlope: -0.027814887
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: -0.045078207
+        inSlope: -0.05390989
+        outSlope: -0.05390989
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.059609205
+        inSlope: -0.003665831
+        outSlope: -0.003665831
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.36666298
+        inSlope: -0.01762305
+        outSlope: -0.01762305
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: -0.3444283
+        inSlope: 0.20602429
+        outSlope: 0.20602429
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: -0.15018435
+        inSlope: 0.34426257
+        outSlope: 0.34426257
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -0.08034213
+        inSlope: -0.17140311
+        outSlope: -0.17140311
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: -0.27778444
+        inSlope: -0.332208
+        outSlope: -0.332208
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.3673285
+        inSlope: -0.022590267
+        outSlope: -0.022590267
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.14886844
+        inSlope: 0.0015498475
+        outSlope: 0.0015498475
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: -0.15011436
+        inSlope: -0.012420274
+        outSlope: -0.012420274
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: -0.15831733
+        inSlope: -0.008619931
+        outSlope: -0.008619931
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -0.15965076
+        inSlope: 0.0022930924
+        outSlope: 0.0022930924
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: -0.1537085
+        inSlope: 0.0157938
+        outSlope: 0.0157938
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.14867781
+        inSlope: 0.0014673695
+        outSlope: 0.0014673695
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.91736865
+        inSlope: -0.009550705
+        outSlope: -0.009550705
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: 0.9250464
+        inSlope: 0.0765376
+        outSlope: 0.0765376
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: 0.97559536
+        inSlope: 0.053118624
+        outSlope: 0.053118624
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: 0.9838124
+        inSlope: -0.014129769
+        outSlope: -0.014129769
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: 0.9471945
+        inSlope: -0.09732553
+        outSlope: -0.09732553
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.916194
+        inSlope: -0.009042401
+        outSlope: -0.009042401
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5972797
+        inSlope: -0.015543778
+        outSlope: -0.015543778
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.6023267
+        inSlope: 0.022464834
+        outSlope: 0.022464834
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: 0.61214024
+        inSlope: -0.014672644
+        outSlope: -0.014672644
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.5959148
+        inSlope: -0.0016050583
+        outSlope: -0.0016050583
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.702144
+        inSlope: -0.020050526
+        outSlope: -0.020050526
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.7083087
+        inSlope: 0.026417352
+        outSlope: 0.026417352
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: 0.71984905
+        inSlope: -0.017253984
+        outSlope: -0.017253984
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.7007686
+        inSlope: -0.001888304
+        outSlope: -0.001888304
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.25251234
+        inSlope: -0.037887096
+        outSlope: -0.037887096
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: -0.23846342
+        inSlope: 0.056754675
+        outSlope: 0.056754675
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: -0.21200596
+        inSlope: -0.042344965
+        outSlope: -0.042344965
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.2540627
+        inSlope: -0.0037651637
+        outSlope: -0.0037651637
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.29699516
+        inSlope: 0.05334437
+        outSlope: 0.05334437
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.2804221
+        inSlope: -0.06674111
+        outSlope: -0.06674111
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: 0.24930935
+        inSlope: 0.049796082
+        outSlope: 0.049796082
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.29876617
+        inSlope: 0.004428216
+        outSlope: 0.004428216
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.2115814
+        inSlope: -0.0101692695
+        outSlope: -0.0101692695
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: -0.19875096
+        inSlope: 0.1188855
+        outSlope: 0.1188855
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: -0.086663276
+        inSlope: 0.19865522
+        outSlope: 0.19865522
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -0.0463611
+        inSlope: -0.09890744
+        outSlope: -0.09890744
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: -0.1602944
+        inSlope: -0.19169906
+        outSlope: -0.19169906
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.21196543
+        inSlope: -0.0130353775
+        outSlope: -0.0130353775
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf/bigFinger02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.3053121
+        inSlope: -0.014674236
+        outSlope: -0.014674236
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: -0.28679773
+        inSlope: 0.17155208
+        outSlope: 0.17155208
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: -0.12505515
+        inSlope: 0.2866595
+        outSlope: 0.2866595
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -0.06689909
+        inSlope: -0.1427235
+        outSlope: -0.1427235
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: -0.23130488
+        inSlope: -0.276622
+        outSlope: -0.276622
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.3058662
+        inSlope: -0.018810082
+        outSlope: -0.018810082
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf/bigFinger02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.529364
+        inSlope: 0.005511163
+        outSlope: 0.005511163
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: -0.5337943
+        inSlope: -0.04416503
+        outSlope: -0.04416503
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: -0.56296337
+        inSlope: -0.030652378
+        outSlope: -0.030652378
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -0.567705
+        inSlope: 0.008153853
+        outSlope: 0.008153853
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: -0.5465748
+        inSlope: 0.056161452
+        outSlope: 0.056161452
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.52868605
+        inSlope: 0.0052185855
+        outSlope: 0.0052185855
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf/bigFinger02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.7638724
+        inSlope: -0.007952521
+        outSlope: -0.007952521
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: 0.7702654
+        inSlope: 0.06373091
+        outSlope: 0.06373091
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: 0.8123564
+        inSlope: 0.04423155
+        outSlope: 0.04423155
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: 0.81919855
+        inSlope: -0.0117658675
+        outSlope: -0.0117658675
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: 0.7887077
+        inSlope: -0.08104143
+        outSlope: -0.08104143
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.7628942
+        inSlope: -0.0075303274
+        outSlope: -0.0075303274
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf/bigFinger02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.11395373
+        inSlope: -0.049108073
+        outSlope: -0.049108073
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: -0.092226565
+        inSlope: 0.06428628
+        outSlope: 0.06428628
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: -0.067312434
+        inSlope: -0.04047502
+        outSlope: -0.04047502
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.11429521
+        inSlope: -0.0040657544
+        outSlope: -0.0040657544
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.1859626
+        inSlope: 0.038341325
+        outSlope: 0.038341325
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: 0.15125555
+        inSlope: -0.10543215
+        outSlope: -0.10543215
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: 0.1103953
+        inSlope: 0.06638086
+        outSlope: 0.06638086
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.18744907
+        inSlope: 0.006668073
+        outSlope: 0.006668073
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.507966
+        inSlope: -0.019308886
+        outSlope: -0.019308886
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: 0.51236314
+        inSlope: 0.011569304
+        outSlope: 0.011569304
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: 0.5162274
+        inSlope: -0.0052857557
+        outSlope: -0.0052857557
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.50789595
+        inSlope: -0.0009141108
+        outSlope: -0.0009141108
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.83398306
+        inSlope: -0.00063876074
+        outSlope: -0.00063876074
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: 0.8402976
+        inSlope: 0.01897366
+        outSlope: 0.01897366
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: 0.8466352
+        inSlope: -0.008669641
+        outSlope: -0.008669641
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.8329713
+        inSlope: -0.001499199
+        outSlope: -0.001499199
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5457409
+        inSlope: -0.042329837
+        outSlope: -0.042329837
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: 0.5424074
+        inSlope: -0.037601218
+        outSlope: -0.037601218
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: 0.46809453
+        inSlope: -0.12219479
+        outSlope: -0.12219479
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: 0.4393692
+        inSlope: 0.060144324
+        outSlope: 0.060144324
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: 0.5154161
+        inSlope: 0.116855316
+        outSlope: 0.116855316
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.54368067
+        inSlope: 0.008458744
+        outSlope: 0.008458744
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.7221081
+        inSlope: -0.038099192
+        outSlope: -0.038099192
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: 0.7197973
+        inSlope: -0.016715514
+        outSlope: -0.016715514
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: 0.74965173
+        inSlope: 0.05349786
+        outSlope: 0.05349786
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: 0.7623209
+        inSlope: -0.01420344
+        outSlope: -0.01420344
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: 0.7355823
+        inSlope: -0.05532953
+        outSlope: -0.05532953
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.72077376
+        inSlope: -0.004863813
+        outSlope: -0.004863813
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.33842412
+        inSlope: -0.10741558
+        outSlope: -0.10741558
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: -0.34636942
+        inSlope: -0.08328409
+        outSlope: -0.08328409
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: -0.4483241
+        inSlope: -0.11535342
+        outSlope: -0.11535342
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -0.4699191
+        inSlope: 0.05162605
+        outSlope: 0.05162605
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: -0.38493255
+        inSlope: 0.16065168
+        outSlope: 0.16065168
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.34328675
+        inSlope: 0.0132918
+        outSlope: 0.0132918
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.25735527
+        inSlope: -0.05429218
+        outSlope: -0.05429218
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: -0.26021966
+        inSlope: -0.013648367
+        outSlope: -0.013648367
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: -0.1338482
+        inSlope: 0.25813642
+        outSlope: 0.25813642
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -0.07069481
+        inSlope: -0.12120426
+        outSlope: -0.12120426
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: -0.21234846
+        inSlope: -0.19964269
+        outSlope: -0.19964269
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.25894168
+        inSlope: -0.013439145
+        outSlope: -0.013439145
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.050990194
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.050990194
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.3322676e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -1.3322676e-17
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -6.2444973e-18
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -6.2444977e-18
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.03908427
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.03908427
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.0043731416
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.0043731416
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -3.3613334e-18
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -3.3613334e-18
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.04958983
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.04958983
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.0028358444
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.0028358444
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 6.0730033e-18
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 6.0730033e-18
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.039669048
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -0.039669048
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.0015875539
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 0.0015875539
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 5.2976993e-18
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 5.2976993e-18
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 54.57045
+        inSlope: 0.053723104
+        outSlope: 0.053723104
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: 54.57314
+        inSlope: 0.023922712
+        outSlope: 0.023856815
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 54.559593
+        inSlope: -0.0016589358
+        outSlope: -0.0016589358
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -80.57913
+        inSlope: -14.457118
+        outSlope: -14.457118
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: -80.86318
+        inSlope: 0.009887688
+        outSlope: 0.009755861
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -80.86712
+        inSlope: -0.0006591798
+        outSlope: -0.0006591798
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 97.789665
+        inSlope: -14.489363
+        outSlope: -14.489363
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: 96.93875
+        inSlope: -0.91779715
+        outSlope: -0.917798
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 97.461914
+        inSlope: 0.060688484
+        outSlope: 0.060688484
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -18.255526
+        inSlope: -5.2754574
+        outSlope: -5.2754574
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666985
+        value: -18.381653
+        inSlope: -0.6591747
+        outSlope: -0.6973779
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: -18.186089
+        inSlope: 0.17675301
+        outSlope: 0.17660522
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.333334
+        value: -18.370173
+        inSlope: -0.13072096
+        outSlope: -0.1308408
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -18.381653
+        inSlope: -0.018676829
+        outSlope: -0.018676829
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -78.15726
+        inSlope: -28.719141
+        outSlope: -28.719141
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666985
+        value: -78.891525
+        inSlope: -6.356641
+        outSlope: -6.353897
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: -78.90377
+        inSlope: -0.017916156
+        outSlope: -0.019121442
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.333334
+        value: -78.89185
+        inSlope: 0.003112793
+        outSlope: 0.0038452295
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -78.891525
+        inSlope: 0.0005493185
+        outSlope: 0.0005493185
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 95.972176
+        inSlope: 0.5487629
+        outSlope: 0.5487629
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666985
+        value: 95.895676
+        inSlope: -4.4087796
+        outSlope: -4.403233
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: 93.947525
+        inSlope: -1.7697273
+        outSlope: -1.7693481
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.333334
+        value: 95.78178
+        inSlope: 1.2960074
+        outSlope: 1.295705
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 95.895676
+        inSlope: 0.18374704
+        outSlope: 0.18374704
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -30.448128
+        inSlope: -8.89425
+        outSlope: -8.89425
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: -31.246017
+        inSlope: -0.90263605
+        outSlope: -0.67978984
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.458334
+        value: -30.7843
+        inSlope: -0.74993205
+        outSlope: -0.7499327
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -30.644106
+        inSlope: 0.13131417
+        outSlope: 0.13131417
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.8673143
+        inSlope: -1.7293223
+        outSlope: -1.7293223
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: 1.440781
+        inSlope: 16.595821
+        outSlope: 16.613167
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.458334
+        value: 12.305528
+        inSlope: -10.300561
+        outSlope: -10.3005705
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -2.1032093
+        inSlope: -1.2091595
+        outSlope: -1.2091595
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 4.0300307
+        inSlope: 0.79133433
+        outSlope: 0.79133433
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.41666698
+        value: 2.2893946
+        inSlope: -8.6019335
+        outSlope: -8.629133
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.458334
+        value: -3.2743232
+        inSlope: 5.188975
+        outSlope: 5.1889796
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 4.1210694
+        inSlope: 0.62321496
+        outSlope: 0.62321496
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -19.746204
+        inSlope: -6.8900485
+        outSlope: -6.8900485
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: -15.977037
+        inSlope: 11.100662
+        outSlope: 11.117679
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: -11.677957
+        inSlope: -6.9799905
+        outSlope: -6.9779406
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -19.763733
+        inSlope: -0.6948395
+        outSlope: -0.6948395
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 16.161446
+        inSlope: 1.6086713
+        outSlope: 1.6086713
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: 12.866897
+        inSlope: -9.451445
+        outSlope: -9.397709
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: 9.2508955
+        inSlope: 5.7981043
+        outSlope: 5.8024893
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 16.228056
+        inSlope: 0.63680077
+        outSlope: 0.63680077
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 49.29504
+        inSlope: -0.50260437
+        outSlope: -0.50260437
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: 50.311844
+        inSlope: 2.430487
+        outSlope: 2.3192654
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: 51.17694
+        inSlope: -1.2794087
+        outSlope: -1.289978
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 49.279587
+        inSlope: -0.216568
+        outSlope: -0.216568
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 19.929012
+        inSlope: 7.15438
+        outSlope: 7.15438
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: 20.543497
+        inSlope: 7.6449842
+        outSlope: 7.604958
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: 40.67985
+        inSlope: 30.97217
+        outSlope: 31.057343
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: 47.65407
+        inSlope: -14.3781185
+        outSlope: -14.385097
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: 28.174006
+        inSlope: -31.836828
+        outSlope: -31.839705
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 20.31791
+        inSlope: -2.399912
+        outSlope: -2.399912
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -132.77792
+        inSlope: 14.342542
+        outSlope: 14.342542
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: -131.83963
+        inSlope: 8.089171
+        outSlope: 8.173832
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: -137.84286
+        inSlope: -24.94951
+        outSlope: -24.58894
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -144.49475
+        inSlope: 12.103125
+        outSlope: 12.062708
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: -134.10097
+        inSlope: 8.883129
+        outSlope: 9.086037
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -132.22313
+        inSlope: 0.4472541
+        outSlope: 0.4472541
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 72.32444
+        inSlope: 4.8545465
+        outSlope: 4.8545465
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: 72.64091
+        inSlope: 2.7320044
+        outSlope: 2.8677883
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: 69.6061
+        inSlope: -15.815505
+        outSlope: -15.4234495
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: 65.389786
+        inSlope: 7.75708
+        outSlope: 7.713703
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: 71.54822
+        inSlope: 4.1125927
+        outSlope: 4.383112
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 72.51017
+        inSlope: 0.23263586
+        outSlope: 0.23263586
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/thumb01_lf/thumb02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 20.774292
+        inSlope: 6.516632
+        outSlope: 6.516632
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 19.853443
+        inSlope: -4.203026
+        outSlope: -4.2555857
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: 17.86977
+        inSlope: 3.194153
+        outSlope: 3.198539
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 20.97618
+        inSlope: 0.26592296
+        outSlope: 0.26592296
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 138.14297
+        inSlope: -5.89563
+        outSlope: -5.89563
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 140.8108
+        inSlope: 10.550079
+        outSlope: 10.498312
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: 145.65219
+        inSlope: -7.645691
+        outSlope: -7.641997
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 137.86133
+        inSlope: -0.7214676
+        outSlope: -0.7214676
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 21.636211
+        inSlope: -1.0670242
+        outSlope: -1.0670242
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 22.615143
+        inSlope: 3.522583
+        outSlope: 3.439115
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: 24.181356
+        inSlope: -2.417008
+        outSlope: -2.4101803
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 21.586077
+        inSlope: -0.2587102
+        outSlope: -0.2587102
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -12.589571
+        inSlope: -0.54142
+        outSlope: -0.54142
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: -11.9357395
+        inSlope: 6.3304367
+        outSlope: 6.4457207
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: -5.457486
+        inSlope: 12.436025
+        outSlope: 12.436045
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -2.9409502
+        inSlope: -6.2003646
+        outSlope: -6.19716
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: -9.833831
+        inSlope: -10.32686
+        outSlope: -10.478274
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -12.618267
+        inSlope: -0.6596046
+        outSlope: -0.6596046
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -42.067547
+        inSlope: -2.300949
+        outSlope: -2.300949
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: -39.357258
+        inSlope: 25.23619
+        outSlope: 25.160725
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: -16.655746
+        inSlope: 38.52022
+        outSlope: 38.520206
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -8.865947
+        inSlope: -19.007874
+        outSlope: -19.008715
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: -31.333218
+        inSlope: -39.48034
+        outSlope: -39.436176
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -42.18942
+        inSlope: -2.8153234
+        outSlope: -2.8153234
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -13.577087
+        inSlope: 0.5024414
+        outSlope: 0.5024414
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: -14.152845
+        inSlope: -5.106102
+        outSlope: -4.93726
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: -17.635483
+        inSlope: -2.8583255
+        outSlope: -2.8583302
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -18.2069
+        inSlope: 1.1754103
+        outSlope: 1.1897004
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: -15.670711
+        inSlope: 7.485695
+        outSlope: 7.2846084
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -13.550491
+        inSlope: 0.61743206
+        outSlope: 0.61743206
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/pinky01_lf/pinky02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 45.08556
+        inSlope: 7.659096
+        outSlope: 7.659096
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 42.502533
+        inSlope: -10.543762
+        outSlope: -10.548102
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: 37.621983
+        inSlope: 7.7546206
+        outSlope: 7.755383
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 45.410656
+        inSlope: 0.704809
+        outSlope: 0.704809
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 170.60727
+        inSlope: -3.40448
+        outSlope: -3.40448
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 171.4204
+        inSlope: 3.105194
+        outSlope: 3.0180314
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: 172.79237
+        inSlope: -2.1079242
+        outSlope: -2.1013987
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 170.49455
+        inSlope: -0.23706593
+        outSlope: -0.23706593
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 76.86633
+        inSlope: -2.0628662
+        outSlope: -2.0628662
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 77.41194
+        inSlope: 2.0627747
+        outSlope: 1.9680023
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.541667
+        value: 78.2958
+        inSlope: -1.3259835
+        outSlope: -1.3188136
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 76.769104
+        inSlope: -0.16909398
+        outSlope: -0.16909398
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -40.194286
+        inSlope: -2.050644
+        outSlope: -2.050644
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: -37.760628
+        inSlope: 22.92746
+        outSlope: 23.00052
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: -16.35607
+        inSlope: 37.664024
+        outSlope: 37.664085
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -8.737966
+        inSlope: -18.641745
+        outSlope: -18.639454
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: -30.377941
+        inSlope: -36.308807
+        outSlope: -36.438107
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -40.302925
+        inSlope: -2.5056336
+        outSlope: -2.5056336
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf/bigFinger02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -18.471659
+        inSlope: -1.3935013
+        outSlope: -1.3935013
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: -16.885937
+        inSlope: 13.976761
+        outSlope: 13.536063
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: -6.3185525
+        inSlope: 14.919392
+        outSlope: 14.919337
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -3.3042104
+        inSlope: -7.2537484
+        outSlope: -7.259932
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: -12.698294
+        inSlope: -20.648922
+        outSlope: -20.154795
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -18.545406
+        inSlope: -1.7150918
+        outSlope: -1.7150918
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf/bigFinger02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -62.634212
+        inSlope: 0.90083313
+        outSlope: 0.90083313
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.25
+        value: -63.631905
+        inSlope: -8.374878
+        outSlope: -7.8720093
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.83333397
+        value: -68.535
+        inSlope: -3.2858503
+        outSlope: -3.2858555
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -69.19144
+        inSlope: 1.3288755
+        outSlope: 1.3461914
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.041667
+        value: -65.98339
+        inSlope: 11.623535
+        outSlope: 11.03947
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -62.58655
+        inSlope: 1.1137397
+        outSlope: 1.1137397
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/bigFinger01_lf/bigFinger02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -22.245167
+        inSlope: -6.896876
+        outSlope: -6.896876
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: -18.058691
+        inSlope: 12.622443
+        outSlope: 12.631708
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: -13.176782
+        inSlope: -7.915577
+        outSlope: -7.914159
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -22.38439
+        inSlope: -0.7965832
+        outSlope: -0.7965832
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 12.111048
+        inSlope: 1.746226
+        outSlope: 1.746226
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: 9.669607
+        inSlope: -7.187042
+        outSlope: -7.1350446
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: 6.927162
+        inSlope: 4.3853207
+        outSlope: 4.389656
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 12.249313
+        inSlope: 0.49227905
+        outSlope: 0.49227905
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 60.300266
+        inSlope: -3.0302026
+        outSlope: -3.0302026
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.58333397
+        value: 61.204517
+        inSlope: 2.0815735
+        outSlope: 1.9834206
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: 61.94363
+        inSlope: -1.0897821
+        outSlope: -1.0990791
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 60.31206
+        inSlope: -0.18851852
+        outSlope: -0.18851852
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 11.996477
+        inSlope: 5.377698
+        outSlope: 5.377698
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: 12.494236
+        inSlope: 6.633357
+        outSlope: 6.60361
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: 33.152317
+        inSlope: 33.661785
+        outSlope: 33.698273
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: 40.869324
+        inSlope: -15.711841
+        outSlope: -15.713463
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: 20.328583
+        inSlope: -32.62162
+        outSlope: -32.644604
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 12.315869
+        inSlope: -2.4336746
+        outSlope: -2.4336746
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -130.74876
+        inSlope: 14.601268
+        outSlope: 14.601268
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: -129.77536
+        inSlope: 8.679133
+        outSlope: 8.724829
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: -132.18176
+        inSlope: -15.021743
+        outSlope: -14.847803
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: -136.4808
+        inSlope: 7.0833983
+        outSlope: 7.0642056
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: -130.86034
+        inSlope: 3.9771862
+        outSlope: 4.045831
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: -130.16954
+        inSlope: 0.11513689
+        outSlope: 0.11513689
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 79.67592
+        inSlope: 2.996498
+        outSlope: 2.996498
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333397
+        value: 79.87429
+        inSlope: 1.7701586
+        outSlope: 1.8829606
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.791667
+        value: 78.99741
+        inSlope: -7.4262767
+        outSlope: -7.219519
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.416667
+        value: 76.83254
+        inSlope: 3.5061402
+        outSlope: 3.4837973
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.083334
+        value: 79.40917
+        inSlope: 1.5478699
+        outSlope: 1.6578944
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.5
+        value: 79.79275
+        inSlope: 0.10288712
+        outSlope: 0.10288712
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: root/foot/knees/pelvis/spine01/spine02/shoulder_lf/arm_lf/wrist_lf/hand_lf/finger01_lf/finger02_lf
+    classID: 4
+    script: {fileID: 0}
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

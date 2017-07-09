@@ -104,6 +104,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 				float f = Random.Range(0.1f,100f);
 				if (f>topEggRoll)
 				{
+					topEggRoll = f;
 					bonjour = i;
 				}
 			}
@@ -112,6 +113,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 				float f = Random.Range(0.1f,100f);
 				if (f>topEggRoll)
 				{
+					topEggRoll = f;
 					bonjour = i;
 				}
 			} 
@@ -127,7 +129,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 			Item newItem = g.GetComponent<Item>();
 			newItem.Init();
 			stock.Add(newItem);
-			yield return new WaitForSeconds (0.1f);			
+			yield return new WaitForSeconds (0.2f);			
 		}
 		SpawnDone = true;
 	}
