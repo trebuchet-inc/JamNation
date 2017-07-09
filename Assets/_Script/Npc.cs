@@ -68,7 +68,7 @@ public class Npc : MonoBehaviour
 		{
 			if(item != null){
 				Destroy(item.gameObject);
-			}			GUITargetAttribute 
+			}			
 		}
 		_rb.constraints = RigidbodyConstraints.FreezeAll;
 		_rb.useGravity = false; 
