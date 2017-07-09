@@ -129,7 +129,6 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 			Item newItem = g.GetComponent<Item>();
 			newItem.Init();
 			stock.Add(newItem);
-			yield return new WaitForSeconds (0.1f);			
 		}
 		SpawnDone = true;
 	}

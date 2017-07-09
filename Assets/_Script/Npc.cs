@@ -192,6 +192,8 @@ public class Npc : MonoBehaviour
 			item.rb.isKinematic = false;
 			item.rb.AddExplosionForce(5, epicentre, 3, Random.Range(1.0f,3.0f), ForceMode.Impulse);
 		}
+		
+		itemsInHands.Clear();
 
 		_rb.AddExplosionForce(info.forceOnPunch, epicentre, 0, Random.Range(2.5f, 5.0f), ForceMode.Impulse);
 
@@ -204,7 +206,7 @@ public class Npc : MonoBehaviour
 	{		
 		_agent.SetDestination(pos);
 	}
-
+	
 	private IEnumerator Wander()
 	{
 		yield return new WaitForSeconds(Random.Range(1f,4f));
