@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider))]
 public class Exit : MonoBehaviour {
 
-	private void OnCollisionEnter(Collision col)
+	private void OnTriggerEnter(Collider col)
 	{
 		Npc n = col.gameObject.GetComponent<Npc>();
 

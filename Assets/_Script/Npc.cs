@@ -56,7 +56,7 @@ public class Npc : MonoBehaviour
 		_rb.useGravity = false; 
 		itemsInHands.Clear();
 		_lastItem = null;
-		targetShelve = null;
+		targetShelve = CrowdManager.Instance.RollTarget(info.favoriteItemSize);
 	}
 
 	private void Wander_Enter()
