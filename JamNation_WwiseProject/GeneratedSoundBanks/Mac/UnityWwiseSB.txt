@@ -1,8 +1,60 @@
 Event	ID	Name			Wwise Object Path	Notes
+	297512792	Play_Box_pickup			\Default Work Unit\Play_Box_pickup	
+	2182557356	Play_JudgementGood			\Default Work Unit\Play_JudgementGood	
+	2198549209	Play_FishBob			\Default Work Unit\Play_FishBob	
+	2547602862	Play_Fatlord			\Default Work Unit\Play_Fatlord	
 	2847098557	Play_SFX_Ball_bounce1			\Default Work Unit\Play_SFX_Ball_bounce1	
+	3559183329	Play_JudgementSad			\Default Work Unit\Play_JudgementSad	
+	3600446858	Play_JudgementNormal			\Default Work Unit\Play_JudgementNormal	
+	3996494794	Play_HitAlien			\Default Work Unit\Play_HitAlien	
 	3996652692	Play_SFX_Ball_inCup1			\Default Work Unit\Play_SFX_Ball_inCup1	
+	4007426814	Play_Zorg			\Default Work Unit\Play_Zorg	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3948262040	Octave_Down	Wwise Pitch Shifter			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	22413068	Hala_02	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Hala_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fatlord\Hala_02\Hala_02		345640
+	50670975	Leen_04	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Leen_04_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_04\Leen_04		419092
+	54863968	JudgementGood	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\FatlordHappy_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\JudgementGood		793944
+	55581779	Hala_11	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Hala_11_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fatlord\Hala_11\Hala_11		176544
+	138612944	Hala_10	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Hala_10_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fatlord\Hala_10\Hala_10		308844
+	271591121	Alah_06	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Alah_06_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_06\Alah_06		242740
+	287311965	Hala_08	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Hala_08_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fatlord\Hala_08\Hala_08		257392
+	306863027	Leen_06	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Leen_06_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_06\Leen_06		485244
+	323054876	Leen_01	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Leen_01_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_01\Leen_01		352992
+	327164095	Alah_09	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Alah_09_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_09\Alah_09		183944
+	344592711	Leen_08	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Leen_08_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_08\Leen_08		352944
+	365093469	SFX_Pickup4	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\SFX_Pickup4_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Box_pickup\SFX_Pickup4\SFX_Pickup4		352992
+	370330302	Leen_10	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Leen_10_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_10\Leen_10		485244
+	379110040	Alah_04	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Alah_04_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_04\Alah_04		187620
+	397079001	Hala_01	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Hala_01_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fatlord\Hala_01\Hala_01		286840
+	401092220	SFX_Pickup5	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\SFX_Pickup5_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Box_pickup\SFX_Pickup5\SFX_Pickup5		352992
+	418675473	Hala_06	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Hala_06_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fatlord\Hala_06\Hala_06		275772
+	435874661	JudgementNormal	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\FatlordMeh_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\JudgementNormal		352992
+	444383571	Hala_05	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Hala_05_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fatlord\Hala_05\Hala_05		308844
+	461488712	Alah_07	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Alah_07_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_07\Alah_07		220692
+	475268408	SFX_Pickup3	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\SFX_Pickup3_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Box_pickup\SFX_Pickup3\SFX_Pickup3		352992
+	506277285	Alah_03	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Alah_03_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_03\Alah_03		215732
 	510108242	SFX_Ball_bounce1	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\SFX_Ball_bounce1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ball_bounce1		23832
+	510114414	Alah_08	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Alah_08_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_08\Alah_08		154540
+	529152918	Hala_12	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Hala_12_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fatlord\Hala_12\Hala_12		104236
+	536201666	Leen_07	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Leen_07_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_07\Leen_07		220644
+	538077373	Hala_07	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Hala_07_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fatlord\Hala_07\Hala_07		261072
+	547836075	JudgementSad	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\FatlordSad_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\JudgementSad		352992
 	563229901	SFX_Ball_inCup1	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\SFX_Ball_inCup1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ball_inCup1		161876
+	599823085	Hala_09	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Hala_09_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fatlord\Hala_09\Hala_09		183896
+	630641157	Alah_02	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Alah_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_02\Alah_02		308892
+	660888847	SFX_PunchingAliens	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\SFX_PunchingAliens_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HitAlien\SFX_PunchingAliens		705792
+	665993553	Leen_02	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Leen_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_02\Leen_02		419092
+	672860876	SFX_Pickup1	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\SFX_Pickup1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Box_pickup\SFX_Pickup1\SFX_Pickup1		352992
+	676477376	Hala_03	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Hala_03_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fatlord\Hala_03\Hala_03		250044
+	715627970	Alah_11	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Alah_11_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_11\Alah_11		120180
+	739698897	Leen_05	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Leen_05_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_05\Leen_05		264744
+	763884239	Alah_01	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Alah_01_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_01\Alah_01		233096
+	765347250	Alah_10	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Alah_10_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_10\Alah_10		147192
+	804995531	Leen_03	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Leen_03_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_03\Leen_03		551396
+	821671818	Alah_05	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Alah_05_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Fishbob\Alah_05\Alah_05		194968
+	871651833	SFX_Pickup2	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\SFX_Pickup2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Box_pickup\SFX_Pickup2\SFX_Pickup2		352992
+	992843993	Leen_09	Y:\Desktop\JamNation - ComicCon\JamNation_WwiseProject\.cache\Mac\SFX\Leen_09_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Zorg\Leen_09\Leen_09		529344
 

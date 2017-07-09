@@ -1,6 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_SFX_Ball_bounce1" ID="{EF482240-B9E0-46BD-950A-F810A31231DE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D875B0BC-172A-4D4B-9EB9-F62051059942}" ShortID="1001865708" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7C04E5BA-CCB3-4A07-8798-2DD65068A4C2}" Global="false">
+									<ObjectRef Name="SFX_Ball_bounce1" ID="{A8C1B530-136F-41DF-A4D9-9C2E6A7C207D}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Ball_inCup1" ID="{EC871E55-49AD-4C27-810D-43BBF9D1E126}">
+					<ChildrenList>
+						<Action Name="Play" ID="{087BE922-23E2-4F0B-9EF6-7D9893835884}" ShortID="614504939" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2FE4765D-4513-4089-AD67-B9811D3BE176}" Global="false">
+									<ObjectRef Name="SFX_Ball_inCup1" ID="{6CC92665-6359-41F3-A1C2-E81BB654CD1E}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Zorg" ID="{F98D0E33-1246-42A5-8AD6-8533F4700131}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6D3C60F1-ACEE-409B-BD40-874E6493935B}" ShortID="17322818" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3C33A26F-F575-4225-9CB0-B284C114F6AC}" Global="false">
+									<ObjectRef Name="Zorg" ID="{9718C736-D786-4680-849D-23EEC7F02689}" WorkUnitID="{EC58C695-2DAA-4D52-9C09-53D6DEC52204}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fatlord" ID="{D09DB54D-0B3C-412B-BF27-E83FE58709EF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8E899FB1-902F-49D6-9EC5-077610944D3E}" ShortID="348065322" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{858A0967-7A77-4103-8D81-1324433085F4}" Global="false">
+									<ObjectRef Name="Fatlord" ID="{04985D3E-4FCF-4C59-9673-E0EB0BEE8E54}" WorkUnitID="{EC58C695-2DAA-4D52-9C09-53D6DEC52204}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FishBob" ID="{C095D6DB-B4CD-438C-9CDC-E54A083293A7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C58AF2E0-2F9A-4467-94FC-06324E2E9A3D}" ShortID="695085573" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{60C4B5DB-0CF5-4F7C-979E-3B41336394FA}" Global="false">
+									<ObjectRef Name="Fishbob" ID="{8D123CD8-F86F-4096-995D-F02A1301361F}" WorkUnitID="{EC58C695-2DAA-4D52-9C09-53D6DEC52204}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Box_pickup" ID="{B3D3BB46-AE41-4A59-A14C-9563513E5BC9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B6C2F89D-C04F-427C-8F63-68406E6C7E94}" ShortID="242591644" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{97831F42-F986-4127-9348-0A95B4506385}" Global="false">
+									<ObjectRef Name="Box_pickup" ID="{A77CD4A0-986C-4916-A485-AFF92C7B475C}" WorkUnitID="{EC58C695-2DAA-4D52-9C09-53D6DEC52204}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
