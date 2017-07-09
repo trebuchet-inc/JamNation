@@ -168,6 +168,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Theme" ID="{FB347DA7-3483-4157-A73B-6C55DF2519BD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9AD1EBE7-D376-4FC5-88B0-2423050F5C35}" ShortID="558657724" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{95CF61A0-297E-4216-A274-AA6F9035CC57}" Global="false">
+									<ObjectRef Name="Theme" ID="{2C46F0B5-CF22-4A4A-8F32-DEC59FFC20B6}" WorkUnitID="{EC58C695-2DAA-4D52-9C09-53D6DEC52204}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
