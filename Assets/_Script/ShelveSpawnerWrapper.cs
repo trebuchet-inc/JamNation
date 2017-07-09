@@ -39,12 +39,27 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 			break;
 
 			case 1: //OrderedArray
+			Transform t =  transform.Find("OrderArray");
+			int count = t.childCount;
+			for (int i = 0; i < count; i++)
+			{
+				Vector3 p = t.GetChild(i).position;
+				GameObject g = (GameObject)Instantiate(item,p,Quaternion.identity,transform);
+				Item newItem = g.GetComponent<Item>();
+				newItem.Init();
+				stock.Add(newItem);
+
+			}
 			break;
 
 			case 2: //ForStack
 				float itemXLength = item.transform.localScale.x;
 				float itemYLength = item.transform.localScale.y;
 				float itemZLength = item.transform.localScale.z;
+			// while(itemXLength > spawnZone.x||itemYLength>spawnZone.y||itemZLength>spawnZone.z)
+			// {
+			// 	RollForItem(){}
+			// }
 				int itemsXSpace = (int)(spawnZone.x/itemXLength);
 				int itemsYSpace = (int)(spawnZone.y/itemYLength);
 				int itemsZSpace = (int)(spawnZone.z/itemZLength);
@@ -60,7 +75,9 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 							Vector3 randomizer = new Vector3(Random.Range(0.00f,0.02f),Random.Range(0.00f,0.02f),Random.Range(0.00f,0.02f));
 							Vector3 pos = spawner.position + posMultiplier+adjustment+randomizer;
 							GameObject g = (GameObject)Instantiate(item,pos,Quaternion.identity,transform);
-							stock.Add(g.GetComponent<Item>());							
+							Item newItem = g.GetComponent<Item>();
+							newItem.Init();
+							stock.Add(newItem);							
 						}
 					}
 				}
@@ -87,6 +104,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 				float f = Random.Range(0.1f,100f);
 				if (f>topEggRoll)
 				{
+					topEggRoll = f;
 					bonjour = i;
 				}
 			}
@@ -95,6 +113,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 				float f = Random.Range(0.1f,100f);
 				if (f>topEggRoll)
 				{
+					topEggRoll = f;
 					bonjour = i;
 				}
 			} 
@@ -107,7 +126,9 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 		for (int i = 0; i < itemAmount; i++)
 		{
 			GameObject g = (GameObject)Instantiate(item,spawner.position,Quaternion.identity,transform);
-			stock.Add(g.GetComponent<Item>());
+			Item newItem = g.GetComponent<Item>();
+			newItem.Init();
+			stock.Add(newItem);
 			yield return new WaitForSeconds (0.1f);			
 		}
 		SpawnDone = true;

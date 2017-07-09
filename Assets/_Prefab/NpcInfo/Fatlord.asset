@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58fe0e71c8c35a14884fd6355acf29b1, type: 3}
   m_Name: Fatlord
   m_EditorClassIdentifier: 
-  model: {fileID: 100000, guid: 04714446d7959e645b58b47fd9f69467, type: 3}
+  model: {fileID: 1947606822882072, guid: db874f5d97cdf4d4f8218e2fb098d7fe, type: 2}
   moveSpeed: 2
+  forceOnPunch: 10
   favoriteItemSize: 0
   maxQtyInHands: 10

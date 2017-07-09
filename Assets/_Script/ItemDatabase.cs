@@ -5,11 +5,14 @@ using UnityEngine;
 public class ItemDatabase : MonoBehaviour {
 
 	public GameObject[] items;
+	public GameObject[] foodZones;
+	public GameObject[] miscZones;
+	public GameObject[] electroZones;
 	public static ItemDatabase Instance;
 
 	// List<Item> allStock = new List<Item>();
 	// List<ShelveSpawnerWrapper> 
-	public static int Score;
+
 	// Use this for initialization
 	
 	void Awake()
