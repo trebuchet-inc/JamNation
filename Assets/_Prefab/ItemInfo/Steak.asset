@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: Steak
   m_EditorClassIdentifier: 
   itemName: Steak
-  scoreValue: 50
+  scoreValue: 100
   itemSize: 0
   itemType: 1

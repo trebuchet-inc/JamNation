@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9fed59311161b894b9bba4e8e914e97f, type: 3}
-  m_Name: Television 10
+  m_Name: RobotCulinaire
   m_EditorClassIdentifier: 
-  itemName: Television
-  scoreValue: 500
-  itemSize: 2
-  itemType: 0
+  itemName: RobotCulinaire
+  scoreValue: 1600
+  itemSize: 1
+  itemType: 2
