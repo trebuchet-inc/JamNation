@@ -51,7 +51,9 @@ public class TimerManager : MonoBehaviour {
 		SteamVR_Fade.View(new Color(0,0,0,0), 2.0f);
 		_finalScore.ShowScore();
 		_player.transform.position = Spawn.transform.position;
-		yield return new WaitForSeconds(5.0f);
+		yield return new WaitForSeconds(2.0f);
+		AkSoundEngine.PostEvent("Play_DrumRoll", gameObject);
+		yield return new WaitForSeconds(3.0f);
 		int OkNb= 0;
 		for(int i = 0; i < boards.Length; i++)
 		{

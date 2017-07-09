@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Amb : MonoBehaviour {
+	public string musique;
+
 	public string[] events;
 	public float minTime;
 	public float maxTime;
+
+	bool _playing;
 
 	float timer;
 
@@ -14,6 +18,11 @@ public class Amb : MonoBehaviour {
 	}
 	
 	void Update () {
+		if(TimerManager.started && !_playing){
+			AkSoundEngine.PostEvent(musique, gameObject);
+			_playing = true;
+		}
+
 		timer -= Time.deltaTime;
 		if(timer <= 0){
 			AkSoundEngine.PostEvent(events[Random.Range(0, events.Length)], gameObject);
