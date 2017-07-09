@@ -390,6 +390,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 23704608757966924, guid: acf53412c80ad50468b2a9a0e164a7d5,
+        type: 2}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4980764483708758, guid: acf53412c80ad50468b2a9a0e164a7d5, type: 2}
       propertyPath: m_LocalPosition.x
       value: -7.620929
@@ -422,6 +427,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 23704608757966924, guid: acf53412c80ad50468b2a9a0e164a7d5,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 40fa752affdc6cf45a47396764154085, type: 2}
+    - target: {fileID: 23704608757966924, guid: acf53412c80ad50468b2a9a0e164a7d5,
+        type: 2}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: a2ed873cd9b770547a1ed472d1ba0c66, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: acf53412c80ad50468b2a9a0e164a7d5, type: 2}
   m_IsPrefabParent: 0
@@ -3881,7 +3896,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 432029029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 981320965}
@@ -4581,6 +4596,7 @@ GameObject:
   - component: {fileID: 986536108}
   - component: {fileID: 986536107}
   - component: {fileID: 986536106}
+  - component: {fileID: 986536109}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -4631,6 +4647,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &986536109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 986536105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362dcd389c4bca54699102021bda210b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: a751dad3f6e34e4a8a576b6d99567fd2
+  bankName: UnityWwiseSB
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
 --- !u!1001 &1014662764
 Prefab:
   m_ObjectHideFlags: 0
@@ -8349,6 +8384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d0377fa8b90231438b67bf90ee0343c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: 60
   boards:
   - {fileID: 38068852}
   - {fileID: 885767751}

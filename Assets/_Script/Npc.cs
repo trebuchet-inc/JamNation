@@ -241,6 +241,7 @@ public class Npc : MonoBehaviour
 	{
 		if(col.gameObject.CompareTag("Hand"))
 		{
+			AkSoundEngine.PostEvent("Play_Fatlord", gameObject);
 			StartCoroutine(GetHit(col.contacts[Random.Range(0, col.contacts.Length)].point));
 		}
 	}

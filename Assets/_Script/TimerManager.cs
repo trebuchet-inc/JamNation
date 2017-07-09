@@ -6,6 +6,7 @@ public class TimerManager : MonoBehaviour {
 	public static float Timer;
 	public static int Score;
 
+	public float timer;
 	public ScoreBoard[] boards;
 	public int[] paliers;
 	public GameObject Spawn;
@@ -14,6 +15,7 @@ public class TimerManager : MonoBehaviour {
 	bool _end;
 	
 	void Start () {
+		Timer = timer;
 		_player = GameObject.FindGameObjectWithTag("Player");
 	}
 	
