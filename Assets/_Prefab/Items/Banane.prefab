@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 114004935939746264}
   - component: {fileID: 114794897605939364}
   m_Layer: 9
-  m_Name: Template
+  m_Name: Banane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a841146f64299754986f248def891557, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 69128fe500c6dc141add4f5dcc5e6f48, type: 2}
+  item: {fileID: 11400000, guid: e9d30d722adbe6b4dbdef17c37ccf758, type: 2}
   rb: {fileID: 0}
 --- !u!114 &114794897605939364
 MonoBehaviour:
