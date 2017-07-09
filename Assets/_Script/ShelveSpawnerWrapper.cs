@@ -79,8 +79,7 @@ public class ShelveSpawnerWrapper : MonoBehaviour {
 							Vector3 pos = spawner.localPosition + spaceAjust + posMultiplier +adjustment+ randomizer;
 							GameObject g = (GameObject)Instantiate(item,pos,Quaternion.identity,transform);
 							g.transform.localPosition = pos;
-							g.transform.localRotation = spawner.localRotation;
-							stock.Add(g.GetComponent<Item>());							
+							g.transform.localRotation = spawner.localRotation;						
 							Item newItem = g.GetComponent<Item>();
 							newItem.Init();
 							stock.Add(newItem);							
