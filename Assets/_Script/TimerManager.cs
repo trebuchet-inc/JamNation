@@ -11,21 +11,27 @@ public class TimerManager : MonoBehaviour {
 	public int[] paliers;
 	public GameObject Spawn;
 
-	[HideInInspector] public bool started;
+	public static bool started;
 
 	GameObject _player;
 	FinalScore _finalScore;
 	bool _end;
+	bool _init;
 	
 	void Start () {
 		Timer = timer;
 		_player = GameObject.FindGameObjectWithTag("Player");
 		_finalScore = FindObjectOfType<FinalScore>();
-		started = true;
 	}
 	
 	void Update () 
 	{
+		if(!_init && started)
+		{
+			FindObjectOfType<CrowdManager>().Go();
+			_init = true;
+		}
+
 		if(!_end && started)
 		{
 			Timer -= Time.deltaTime;
