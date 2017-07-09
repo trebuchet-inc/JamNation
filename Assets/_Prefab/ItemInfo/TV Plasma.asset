@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: TV Plasma
   m_EditorClassIdentifier: 
   itemName: TV Plasma
-  scoreValue: 2500
+  scoreValue: 1000
   itemSize: 2
   itemType: 0

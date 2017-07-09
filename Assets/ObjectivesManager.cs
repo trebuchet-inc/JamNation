@@ -19,7 +19,7 @@ public class ObjectivesManager : MonoBehaviour
 	
 	public int numberOfObjectives;
 	public List<Objective> objectivesToComplete = new List<Objective>();
-	public List<ItemInfo> itemsInStore = new List<ItemInfo>();
+	public List<Item> itemsInStore = new List<Item>();
 
 	public List<Item> itemsTaken = new List<Item>();
 	
@@ -40,8 +40,7 @@ public class ObjectivesManager : MonoBehaviour
 	{
 		Objective newObjective = new Objective();	
 
-		newObjective.itemToGet = itemsInStore.OrderBy(i => Random.value).FirstOrDefault();
-		itemsInStore.Remove(newObjective.itemToGet);
+		newObjective.itemToGet = itemsInStore.OrderBy(i => Random.value).FirstOrDefault().item;
 
 		newObjective.qtyToGet = Random.Range(5,10);
 

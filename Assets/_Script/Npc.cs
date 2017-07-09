@@ -113,9 +113,9 @@ public class Npc : MonoBehaviour
 
 	private void Target_Update()
 	{
-		if(targetShelve == null) stm.ChangeState(States.Wander);
+		if(targetShelve == null || targetShelve.stock.Count <= 0) targetShelve = CrowdManager.Instance.RollTarget(info.favoriteItemSize);
 
-		if(_agent.isOnNavMesh && _agent.remainingDistance < 1.2f)
+		if(_agent.isOnNavMesh && _agent.remainingDistance < 2f)
 		{
 			stm.ChangeState(States.Taking);
 		}
@@ -137,11 +137,11 @@ public class Npc : MonoBehaviour
 
 	private void Taking_Update()
 	{
-		if(Vector3.Distance(transform.position, targetShelve.transform.position) > 1.5f)
-		{
-			StopCoroutine(TakingSequence());
-			stm.ChangeState(States.Target);
-		}
+		// if(Vector3.Distance(transform.position, targetShelve.transform.position) > 1.5f)
+		// {
+		// 	StopCoroutine(TakingSequence());
+		// 	stm.ChangeState(States.Target);
+		// }
 	}
 
 	private void Taking_Exit()
@@ -163,13 +163,11 @@ public class Npc : MonoBehaviour
 
 	private IEnumerator TakingSequence()
 	{
-		for (int i = 0; i < info.maxQtyInHands; i++)
-		{
-			if(targetShelve.stock.Count > info.maxQtyInHands)
-			{
-				TakeItem(targetShelve.stock[i]);
-			}
 
+		Item[] fuckalex = targetShelve.stock.ToArray();
+		for (int i = 0; (i < info.maxQtyInHands && i < fuckalex.Length); i++)
+		{
+			TakeItem(fuckalex[i]);
 			yield return new WaitForSeconds(0.4f);
 		}
 
@@ -231,7 +229,9 @@ public class Npc : MonoBehaviour
 		itemsInHands.Clear();
 		_rb.constraints = RigidbodyConstraints.None;
 		_rb.useGravity = true; 
-		_rb.AddExplosionForce(info.forceOnPunch, epicentre, 1, 1f, ForceMode.Impulse);
+		Vector3 dir = (epicentre - transform.position).normalized;
+		_rb.AddForce(dir * info.forceOnPunch, ForceMode.Impulse);
+		_rb.AddTorque(new Vector3(Random.Range(-2f,2f),Random.Range(-2f,2f),Random.Range(-2f,2f)), ForceMode.Impulse);
 
 		yield return new WaitForSeconds(3.0f);
 

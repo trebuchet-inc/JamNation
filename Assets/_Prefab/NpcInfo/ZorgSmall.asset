@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58fe0e71c8c35a14884fd6355acf29b1, type: 3}
   m_Name: ZorgSmall
   m_EditorClassIdentifier: 
+  Name: Zorg
   model: {fileID: 1205167208761034, guid: 4375f63566eea8b4b8842aed48fc92df, type: 2}
   moveSpeed: 5
   forceOnPunch: 12.5
