@@ -106,6 +106,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items:
-  - {fileID: 1668047805595676, guid: 6d34a22d3fe3e8f419aba94f6fc59a9d, type: 2}
-  - {fileID: 1668047805595676, guid: a759b50c6cb760245a6bb18fd53d4954, type: 2}
-  - {fileID: 1668047805595676, guid: ffb021a298b2bad4dba230335ba1c16c, type: 2}
+  - {fileID: 1668047805595676, guid: 47613ab9adf54644480690a8675a0796, type: 2}
+  foodZones:
+  - {fileID: 1894149498887550, guid: 0800ecad56dd8114ba7c47a031874db7, type: 2}
+  - {fileID: 1315318829646136, guid: 9f6fb1513c0e6e445a292b8f54804116, type: 2}
+  - {fileID: 1819896303982662, guid: dc89a05a138b7e941b0eb96bae4f80d7, type: 2}
+  miscZones:
+  - {fileID: 1105787066330592, guid: 8ca8156de2a5b6e4e80ea4676e4decd0, type: 2}
+  - {fileID: 1395998020357476, guid: e059a619909e9824d98afa88170f9053, type: 2}
+  - {fileID: 1340842802443310, guid: b3b719fc062f3be46851c6f62f797522, type: 2}
+  electroZones:
+  - {fileID: 1504475863123262, guid: 7c58c9fd0511ec748b84e719ca981c39, type: 2}
+  - {fileID: 1463239662714764, guid: 7dc4d63bb0a55664685bafbcbd6608a4, type: 2}
+  - {fileID: 1393573940067492, guid: 0e56ab4c3b7b4ac4ba46ee16e3eea795, type: 2}

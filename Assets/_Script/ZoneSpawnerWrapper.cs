@@ -29,6 +29,7 @@ public class ZoneSpawnerWrapper : MonoBehaviour {
 	}
 
 	void Start () {
+		transform.GetChild(0).gameObject.SetActive(false);
 		
 	}
 	
