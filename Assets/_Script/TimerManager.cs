@@ -11,17 +11,22 @@ public class TimerManager : MonoBehaviour {
 	public int[] paliers;
 	public GameObject Spawn;
 
+	[HideInInspector] public bool started;
+
 	GameObject _player;
+	FinalScore _finalScore;
 	bool _end;
 	
 	void Start () {
 		Timer = timer;
 		_player = GameObject.FindGameObjectWithTag("Player");
+		_finalScore = FindObjectOfType<FinalScore>();
+		started = true;
 	}
 	
 	void Update () 
 	{
-		if(!_end)
+		if(!_end && started)
 		{
 			Timer -= Time.deltaTime;
 			if(Timer <= 0)
@@ -34,20 +39,26 @@ public class TimerManager : MonoBehaviour {
 	}
 
 	IEnumerator EndSequence(){
+		yield return new WaitForSeconds(2.0f);
 		SteamVR_Fade.View(new Color(0,0,0,1), 2.0f);
 		yield return new WaitForSeconds(2.0f);
 		SteamVR_Fade.View(new Color(0,0,0,0), 2.0f);
+		_finalScore.ShowScore();
 		_player.transform.position = Spawn.transform.position;
 		yield return new WaitForSeconds(5.0f);
+		int OkNb= 0;
 		for(int i = 0; i < boards.Length; i++)
 		{
 			if(Score > paliers[i]){
 				boards[i].Ok();
+				OkNb++;
 			}
 			else{
 				boards[i].NotOk();
 			}
 			yield return new WaitForSeconds(1.0f);
 		}
+		yield return new WaitForSeconds(1.0f);
+		_finalScore.Comment(OkNb);
 	}
 }

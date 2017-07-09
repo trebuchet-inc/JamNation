@@ -11,7 +11,14 @@ public class ClockScript : MonoBehaviour {
 	}
 	
 	void Update () {
-		int minute 
-		_text
+		int minute = (int)(TimerManager.Timer / 60f);
+		int seconde = (int)(TimerManager.Timer % 60f);
+		int  mSeconde = (int)((TimerManager.Timer - (int)TimerManager.Timer) * 100); 
+
+		string min = minute >= 10 ? minute.ToString() : "0" + minute;
+		string sec = seconde >= 10 ? seconde.ToString() : "0" + seconde;
+		string ms = mSeconde >= 10 ? mSeconde.ToString() : "0" + mSeconde;
+
+		_text.text = min + ":" + sec + ":" + ms;
 	}
 }
