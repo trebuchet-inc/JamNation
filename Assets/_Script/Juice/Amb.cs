@@ -15,12 +15,15 @@ public class Amb : MonoBehaviour {
 
 	void Start () {
 		timer = Random.Range(minTime, maxTime);
+		
 	}
 	
 	void Update () {
 		if(TimerManager.started && !_playing){
 			AkSoundEngine.PostEvent(musique, gameObject);
 			_playing = true;
+
+			//AkSoundEngine.SetRTPCValue()
 		}
 
 		timer -= Time.deltaTime;
