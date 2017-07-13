@@ -5,8 +5,10 @@ using UnityEngine;
 public class TimerManager : MonoBehaviour {
 	public static float Timer;
 	public static int Score;
-
+	private int _lastScore;
+	private float tCheck;
 	public float timer;
+	public float lastScoreCheckDelay;
 	public ScoreBoard[] boards;
 	public int[] paliers;
 	public GameObject Spawn;
@@ -18,10 +20,14 @@ public class TimerManager : MonoBehaviour {
 	bool _end;
 	bool _init;
 	
-	void Start () {
+	void Start () 
+	{
 		Timer = timer;
 		_player = GameObject.FindGameObjectWithTag("Player");
 		_finalScore = FindObjectOfType<FinalScore>();
+
+		tCheck = Timer - lastScoreCheckDelay;
+		_lastScore = Score;
 	}
 	
 	void Update () 
@@ -35,6 +41,14 @@ public class TimerManager : MonoBehaviour {
 		if(!_end && started)
 		{
 			Timer -= Time.deltaTime;
+
+			if(Timer <= tCheck)
+			{
+				tCheck = Timer - lastScoreCheckDelay;
+				AkSoundEngine.SetRTPCValue("BigScore", (_lastScore / Score) * 100);
+				_lastScore = Score;
+			}
+
 			if(Timer <= 0)
 			{
 				Timer = 0;
@@ -55,6 +69,7 @@ public class TimerManager : MonoBehaviour {
 		AkSoundEngine.PostEvent("Play_DrumRoll", gameObject);
 		yield return new WaitForSeconds(3.0f);
 		int OkNb= 0;
+		yield return new WaitForSeconds(1.0f);
 		for(int i = 0; i < boards.Length; i++)
 		{
 			if(ObjectivesManager.Instance.CheckObjectives() >= paliers[i]){

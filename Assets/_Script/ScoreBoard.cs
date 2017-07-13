@@ -14,14 +14,14 @@ public class ScoreBoard : MonoBehaviour {
 	}
 	
 	public void Ok(){
-		AkSoundEngine.PostEvent("Play_JudgementGood", gameObject);
 		O.SetActive(true);
+		AkSoundEngine.PostEvent("Play_JudgementGood", gameObject);
 		_particle.Play();
 	}
 
 	public void NotOk(){
-		AkSoundEngine.PostEvent("Play_JudgementSad", gameObject);
 		X.SetActive(true);
+		AkSoundEngine.PostEvent("Play_JudgementSad", gameObject);
 		_particle.Play();
 	}
 }
