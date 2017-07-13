@@ -86,10 +86,6 @@
 					<ShortName>Leen_08.wav</ShortName>
 					<Path>SFX/Leen_08_4B8CC0C5.wem</Path>
 				</File>
-				<File Id="365093469" Language="SFX">
-					<ShortName>SFX_Pickup4.wav</ShortName>
-					<Path>SFX/SFX_Pickup4_4B8CC0C5.wem</Path>
-				</File>
 				<File Id="370330302" Language="SFX">
 					<ShortName>Leen_10.wav</ShortName>
 					<Path>SFX/Leen_10_4B8CC0C5.wem</Path>
@@ -102,9 +98,9 @@
 					<ShortName>Hala_01.wav</ShortName>
 					<Path>SFX/Hala_01_4B8CC0C5.wem</Path>
 				</File>
-				<File Id="401092220" Language="SFX">
-					<ShortName>SFX_Pickup5.wav</ShortName>
-					<Path>SFX/SFX_Pickup5_4B8CC0C5.wem</Path>
+				<File Id="399671970" Language="SFX">
+					<ShortName>SFX_Pickup1.wav</ShortName>
+					<Path>SFX/SFX_Pickup1_9E69E797.wem</Path>
 				</File>
 				<File Id="418675473" Language="SFX">
 					<ShortName>Hala_06.wav</ShortName>
@@ -125,10 +121,6 @@
 				<File Id="461488712" Language="SFX">
 					<ShortName>Alah_07.wav</ShortName>
 					<Path>SFX/Alah_07_4B8CC0C5.wem</Path>
-				</File>
-				<File Id="475268408" Language="SFX">
-					<ShortName>SFX_Pickup3.wav</ShortName>
-					<Path>SFX/SFX_Pickup3_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="506277285" Language="SFX">
 					<ShortName>Alah_03.wav</ShortName>
@@ -186,10 +178,6 @@
 					<ShortName>Leen_02.wav</ShortName>
 					<Path>SFX/Leen_02_4B8CC0C5.wem</Path>
 				</File>
-				<File Id="672860876" Language="SFX">
-					<ShortName>SFX_Pickup1.wav</ShortName>
-					<Path>SFX/SFX_Pickup1_4B8CC0C5.wem</Path>
-				</File>
 				<File Id="676477376" Language="SFX">
 					<ShortName>Hala_03.wav</ShortName>
 					<Path>SFX/Hala_03_4B8CC0C5.wem</Path>
@@ -225,10 +213,6 @@
 				<File Id="821671818" Language="SFX">
 					<ShortName>Alah_05.wav</ShortName>
 					<Path>SFX/Alah_05_4B8CC0C5.wem</Path>
-				</File>
-				<File Id="871651833" Language="SFX">
-					<ShortName>SFX_Pickup2.wav</ShortName>
-					<Path>SFX/SFX_Pickup2_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="992843993" Language="SFX">
 					<ShortName>Leen_09.wav</ShortName>

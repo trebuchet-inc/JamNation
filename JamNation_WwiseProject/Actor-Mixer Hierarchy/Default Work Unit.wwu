@@ -50,7 +50,7 @@
 						</Property>
 						<Property Name="OutputBusVolume" Type="Real64">
 							<ValueList>
-								<Value>-7</Value>
+								<Value>-8</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Pitch" Type="int32">
@@ -150,6 +150,19 @@
 				</BlendContainer>
 				<Sound Name="JudgementGood" ID="{2FE5FDF9-3369-4085-B141-B6A96905FA34}" ShortID="856276333" Type="SoundFX">
 					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{80F13E40-7FFC-44C7-97C7-5C519C1DDB3B}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="707"/>
+											<Property Name="Min" Type="Real64" Value="-834"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
@@ -219,6 +232,19 @@
 				</Sound>
 				<Sound Name="JudgementNormal" ID="{D016260D-C159-454C-BA08-CB594F90C0B0}" ShortID="615524088" Type="SoundFX">
 					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{1F026EC3-3DFF-4A77-BE83-714ADE3BC8AF}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="379"/>
+											<Property Name="Min" Type="Real64" Value="-632"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
@@ -288,6 +314,19 @@
 				</Sound>
 				<Sound Name="JudgementSad" ID="{18F43886-25FA-4366-8182-4122353DC401}" ShortID="976227607" Type="SoundFX">
 					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{1773B251-8852-405F-B2B8-C2C7777ACBAC}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="632"/>
+											<Property Name="Min" Type="Real64" Value="-632"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
@@ -659,6 +698,83 @@
 						</Sound>
 					</ChildrenList>
 				</BlendContainer>
+				<Sound Name="SFX_Pickup1" ID="{4083DAF6-DF1B-4550-9AAA-A88A1521E443}" ShortID="765450981" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{5AB1B6F4-DDF6-47FE-9A5D-A185662E69A1}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="37"/>
+											<Property Name="Min" Type="Real64" Value="-29"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{06EE3D75-FDA8-46BD-A571-3AA240AC5C01}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="26"/>
+											<Property Name="Min" Type="Real64" Value="-21"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{931F2EA0-A052-4817-938F-4B4A1EA26D7E}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="834"/>
+											<Property Name="Min" Type="Real64" Value="-632"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{84393066-D94B-4F21-B088-D71A994281FF}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom CreatedFrom="{C7E71A3B-745F-47B0-8F31-276DD413F83C}">
+								<Effect Name="Light_Expander (Custom)" ID="{9AB6CD84-1085-468F-ADE7-DD827E9B182B}" ShortID="1018442381" PluginName="Wwise Expander" CompanyID="0" PluginID="109" PluginType="3">
+									<PropertyList>
+										<Property Name="Ratio" Type="Real32" Value="1.5"/>
+										<Property Name="Threshold" Type="Real32" Value="0"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Plate_Small" ID="{5681977F-CD7F-4D09-AA58-118BEFA48C8C}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Pickup1" ID="{75F1E481-46EC-492F-9834-B26AD07CEFE0}" ShortID="399671970">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Pickup1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Pickup1" ID="{75F1E481-46EC-492F-9834-B26AD07CEFE0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

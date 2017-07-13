@@ -63,7 +63,7 @@
 						<Action Name="Play" ID="{B6C2F89D-C04F-427C-8F63-68406E6C7E94}" ShortID="242591644" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{97831F42-F986-4127-9348-0A95B4506385}" Global="false">
-									<ObjectRef Name="Box_pickup" ID="{A77CD4A0-986C-4916-A485-AFF92C7B475C}" WorkUnitID="{EC58C695-2DAA-4D52-9C09-53D6DEC52204}"/>
+									<ObjectRef Name="SFX_Pickup1" ID="{4083DAF6-DF1B-4550-9AAA-A88A1521E443}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
 								</Element>
 							</ElementList>
 						</Action>
