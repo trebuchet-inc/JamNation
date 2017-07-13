@@ -118,6 +118,10 @@
 					<ShortName>Hala_05.wav</ShortName>
 					<Path>SFX/Hala_05_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="452037421" Language="SFX">
+					<ShortName>Comiccon Jam - Trébuchet - Version Électro 4.wav</ShortName>
+					<Path>SFX/Comiccon Jam - Trébuchet - Version Électro 4_4B8CC0C5_BA827BEC.wem</Path>
+				</File>
 				<File Id="461488712" Language="SFX">
 					<ShortName>Alah_07.wav</ShortName>
 					<Path>SFX/Alah_07_4B8CC0C5.wem</Path>
@@ -190,10 +194,6 @@
 					<ShortName>Hala_03.wav</ShortName>
 					<Path>SFX/Hala_03_4B8CC0C5.wem</Path>
 				</File>
-				<File Id="682107354" Language="SFX">
-					<ShortName>ComicconTheme - Blackhole Friday.wav</ShortName>
-					<Path>SFX/ComicconTheme - Blackhole Friday_4B8CC0C5.wem</Path>
-				</File>
 				<File Id="701549987" Language="SFX">
 					<ShortName>SFX_BoxesTumble2.wav</ShortName>
 					<Path>SFX/SFX_BoxesTumble2_9E69E797.wem</Path>
@@ -214,6 +214,10 @@
 					<ShortName>Alah_10.wav</ShortName>
 					<Path>SFX/Alah_10_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="776605763" Language="SFX">
+					<ShortName>ComicconTheme - Blackhole Friday jazz.wav</ShortName>
+					<Path>SFX/ComicconTheme - Blackhole Friday jazz_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="804995531" Language="SFX">
 					<ShortName>Leen_03.wav</ShortName>
 					<Path>SFX/Leen_03_4B8CC0C5.wem</Path>
@@ -225,10 +229,6 @@
 				<File Id="871651833" Language="SFX">
 					<ShortName>SFX_Pickup2.wav</ShortName>
 					<Path>SFX/SFX_Pickup2_4B8CC0C5.wem</Path>
-				</File>
-				<File Id="930852892" Language="SFX">
-					<ShortName>ComicconTheme - Blackhole Friday electro final.wav</ShortName>
-					<Path>SFX/ComicconTheme - Blackhole Friday electro final_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="992843993" Language="SFX">
 					<ShortName>Leen_09.wav</ShortName>

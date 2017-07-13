@@ -5,6 +5,11 @@
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Fishbob" ID="{8D123CD8-F86F-4096-995D-F02A1301361F}" ShortID="597675392">
 					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
@@ -62,7 +67,7 @@
 							<ObjectRef Name="Octave_Down" ID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
+							<ObjectRef Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -832,7 +837,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{84393066-D94B-4F21-B088-D71A994281FF}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
+							<ObjectRef Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1548,6 +1553,11 @@
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="Zorg" ID="{9718C736-D786-4680-849D-23EEC7F02689}" ShortID="441958759">
 					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>35</Value>
+							</ValueList>
+						</Property>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
@@ -1602,7 +1612,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{84393066-D94B-4F21-B088-D71A994281FF}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
+							<ObjectRef Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2252,6 +2262,23 @@
 					</Playlist>
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="Box_pickup" ID="{A77CD4A0-986C-4916-A485-AFF92C7B475C}" ShortID="553945825">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>37</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>45</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{84393066-D94B-4F21-B088-D71A994281FF}"/>
@@ -2617,7 +2644,7 @@
 							<ChildrenList>
 								<MusicSegment Name="New Music Segment" ID="{BB37D97A-36CE-4C7F-98C3-1F1ACF9E4B5C}" ShortID="744269842">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="61000"/>
+										<Property Name="EndPosition" Type="Real64" Value="65401.6326530612"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2628,26 +2655,30 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="ComicconTheme - Blackhole Friday electro final" ID="{9D2ABA33-FBA9-4CEC-A187-AA4C2E891902}" ShortID="985635299">
+										<MusicTrack Name="ComicconTheme - Blackhole Friday jazz" ID="{81D7F9FA-A39F-49AF-830A-13DF7D2C1179}" ShortID="431206153">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
-														<RTPC Name="" ID="{FE38C5C8-40F2-4243-AEB9-DCEB5C89585D}" ShortID="355936587">
+														<RTPC Name="" ID="{80BB9CE3-4507-44FA-B103-3C587C24C668}" ShortID="284626172">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="BigScore" ID="{EB43E67F-124E-496A-9740-AFAAE2CA0E8F}" WorkUnitID="{A48044FE-D41F-43F9-A597-22A1AAAED763}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{D36454BD-2823-4C1A-B545-B9E68A2EB80E}">
+															<Curve Name="" ID="{8736DD12-E410-4E31-88C1-A271DFC6FD8F}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>0</YPos>
+																		<YPos>-0.20931</YPos>
 																		<Flags>5</Flags>
-																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0.001</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
@@ -2666,13 +2697,13 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="ComicconTheme - Blackhole Friday electro final" ID="{92D05A9A-E118-4AA3-829C-7A58A862BDAC}" ShortID="930852892">
+												<AudioFileSource Name="ComicconTheme - Blackhole Friday jazz" ID="{3D2F5016-07C8-4211-8A81-88168E39630B}" ShortID="776605763">
 													<Language>SFX</Language>
-													<AudioFile>ComicconTheme - Blackhole Friday electro final.wav</AudioFile>
+													<AudioFile>ComicconTheme - Blackhole Friday jazz.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{383AD769-7A64-4BFC-B2D9-B709B76417B8}">
+												<MusicTransition Name="Root" ID="{3CFF37F3-9638-41D8-9695-77AA6277D566}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -2680,90 +2711,42 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{1E58DC41-01AA-4C70-9B0A-9BCF9BC18AED}">
+												<MusicTrackSequence Name="" ID="{58AABEBD-56C6-4205-A8C3-9E37E5AF7A16}">
 													<ClipList>
-														<MusicClip Name="ComicconTheme - Blackhole Friday electro final" ID="{1DF97434-6CB7-499B-8A27-B99B2392F815}">
+														<MusicClip Name="ComicconTheme - Blackhole Friday jazz" ID="{EEEB530F-641E-4061-B73B-257A06562F95}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="61000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="65401.6326530612"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="ComicconTheme - Blackhole Friday electro final" ID="{92D05A9A-E118-4AA3-829C-7A58A862BDAC}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{356213BF-BBDC-4816-B211-64CE6346EAC6}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>61</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{BF782281-55BD-49A2-9E13-79708D23F558}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>61</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{B3A1CE87-69BF-4616-ADA3-931924DDE0B0}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>61</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
+															<AudioSourceRef Name="ComicconTheme - Blackhole Friday jazz" ID="{3D2F5016-07C8-4211-8A81-88168E39630B}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
-										<MusicTrack Name="ComicconTheme - Blackhole Friday" ID="{72D693B2-EF76-42D3-80CC-B471DF8A3564}" ShortID="639222579">
+										<MusicTrack Name="Comiccon Jam - Trébuchet - Version Électro 4" ID="{6CDF24BD-D842-42FA-B416-857F29F4C7AC}" ShortID="372618176">
 											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>22</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="RenderEffect0" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
-														<RTPC Name="" ID="{13ABB3D9-8377-4681-96CE-A31F213331A2}" ShortID="1054012466">
+														<RTPC Name="" ID="{5A25AA72-8FD7-4DDC-AA56-DAD241575414}" ShortID="752054782">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="BigScore" ID="{EB43E67F-124E-496A-9740-AFAAE2CA0E8F}" WorkUnitID="{A48044FE-D41F-43F9-A597-22A1AAAED763}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{DC21645D-9A27-41C9-90F8-234AA3FAE2E5}">
+															<Curve Name="" ID="{08DA2506-F6AD-490F-8AF5-9699956F5C84}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
@@ -2772,7 +2755,6 @@
 																		<XPos>0</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>5</Flags>
-																		<SegmentShape>Log3</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
@@ -2786,18 +2768,23 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise Guitar Distortion (Custom)" ID="{3EA4F0A3-C53D-489B-92AF-85FAC708E44F}" ShortID="60023229" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3"/>
+													</Custom>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34B3CEB0-5682-4D53-849E-C7103A184BA4}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="ComicconTheme - Blackhole Friday" ID="{3BA0E1F6-617D-4837-A670-56FD563611FC}" ShortID="682107354">
+												<AudioFileSource Name="Comiccon Jam - Trébuchet - Version Électro 4" ID="{14F5A3CC-B8F5-446F-9D3D-C2782B671402}" ShortID="452037421">
 													<Language>SFX</Language>
-													<AudioFile>ComicconTheme - Blackhole Friday.wav</AudioFile>
+													<AudioFile>Comiccon Jam - Trébuchet - Version Électro 4.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{1E55E41F-1B25-47B2-B817-58EDC22A74A8}">
+												<MusicTransition Name="Root" ID="{3BC8C28F-98CA-4EE3-974C-EB3D4F094EA5}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -2805,74 +2792,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{2DA62ADE-543C-466D-968F-91B956882BF3}">
+												<MusicTrackSequence Name="" ID="{61BB4FF9-43E4-4B3F-87D8-5F5A38A1DB68}">
 													<ClipList>
-														<MusicClip Name="ComicconTheme - Blackhole Friday" ID="{E61BDF5B-D163-4C3D-AFB0-27C2993230F7}">
+														<MusicClip Name="Comiccon Jam - Trébuchet - Version Électro 4" ID="{07EE89C0-530D-423B-8478-888829082535}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="61000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="65401.6326530612"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="ComicconTheme - Blackhole Friday" ID="{3BA0E1F6-617D-4837-A670-56FD563611FC}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{8D2C5AA3-165E-4EBD-AF06-784ED767FE5A}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>61</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{7DD96A82-A514-4609-BA9C-6AB1F926CF99}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>61</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{9D40E159-F73B-4026-A86C-5BD04CBE7AAB}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>61</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
+															<AudioSourceRef Name="Comiccon Jam - Trébuchet - Version Électro 4" ID="{14F5A3CC-B8F5-446F-9D3D-C2782B671402}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>

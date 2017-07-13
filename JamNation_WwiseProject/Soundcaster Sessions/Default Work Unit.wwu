@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D98B908D-16A8-49F1-AEF7-F72C766BCA73}" SchemaVersion="75">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{D98B908D-16A8-49F1-AEF7-F72C766BCA73}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D98B908D-16A8-49F1-AEF7-F72C766BCA73}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Testing balance" ID="{95475B0E-4767-44EE-8B4F-5777CA6E54D9}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Theme" ID="{2C46F0B5-CF22-4A4A-8F32-DEC59FFC20B6}" WorkUnitID="{EC58C695-2DAA-4D52-9C09-53D6DEC52204}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ComicconTheme___Blackhole_Friday" ID="{4DA9207F-8C1F-4C70-B5FE-4121BD69BE3A}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Portail" ID="{327E19FA-0563-45C3-9387-884BCCFA4EFB}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fatlord" ID="{04985D3E-4FCF-4C59-9673-E0EB0BEE8E54}" WorkUnitID="{EC58C695-2DAA-4D52-9C09-53D6DEC52204}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Theme" ID="{FB347DA7-3483-4157-A73B-6C55DF2519BD}" WorkUnitID="{7EAAA9DA-FCDE-46F4-AE94-7DD0221F1F69}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Box_pickup" ID="{A77CD4A0-986C-4916-A485-AFF92C7B475C}" WorkUnitID="{EC58C695-2DAA-4D52-9C09-53D6DEC52204}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fishbob" ID="{8D123CD8-F86F-4096-995D-F02A1301361F}" WorkUnitID="{EC58C695-2DAA-4D52-9C09-53D6DEC52204}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="BoxTumble" ID="{9173BCD3-814E-4178-8CB4-4FB6CC0BFDBF}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Zorg" ID="{9718C736-D786-4680-849D-23EEC7F02689}" WorkUnitID="{EC58C695-2DAA-4D52-9C09-53D6DEC52204}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HitAlien" ID="{14D062DA-E21A-4FE6-9986-8E067A33B8E5}" WorkUnitID="{9DC6FABD-8292-4800-B4ED-81E2B6D5FAD7}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="BigScore" ID="{EB43E67F-124E-496A-9740-AFAAE2CA0E8F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
